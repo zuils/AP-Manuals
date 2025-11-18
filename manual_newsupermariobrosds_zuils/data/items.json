@@ -1,0 +1,293 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.items.schema.json",
+    "data": [
+        {
+            "count": "240",
+            "name": "Star Coin",
+            "category": [
+                "Star Coins"
+            ],
+            "progression_skip_balancing": true
+        },
+        {
+            "count": 8,
+            "name": "Boss Token",
+            "category": [
+                "Boss Tokens"
+            ],
+            "progression": true
+        },
+        {
+            "count": "5",
+            "name": "Progressive Powerup",
+            "category": [
+                "Powerups"
+            ],
+            "progression": true
+        },
+        {
+            "count": 1,
+            "name": "Mini Mushroom",
+            "category": [
+                "Powerups"
+            ],
+            "progression": true
+        },
+        {
+            "count": 1,
+            "name": "Star",
+            "category": [
+                "Powerups"
+            ],
+            "useful": true
+        },
+        {
+            "count": 1,
+            "name": "Reserve Spot",
+            "category": [
+                "Powerups"
+            ],
+            "progression": true
+        },
+        {
+            "count": 1,
+            "name": "World 1 Key",
+            "category": [
+                "World Keys"
+            ],
+            "progression": true
+        },
+        {
+            "count": 1,
+            "name": "World 2 Key",
+            "category": [
+                "World Keys"
+            ],
+            "progression": true
+        },
+        {
+            "count": 1,
+            "name": "World 3 Key",
+            "category": [
+                "World Keys"
+            ],
+            "progression": true
+        },
+        {
+            "count": 1,
+            "name": "World 4 Key",
+            "category": [
+                "World Keys"
+            ],
+            "progression": true
+        },
+        {
+            "count": 1,
+            "name": "World 5 Key",
+            "category": [
+                "World Keys"
+            ],
+            "progression": true
+        },
+        {
+            "count": 1,
+            "name": "World 6 Key",
+            "category": [
+                "World Keys"
+            ],
+            "progression": true
+        },
+        {
+            "count": 1,
+            "name": "World 7 Key",
+            "category": [
+                "World Keys"
+            ],
+            "progression": true
+        },
+        {
+            "count": 1,
+            "name": "World 8 Key",
+            "category": [
+                "World Keys"
+            ],
+            "progression": true
+        },
+        {
+            "count": 1,
+            "name": "World 1 Tower Key",
+            "category": [
+                "Tower Keys"
+            ],
+            "progression": true
+        },
+        {
+            "count": 1,
+            "name": "World 2 Tower Key",
+            "category": [
+                "Tower Keys"
+            ],
+            "progression": true
+        },
+        {
+            "count": 1,
+            "name": "World 3 Tower Key",
+            "category": [
+                "Tower Keys"
+            ],
+            "progression": true
+        },
+        {
+            "count": 1,
+            "name": "World 4 Tower Key",
+            "category": [
+                "Tower Keys"
+            ],
+            "progression": true
+        },
+        {
+            "count": 1,
+            "name": "World 5 Tower Key",
+            "category": [
+                "Tower Keys"
+            ],
+            "progression": true
+        },
+        {
+            "count": 2,
+            "name": "World 6 Tower Key",
+            "category": [
+                "Tower Keys"
+            ],
+            "progression": true
+        },
+        {
+            "count": 1,
+            "name": "World 7 Tower Key",
+            "category": [
+                "Tower Keys"
+            ],
+            "progression": true
+        },
+        {
+            "count": 2,
+            "name": "World 8 Tower Key",
+            "category": [
+                "Tower Keys"
+            ],
+            "progression": true
+        },
+        {
+            "count": 1,
+            "name": "World 1 Castle Key",
+            "category": [
+                "Castle Keys"
+            ],
+            "progression": true
+        },
+        {
+            "count": 1,
+            "name": "World 2 Castle Key",
+            "category": [
+                "Castle Keys"
+            ],
+            "progression": true
+        },
+        {
+            "count": 1,
+            "name": "World 3 Castle Key",
+            "category": [
+                "Castle Keys"
+            ],
+            "progression": true
+        },
+        {
+            "count": 1,
+            "name": "World 4 Castle Key",
+            "category": [
+                "Castle Keys"
+            ],
+            "progression": true
+        },
+        {
+            "count": 1,
+            "name": "World 5 Castle Key",
+            "category": [
+                "Castle Keys"
+            ],
+            "progression": true
+        },
+        {
+            "count": 1,
+            "name": "World 6 Castle Key",
+            "category": [
+                "Castle Keys"
+            ],
+            "progression": true
+        },
+        {
+            "count": 1,
+            "name": "World 7 Castle Key",
+            "category": [
+                "Castle Keys"
+            ],
+            "progression": true
+        },
+        {
+            "count": 1,
+            "name": "World 8 Castle Key",
+            "category": [
+                "Castle Keys"
+            ],
+            "progression": true
+        },
+        {
+            "count": 1,
+            "name": "Bowser's Castle Key",
+            "category": [
+                "Castle Keys"
+            ],
+            "progression": true
+        },
+        {
+            "count": 1,
+            "name": "World 1 Cannon Unlock",
+            "category": [
+                "Cannons"
+            ],
+            "progression": true
+        },
+        {
+            "count": 1,
+            "name": "World 2 Cannon Unlock",
+            "category": [
+                "Cannons"
+            ],
+            "progression": true
+        },
+        {
+            "count": 1,
+            "name": "World 3 Cannon Unlock",
+            "category": [
+                "Cannons"
+            ],
+            "progression": true
+        },
+        {
+            "count": 1,
+            "name": "World 4 Cannon Unlock",
+            "category": [
+                "Cannons"
+            ],
+            "progression": true
+        },
+        {
+            "count": 1,
+            "name": "World 5 Cannon Unlock",
+            "category": [
+                "Cannons"
+            ],
+            "progression": true
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+{
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.game.schema.json",
+  "game": "SuperMeatBoy",
+  "creator": "zuils",
+  "filler_item_name": "Degraded Bandage",
+  "starting_items": [],
+  "death_link": true
+}

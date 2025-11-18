@@ -1,0 +1,21 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.categories.schema.json",
+    "ProgCharacters": {
+        "hidden": true
+    },
+    "StartingCharacters": {
+        "hidden": true
+    },
+    "Speedrun": {
+        "hidden": true
+    },
+    "Deathless": {
+        "hidden": true
+    },
+    "xmas": {
+        "hidden": true
+    },
+    "Meat Boy": {
+        "hidden": true
+    }
+}

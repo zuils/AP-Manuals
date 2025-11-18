@@ -1,0 +1,31 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.regions.schema.json",
+    "Chapter 1": {
+        "requires": "{chapterReq(1)} and |@StartingCharacters|",
+        "connects_to": []
+    },
+    "Chapter 2": {
+        "requires": "{chapterReq(2)} and |@StartingCharacters|",
+        "connects_to": []
+    },
+    "Chapter 3": {
+        "requires": "{chapterReq(3)} and |@StartingCharacters|",
+        "connects_to": []
+    },
+    "Chapter 4": {
+        "requires": "{chapterReq(4)} and |@StartingCharacters|",
+        "connects_to": []
+    },
+    "Chapter 5": {
+        "requires": "{chapterReq(5)} and |@StartingCharacters|",
+        "connects_to": []
+    },
+    "Chapter 6": {
+        "requires": "{chapterReq(6)} and |4bit/4color/8bit/Normal Meat Boy|",
+        "connects_to": []
+    },
+    "Chapter 7": {
+        "requires": "{chapterReq(7)} and |Bandage Girl|",
+        "connects_to": []
+    }
+}

@@ -1,0 +1,2783 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
+    "data": [
+        {
+            "name": "1-1 Star Coin 1",
+            "region": "World 1 (1)",
+            "category": [
+                "World 1"
+            ],
+            "requires": []
+        },
+        {
+            "name": "1-1 Star Coin 2",
+            "region": "World 1 (1)",
+            "category": [
+                "World 1"
+            ],
+            "requires": []
+        },
+        {
+            "name": "1-1 Star Coin 3",
+            "region": "World 1 (1)",
+            "category": [
+                "World 1"
+            ],
+            "requires": "|Progressive Powerup:1|"
+        },
+        {
+            "name": "1-1 Normal Exit",
+            "region": "World 1 (1)",
+            "category": [
+                "World 1"
+            ],
+            "requires": []
+        },
+        {
+            "name": "1-2 Star Coin 1",
+            "region": "World 1 (1)",
+            "category": [
+                "World 1"
+            ],
+            "requires": []
+        },
+        {
+            "name": "1-2 Star Coin 2",
+            "region": "World 1 (1)",
+            "category": [
+                "World 1"
+            ],
+            "requires": []
+        },
+        {
+            "name": "1-2 Star Coin 3",
+            "region": "World 1 (1)",
+            "category": [
+                "World 1"
+            ],
+            "requires": []
+        },
+        {
+            "name": "1-2 Normal Exit",
+            "region": "World 1 (1)",
+            "category": [
+                "World 1"
+            ],
+            "requires": []
+        },
+        {
+            "name": "1-2 Secret Exit",
+            "region": "World 1 (1)",
+            "category": [
+                "World 1"
+            ],
+            "requires": []
+        },
+        {
+            "name": "1-3 Star Coin 1",
+            "region": "World 1 (1)",
+            "category": [
+                "World 1"
+            ],
+            "requires": []
+        },
+        {
+            "name": "1-3 Star Coin 2",
+            "region": "World 1 (1)",
+            "category": [
+                "World 1"
+            ],
+            "requires": []
+        },
+        {
+            "name": "1-3 Star Coin 3",
+            "region": "World 1 (1)",
+            "category": [
+                "World 1"
+            ],
+            "requires": []
+        },
+        {
+            "name": "1-3 Normal Exit",
+            "region": "World 1 (1)",
+            "category": [
+                "World 1"
+            ],
+            "requires": []
+        },
+        {
+            "name": "1-Tower Star Coin 1",
+            "region": "World 1 (2)",
+            "category": [
+                "World 1"
+            ],
+            "requires": []
+        },
+        {
+            "name": "1-Tower Star Coin 2",
+            "region": "World 1 (2)",
+            "category": [
+                "World 1"
+            ],
+            "requires": []
+        },
+        {
+            "name": "1-Tower Star Coin 3",
+            "region": "World 1 (2)",
+            "category": [
+                "World 1"
+            ],
+            "requires": []
+        },
+        {
+            "name": "1-Tower Normal Exit",
+            "region": "World 1 (2)",
+            "category": [
+                "World 1"
+            ],
+            "requires": []
+        },
+        {
+            "name": "1-Tower Secret Exit",
+            "region": "World 1 (2)",
+            "category": [
+                "World 1"
+            ],
+            "requires": "|Progressive Powerup:4|"
+        },
+        {
+            "name": "1-4 Star Coin 1",
+            "region": "World 1 (2)",
+            "category": [
+                "World 1"
+            ],
+            "requires": "{miniMushroom()}"
+        },
+        {
+            "name": "1-4 Star Coin 2",
+            "region": "World 1 (2)",
+            "category": [
+                "World 1"
+            ],
+            "requires": []
+        },
+        {
+            "name": "1-4 Star Coin 3",
+            "region": "World 1 (2)",
+            "category": [
+                "World 1"
+            ],
+            "requires": []
+        },
+        {
+            "name": "1-4 Normal Exit",
+            "region": "World 1 (2)",
+            "category": [
+                "World 1"
+            ],
+            "requires": []
+        },
+        {
+            "name": "1-5 Star Coin 1",
+            "region": "World 1 (2)",
+            "category": [
+                "World 1"
+            ],
+            "requires": []
+        },
+        {
+            "name": "1-5 Star Coin 2",
+            "region": "World 1 (2)",
+            "category": [
+                "World 1"
+            ],
+            "requires": []
+        },
+        {
+            "name": "1-5 Star Coin 3",
+            "region": "World 1 (2)",
+            "category": [
+                "World 1"
+            ],
+            "requires": []
+        },
+        {
+            "name": "1-5 Normal Exit",
+            "region": "World 1 (2)",
+            "category": [
+                "World 1"
+            ],
+            "requires": []
+        },
+        {
+            "name": "1-A Star Coin 1",
+            "region": "World 1 (2)",
+            "category": [
+                "World 1"
+            ],
+            "requires": "|Star Coin:5|"
+        },
+        {
+            "name": "1-A Star Coin 2",
+            "region": "World 1 (2)",
+            "category": [
+                "World 1"
+            ],
+            "requires": "|Star Coin:5|"
+        },
+        {
+            "name": "1-A Star Coin 3",
+            "region": "World 1 (2)",
+            "category": [
+                "World 1"
+            ],
+            "requires": "|Star Coin:5|"
+        },
+        {
+            "name": "1-A Normal Exit",
+            "region": "World 1 (2)",
+            "category": [
+                "World 1"
+            ],
+            "requires": "|Star Coin:5|"
+        },
+        {
+            "name": "1-Castle Star Coin 1",
+            "region": "World 1 (2)",
+            "category": [
+                "World 1"
+            ],
+            "requires": "{OptOne(|World 1 Castle Key|)}"
+        },
+        {
+            "name": "1-Castle Star Coin 2",
+            "region": "World 1 (2)",
+            "category": [
+                "World 1"
+            ],
+            "requires": "{OptOne(|World 1 Castle Key|)}"
+        },
+        {
+            "name": "1-Castle Star Coin 3",
+            "region": "World 1 (2)",
+            "category": [
+                "World 1"
+            ],
+            "requires": "{OptOne(|World 1 Castle Key|)}"
+        },
+        {
+            "name": "1-Castle Normal Exit",
+            "region": "World 1 (2)",
+            "category": [
+                "World 1"
+            ],
+            "requires": "{OptOne(|World 1 Castle Key|)}"
+        },
+        {
+            "name": "1-Castle Boss Token",
+            "region": "World 1 (2)",
+            "category": [
+                "World 1"
+            ],
+            "requires": "{OptOne(|World 1 Castle Key|)}",
+            "place_item": ["Boss Token"]
+        },
+        {
+            "name": "2-1 Star Coin 1",
+            "region": "World 2 (1)",
+            "category": [
+                "World 2"
+            ],
+            "requires": []
+        },
+        {
+            "name": "2-1 Star Coin 2",
+            "region": "World 2 (1)",
+            "category": [
+                "World 2"
+            ],
+            "requires": []
+        },
+        {
+            "name": "2-1 Star Coin 3",
+            "region": "World 2 (1)",
+            "category": [
+                "World 2"
+            ],
+            "requires": []
+        },
+        {
+            "name": "2-1 Normal Exit",
+            "region": "World 2 (1)",
+            "category": [
+                "World 2"
+            ],
+            "requires": []
+        },
+        {
+            "name": "2-2 Star Coin 1",
+            "region": "World 2 (1)",
+            "category": [
+                "World 2"
+            ],
+            "requires": []
+        },
+        {
+            "name": "2-2 Star Coin 2",
+            "region": "World 2 (1)",
+            "category": [
+                "World 2"
+            ],
+            "requires": "|Progressive Powerup:1|"
+        },
+        {
+            "name": "2-2 Star Coin 3",
+            "region": "World 2 (1)",
+            "category": [
+                "World 2"
+            ],
+            "requires": []
+        },
+        {
+            "name": "2-2 Normal Exit",
+            "region": "World 2 (1)",
+            "category": [
+                "World 2"
+            ],
+            "requires": []
+        },
+        {
+            "name": "2-3 Star Coin 1",
+            "region": "World 2 (1)",
+            "category": [
+                "World 2"
+            ],
+            "requires": []
+        },
+        {
+            "name": "2-3 Star Coin 2",
+            "region": "World 2 (1)",
+            "category": [
+                "World 2"
+            ],
+            "requires": []
+        },
+        {
+            "name": "2-3 Star Coin 3",
+            "region": "World 2 (1)",
+            "category": [
+                "World 2"
+            ],
+            "requires": []
+        },
+        {
+            "name": "2-3 Normal Exit",
+            "region": "World 2 (1)",
+            "category": [
+                "World 2"
+            ],
+            "requires": []
+        },
+        {
+            "name": "2-3 Secret Exit",
+            "region": "World 2 (1)",
+            "category": [
+                "World 2"
+            ],
+            "requires": []
+        },
+        {
+            "name": "2-A Star Coin 1",
+            "region": "World 2 (1)",
+            "category": [
+                "World 2"
+            ],
+            "requires": []
+        },
+        {
+            "name": "2-A Star Coin 2",
+            "region": "World 2 (1)",
+            "category": [
+                "World 2"
+            ],
+            "requires": []
+        },
+        {
+            "name": "2-A Star Coin 3",
+            "region": "World 2 (1)",
+            "category": [
+                "World 2"
+            ],
+            "requires": []
+        },
+        {
+            "name": "2-A Normal Exit",
+            "region": "World 2 (1)",
+            "category": [
+                "World 2"
+            ],
+            "requires": []
+        },
+        {
+            "name": "2-A Secret Exit",
+            "region": "World 2 (1)",
+            "category": [
+                "World 2"
+            ],
+            "requires": []
+        },
+        {
+            "name": "2-4 Star Coin 1",
+            "region": "World 2 (1)",
+            "category": [
+                "World 2"
+            ],
+            "requires": []
+        },
+        {
+            "name": "2-4 Star Coin 2",
+            "region": "World 2 (1)",
+            "category": [
+                "World 2"
+            ],
+            "requires": []
+        },
+        {
+            "name": "2-4 Star Coin 3",
+            "region": "World 2 (1)",
+            "category": [
+                "World 2"
+            ],
+            "requires": []
+        },
+        {
+            "name": "2-4 Normal Exit",
+            "region": "World 2 (1)",
+            "category": [
+                "World 2"
+            ],
+            "requires": []
+        },
+        {
+            "name": "2-4 Secret Exit",
+            "region": "World 2 (1)",
+            "category": [
+                "World 2"
+            ],
+            "requires": "{miniMushroom()}"
+        },
+        {
+            "name": "2-Tower Star Coin 1",
+            "region": "World 2 (2)",
+            "category": [
+                "World 2"
+            ],
+            "requires": []
+        },
+        {
+            "name": "2-Tower Star Coin 2",
+            "region": "World 2 (2)",
+            "category": [
+                "World 2"
+            ],
+            "requires": []
+        },
+        {
+            "name": "2-Tower Star Coin 3",
+            "region": "World 2 (2)",
+            "category": [
+                "World 2"
+            ],
+            "requires": []
+        },
+        {
+            "name": "2-Tower Normal Exit",
+            "region": "World 2 (2)",
+            "category": [
+                "World 2"
+            ],
+            "requires": []
+        },
+        {
+            "name": "2-5 Star Coin 1",
+            "region": "World 2 (2)",
+            "category": [
+                "World 2"
+            ],
+            "requires": []
+        },
+        {
+            "name": "2-5 Star Coin 2",
+            "region": "World 2 (2)",
+            "category": [
+                "World 2"
+            ],
+            "requires": []
+        },
+        {
+            "name": "2-5 Star Coin 3",
+            "region": "World 2 (2)",
+            "category": [
+                "World 2"
+            ],
+            "requires": []
+        },
+        {
+            "name": "2-5 Normal Exit",
+            "region": "World 2 (2)",
+            "category": [
+                "World 2"
+            ],
+            "requires": []
+        },
+        {
+            "name": "2-6 Star Coin 1",
+            "region": "World 2 (2)",
+            "category": [
+                "World 2"
+            ],
+            "requires": []
+        },
+        {
+            "name": "2-6 Star Coin 2",
+            "region": "World 2 (2)",
+            "category": [
+                "World 2"
+            ],
+            "requires": []
+        },
+        {
+            "name": "2-6 Star Coin 3",
+            "region": "World 2 (2)",
+            "category": [
+                "World 2"
+            ],
+            "requires": []
+        },
+        {
+            "name": "2-6 Normal Exit",
+            "region": "World 2 (2)",
+            "category": [
+                "World 2"
+            ],
+            "requires": []
+        },
+        {
+            "name": "2-Castle Star Coin 1",
+            "region": "World 2 (2)",
+            "category": [
+                "World 2"
+            ],
+            "requires": "{OptOne(|World 2 Castle Key|)}"
+        },
+        {
+            "name": "2-Castle Star Coin 2",
+            "region": "World 2 (2)",
+            "category": [
+                "World 2"
+            ],
+            "requires": "{OptOne(|World 2 Castle Key|)}"
+        },
+        {
+            "name": "2-Castle Star Coin 3",
+            "region": "World 2 (2)",
+            "category": [
+                "World 2"
+            ],
+            "requires": "{miniMushroom()} and {OptOne(|World 2 Castle Key|)}"
+        },
+        {
+            "name": "2-Castle Normal Exit",
+            "region": "World 2 (2)",
+            "category": [
+                "World 2"
+            ],
+            "requires": "{OptOne(|World 2 Castle Key|)}"
+        },
+        {
+            "name": "2-Castle Secret Exit",
+            "region": "World 2 (2)",
+            "category": [
+                "World 2"
+            ],
+            "requires": "{miniMushroom()} and {OptOne(|World 2 Castle Key|)}"
+        },
+        {
+            "name": "2-Castle Boss Token",
+            "region": "World 2 (2)",
+            "category": [
+                "World 2"
+            ],
+            "requires": "{OptOne(|World 2 Castle Key|)}",
+            "place_item": ["Boss Token"]
+        },
+        {
+            "name": "3-1 Star Coin 1",
+            "region": "World 3 (1)",
+            "category": [
+                "World 3"
+            ],
+            "requires": []
+        },
+        {
+            "name": "3-1 Star Coin 2",
+            "region": "World 3 (1)",
+            "category": [
+                "World 3"
+            ],
+            "requires": []
+        },
+        {
+            "name": "3-1 Star Coin 3",
+            "region": "World 3 (1)",
+            "category": [
+                "World 3"
+            ],
+            "requires": []
+        },
+        {
+            "name": "3-1 Normal Exit",
+            "region": "World 3 (1)",
+            "category": [
+                "World 3"
+            ],
+            "requires": []
+        },
+        {
+            "name": "3-A Star Coin 1",
+            "region": "World 3 (1)",
+            "category": [
+                "World 3"
+            ],
+            "requires": "|Star Coin:10|"
+        },
+        {
+            "name": "3-A Star Coin 2",
+            "region": "World 3 (1)",
+            "category": [
+                "World 3"
+            ],
+            "requires": "|Star Coin:10|"
+        },
+        {
+            "name": "3-A Star Coin 3",
+            "region": "World 3 (1)",
+            "category": [
+                "World 3"
+            ],
+            "requires": "|Star Coin:10| and {miniMushroom()}"
+        },
+        {
+            "name": "3-A Normal Exit",
+            "region": "World 3 (1)",
+            "category": [
+                "World 3"
+            ],
+            "requires": "|Star Coin:10|"
+        },
+        {
+            "name": "3-2 Star Coin 1",
+            "region": "World 3 (1)",
+            "category": [
+                "World 3"
+            ],
+            "requires": []
+        },
+        {
+            "name": "3-2 Star Coin 2",
+            "region": "World 3 (1)",
+            "category": [
+                "World 3"
+            ],
+            "requires": []
+        },
+        {
+            "name": "3-2 Star Coin 3",
+            "region": "World 3 (1)",
+            "category": [
+                "World 3"
+            ],
+            "requires": []
+        },
+        {
+            "name": "3-2 Normal Exit",
+            "region": "World 3 (1)",
+            "category": [
+                "World 3"
+            ],
+            "requires": []
+        },
+        {
+            "name": "3-2 Secret Exit",
+            "region": "World 3 (1)",
+            "category": [
+                "World 3"
+            ],
+            "requires": []
+        },
+        {
+            "name": "3-B Star Coin 1",
+            "region": "World 3 (1)",
+            "category": [
+                "World 3"
+            ],
+            "requires": []
+        },
+        {
+            "name": "3-B Star Coin 2",
+            "region": "World 3 (1)",
+            "category": [
+                "World 3"
+            ],
+            "requires": []
+        },
+        {
+            "name": "3-B Star Coin 3",
+            "region": "World 3 (1)",
+            "category": [
+                "World 3"
+            ],
+            "requires": []
+        },
+        {
+            "name": "3-B Normal Exit",
+            "region": "World 3 (1)",
+            "category": [
+                "World 3"
+            ],
+            "requires": []
+        },
+        {
+            "name": "3-C Star Coin 1",
+            "region": "World 3 (1)",
+            "category": [
+                "World 3"
+            ],
+            "requires": []
+        },
+        {
+            "name": "3-C Star Coin 2",
+            "region": "World 3 (1)",
+            "category": [
+                "World 3"
+            ],
+            "requires": []
+        },
+        {
+            "name": "3-C Star Coin 3",
+            "region": "World 3 (1)",
+            "category": [
+                "World 3"
+            ],
+            "requires": []
+        },
+        {
+            "name": "3-C Normal Exit",
+            "region": "World 3 (1)",
+            "category": [
+                "World 3"
+            ],
+            "requires": []
+        },
+        {
+            "name": "3-Tower Star Coin 1",
+            "region": "World 3 (2)",
+            "category": [
+                "World 3"
+            ],
+            "requires": []
+        },
+        {
+            "name": "3-Tower Star Coin 2",
+            "region": "World 3 (2)",
+            "category": [
+                "World 3"
+            ],
+            "requires": []
+        },
+        {
+            "name": "3-Tower Star Coin 3",
+            "region": "World 3 (2)",
+            "category": [
+                "World 3"
+            ],
+            "requires": []
+        },
+        {
+            "name": "3-Tower Normal Exit",
+            "region": "World 3 (2)",
+            "category": [
+                "World 3"
+            ],
+            "requires": []
+        },
+        {
+            "name": "3-3 Star Coin 1",
+            "region": "World 3 (2)",
+            "category": [
+                "World 3"
+            ],
+            "requires": []
+        },
+        {
+            "name": "3-3 Star Coin 2",
+            "region": "World 3 (2)",
+            "category": [
+                "World 3"
+            ],
+            "requires": []
+        },
+        {
+            "name": "3-3 Star Coin 3",
+            "region": "World 3 (2)",
+            "category": [
+                "World 3"
+            ],
+            "requires": []
+        },
+        {
+            "name": "3-3 Normal Exit",
+            "region": "World 3 (2)",
+            "category": [
+                "World 3"
+            ],
+            "requires": []
+        },
+        {
+            "name": "3-Ghost House Star Coin 1",
+            "region": "World 3 (2)",
+            "category": [
+                "World 3"
+            ],
+            "requires": []
+        },
+        {
+            "name": "3-Ghost House Star Coin 2",
+            "region": "World 3 (2)",
+            "category": [
+                "World 3"
+            ],
+            "requires": []
+        },
+        {
+            "name": "3-Ghost House Star Coin 3",
+            "region": "World 3 (2)",
+            "category": [
+                "World 3"
+            ],
+            "requires": "|Progressive Powerup:4|"
+        },
+        {
+            "name": "3-Ghost House Normal Exit",
+            "region": "World 3 (2)",
+            "category": [
+                "World 3"
+            ],
+            "requires": []
+        },
+        {
+            "name": "3-Ghost House Secret Exit",
+            "region": "World 3 (2)",
+            "category": [
+                "World 3"
+            ],
+            "requires": []
+        },
+        {
+            "name": "3-Castle Star Coin 1",
+            "region": "World 3 (2)",
+            "category": [
+                "World 3"
+            ],
+            "requires": "{OptOne(|World 3 Castle Key|)}"
+        },
+        {
+            "name": "3-Castle Star Coin 2",
+            "region": "World 3 (2)",
+            "category": [
+                "World 3"
+            ],
+            "requires": "{OptOne(|World 3 Castle Key|)}"
+        },
+        {
+            "name": "3-Castle Star Coin 3",
+            "region": "World 3 (2)",
+            "category": [
+                "World 3"
+            ],
+            "requires": "{OptOne(|World 3 Castle Key|)}"
+        },
+        {
+            "name": "3-Castle Normal Exit",
+            "region": "World 3 (2)",
+            "category": [
+                "World 3"
+            ],
+            "requires": "{OptOne(|World 3 Castle Key|)}"
+        },
+        {
+            "name": "3-Castle Boss Token",
+            "region": "World 3 (2)",
+            "category": [
+                "World 3"
+            ],
+            "requires": "{OptOne(|World 3 Castle Key|)}",
+            "place_item": ["Boss Token"]
+        },
+        {
+            "name": "4-1 Star Coin 1",
+            "region": "World 4 (1)",
+            "category": [
+                "World 4"
+            ],
+            "requires": []
+        },
+        {
+            "name": "4-1 Star Coin 2",
+            "region": "World 4 (1)",
+            "category": [
+                "World 4"
+            ],
+            "requires": []
+        },
+        {
+            "name": "4-1 Star Coin 3",
+            "region": "World 4 (1)",
+            "category": [
+                "World 4"
+            ],
+            "requires": []
+        },
+        {
+            "name": "4-1 Normal Exit",
+            "region": "World 4 (1)",
+            "category": [
+                "World 4"
+            ],
+            "requires": []
+        },
+        {
+            "name": "4-1 Secret Exit",
+            "region": "World 4 (1)",
+            "category": [
+                "World 4"
+            ],
+            "requires": []
+        },
+        {
+            "name": "4-2 Star Coin 1",
+            "region": "World 4 (1)",
+            "category": [
+                "World 4"
+            ],
+            "requires": []
+        },
+        {
+            "name": "4-2 Star Coin 2",
+            "region": "World 4 (1)",
+            "category": [
+                "World 4"
+            ],
+            "requires": []
+        },
+        {
+            "name": "4-2 Star Coin 3",
+            "region": "World 4 (1)",
+            "category": [
+                "World 4"
+            ],
+            "requires": []
+        },
+        {
+            "name": "4-2 Normal Exit",
+            "region": "World 4 (1)",
+            "category": [
+                "World 4"
+            ],
+            "requires": []
+        },
+        {
+            "name": "4-3 Star Coin 1",
+            "region": "World 4 (1)",
+            "category": [
+                "World 4"
+            ],
+            "requires": []
+        },
+        {
+            "name": "4-3 Star Coin 2",
+            "region": "World 4 (1)",
+            "category": [
+                "World 4"
+            ],
+            "requires": []
+        },
+        {
+            "name": "4-3 Star Coin 3",
+            "region": "World 4 (1)",
+            "category": [
+                "World 4"
+            ],
+            "requires": []
+        },
+        {
+            "name": "4-3 Normal Exit",
+            "region": "World 4 (1)",
+            "category": [
+                "World 4"
+            ],
+            "requires": []
+        },
+        {
+            "name": "4-Tower Star Coin 1",
+            "region": "World 4 (2)",
+            "category": [
+                "World 4"
+            ],
+            "requires": []
+        },
+        {
+            "name": "4-Tower Star Coin 2",
+            "region": "World 4 (2)",
+            "category": [
+                "World 4"
+            ],
+            "requires": []
+        },
+        {
+            "name": "4-Tower Star Coin 3",
+            "region": "World 4 (2)",
+            "category": [
+                "World 4"
+            ],
+            "requires": []
+        },
+        {
+            "name": "4-Tower Normal Exit",
+            "region": "World 4 (2)",
+            "category": [
+                "World 4"
+            ],
+            "requires": []
+        },
+        {
+            "name": "4-A Star Coin 1",
+            "region": "World 4 (2)",
+            "category": [
+                "World 4"
+            ],
+            "requires": "|Star Coin:15|"
+        },
+        {
+            "name": "4-A Star Coin 2",
+            "region": "World 4 (2)",
+            "category": [
+                "World 4"
+            ],
+            "requires": "|Star Coin:15|"
+        },
+        {
+            "name": "4-A Star Coin 3",
+            "region": "World 4 (2)",
+            "category": [
+                "World 4"
+            ],
+            "requires": "|Star Coin:15|"
+        },
+        {
+            "name": "4-A Normal Exit",
+            "region": "World 4 (2)",
+            "category": [
+                "World 4"
+            ],
+            "requires": "|Star Coin:15|"
+        },
+        {
+            "name": "4-4 Star Coin 1",
+            "region": "World 4 (2)",
+            "category": [
+                "World 4"
+            ],
+            "requires": []
+        },
+        {
+            "name": "4-4 Star Coin 2",
+            "region": "World 4 (2)",
+            "category": [
+                "World 4"
+            ],
+            "requires": []
+        },
+        {
+            "name": "4-4 Star Coin 3",
+            "region": "World 4 (2)",
+            "category": [
+                "World 4"
+            ],
+            "requires": []
+        },
+        {
+            "name": "4-4 Normal Exit",
+            "region": "World 4 (2)",
+            "category": [
+                "World 4"
+            ],
+            "requires": []
+        },
+        {
+            "name": "4-Ghost House Star Coin 1",
+            "region": "World 4 (2)",
+            "category": [
+                "World 4"
+            ],
+            "requires": []
+        },
+        {
+            "name": "4-Ghost House Star Coin 2",
+            "region": "World 4 (2)",
+            "category": [
+                "World 4"
+            ],
+            "requires": []
+        },
+        {
+            "name": "4-Ghost House Star Coin 3",
+            "region": "World 4 (2)",
+            "category": [
+                "World 4"
+            ],
+            "requires": "{miniMushroom()}"
+        },
+        {
+            "name": "4-Ghost House Normal Exit",
+            "region": "World 4 (2)",
+            "category": [
+                "World 4"
+            ],
+            "requires": []
+        },
+        {
+            "name": "4-Ghost House Secret Exit",
+            "region": "World 4 (2)",
+            "category": [
+                "World 4"
+            ],
+            "requires": "{miniMushroom()}"
+        },
+        {
+            "name": "4-5 Star Coin 1",
+            "region": "World 4 (2)",
+            "category": [
+                "World 4"
+            ],
+            "requires": []
+        },
+        {
+            "name": "4-5 Star Coin 2",
+            "region": "World 4 (2)",
+            "category": [
+                "World 4"
+            ],
+            "requires": []
+        },
+        {
+            "name": "4-5 Star Coin 3",
+            "region": "World 4 (2)",
+            "category": [
+                "World 4"
+            ],
+            "requires": []
+        },
+        {
+            "name": "4-5 Normal Exit",
+            "region": "World 4 (2)",
+            "category": [
+                "World 4"
+            ],
+            "requires": []
+        },
+        {
+            "name": "4-6 Star Coin 1",
+            "region": "World 4 (2)",
+            "category": [
+                "World 4"
+            ],
+            "requires": []
+        },
+        {
+            "name": "4-6 Star Coin 2",
+            "region": "World 4 (2)",
+            "category": [
+                "World 4"
+            ],
+            "requires": []
+        },
+        {
+            "name": "4-6 Star Coin 3",
+            "region": "World 4 (2)",
+            "category": [
+                "World 4"
+            ],
+            "requires": []
+        },
+        {
+            "name": "4-6 Normal Exit",
+            "region": "World 4 (2)",
+            "category": [
+                "World 4"
+            ],
+            "requires": []
+        },
+        {
+            "name": "4-Castle Star Coin 1",
+            "region": "World 4 (2)",
+            "category": [
+                "World 4"
+            ],
+            "requires": "{OptOne(|World 4 Castle Key|)}"
+        },
+        {
+            "name": "4-Castle Star Coin 2",
+            "region": "World 4 (2)",
+            "category": [
+                "World 4"
+            ],
+            "requires": "{OptOne(|World 4 Castle Key|)}"
+        },
+        {
+            "name": "4-Castle Star Coin 3",
+            "region": "World 4 (2)",
+            "category": [
+                "World 4"
+            ],
+            "requires": "{OptOne(|World 4 Castle Key|)}"
+        },
+        {
+            "name": "4-Castle Normal Exit",
+            "region": "World 4 (2)",
+            "category": [
+                "World 4"
+            ],
+            "requires": "{OptOne(|World 4 Castle Key|)}"
+        },
+        {
+            "name": "4-Castle Boss Token",
+            "region": "World 4 (2)",
+            "category": [
+                "World 4"
+            ],
+            "requires": "{OptOne(|World 4 Castle Key|)}",
+            "place_item": ["Boss Token"]
+        },
+        {
+            "name": "5-1 Star Coin 1",
+            "region": "World 5 (1)",
+            "category": [
+                "World 5"
+            ],
+            "requires": []
+        },
+        {
+            "name": "5-1 Star Coin 2",
+            "region": "World 5 (1)",
+            "category": [
+                "World 5"
+            ],
+            "requires": []
+        },
+        {
+            "name": "5-1 Star Coin 3",
+            "region": "World 5 (1)",
+            "category": [
+                "World 5"
+            ],
+            "requires": []
+        },
+        {
+            "name": "5-1 Normal Exit",
+            "region": "World 5 (1)",
+            "category": [
+                "World 5"
+            ],
+            "requires": []
+        },
+        {
+            "name": "5-2 Star Coin 1",
+            "region": "World 5 (1)",
+            "category": [
+                "World 5"
+            ],
+            "requires": "|Progressive Powerup:1|"
+        },
+        {
+            "name": "5-2 Star Coin 2",
+            "region": "World 5 (1)",
+            "category": [
+                "World 5"
+            ],
+            "requires": []
+        },
+        {
+            "name": "5-2 Star Coin 3",
+            "region": "World 5 (1)",
+            "category": [
+                "World 5"
+            ],
+            "requires": []
+        },
+        {
+            "name": "5-2 Normal Exit",
+            "region": "World 5 (1)",
+            "category": [
+                "World 5"
+            ],
+            "requires": []
+        },
+        {
+            "name": "5-2 Secret Exit",
+            "region": "World 5 (1)",
+            "category": [
+                "World 5"
+            ],
+            "requires": []
+        },
+        {
+            "name": "5-A Star Coin 1",
+            "region": "World 5 (1)",
+            "category": [
+                "World 5"
+            ],
+            "requires": "|Star Coin:20|"
+        },
+        {
+            "name": "5-A Star Coin 2",
+            "region": "World 5 (1)",
+            "category": [
+                "World 5"
+            ],
+            "requires": "|Star Coin:20|"
+        },
+        {
+            "name": "5-A Star Coin 3",
+            "region": "World 5 (1)",
+            "category": [
+                "World 5"
+            ],
+            "requires": "|Star Coin:20|"
+        },
+        {
+            "name": "5-A Normal Exit",
+            "region": "World 5 (1)",
+            "category": [
+                "World 5"
+            ],
+            "requires": "|Star Coin:20|"
+        },
+        {
+            "name": "5-Tower Star Coin 1",
+            "region": "World 5 (2)",
+            "category": [
+                "World 5"
+            ],
+            "requires": []
+        },
+        {
+            "name": "5-Tower Star Coin 2",
+            "region": "World 5 (2)",
+            "category": [
+                "World 5"
+            ],
+            "requires": []
+        },
+        {
+            "name": "5-Tower Star Coin 3",
+            "region": "World 5 (2)",
+            "category": [
+                "World 5"
+            ],
+            "requires": []
+        },
+        {
+            "name": "5-Tower Normal Exit",
+            "region": "World 5 (2)",
+            "category": [
+                "World 5"
+            ],
+            "requires": []
+        },
+        {
+            "name": "5-3 Star Coin 1",
+            "region": "World 5 (2)",
+            "category": [
+                "World 5"
+            ],
+            "requires": []
+        },
+        {
+            "name": "5-3 Star Coin 2",
+            "region": "World 5 (2)",
+            "category": [
+                "World 5"
+            ],
+            "requires": []
+        },
+        {
+            "name": "5-3 Star Coin 3",
+            "region": "World 5 (2)",
+            "category": [
+                "World 5"
+            ],
+            "requires": []
+        },
+        {
+            "name": "5-3 Normal Exit",
+            "region": "World 5 (2)",
+            "category": [
+                "World 5"
+            ],
+            "requires": []
+        },
+        {
+            "name": "5-Ghost House Star Coin 1",
+            "region": "World 5 (2)",
+            "category": [
+                "World 5"
+            ],
+            "requires": []
+        },
+        {
+            "name": "5-Ghost House Star Coin 2",
+            "region": "World 5 (2)",
+            "category": [
+                "World 5"
+            ],
+            "requires": []
+        },
+        {
+            "name": "5-Ghost House Star Coin 3",
+            "region": "World 5 (2)",
+            "category": [
+                "World 5"
+            ],
+            "requires": []
+        },
+        {
+            "name": "5-Ghost House Normal Exit",
+            "region": "World 5 (2)",
+            "category": [
+                "World 5"
+            ],
+            "requires": []
+        },
+        {
+            "name": "5-Ghost House Secret Exit",
+            "region": "World 5 (2)",
+            "category": [
+                "World 5"
+            ],
+            "requires": []
+        },
+        {
+            "name": "5-B Star Coin 1",
+            "region": "World 5 (2)",
+            "category": [
+                "World 5"
+            ],
+            "requires": []
+        },
+        {
+            "name": "5-B Star Coin 2",
+            "region": "World 5 (2)",
+            "category": [
+                "World 5"
+            ],
+            "requires": []
+        },
+        {
+            "name": "5-B Star Coin 3",
+            "region": "World 5 (2)",
+            "category": [
+                "World 5"
+            ],
+            "requires": []
+        },
+        {
+            "name": "5-B Normal Exit",
+            "region": "World 5 (2)",
+            "category": [
+                "World 5"
+            ],
+            "requires": []
+        },
+        {
+            "name": "5-B Secret Exit",
+            "region": "World 5 (2)",
+            "category": [
+                "World 5"
+            ],
+            "requires": "|Progressive Powerup:4|"
+        },
+        {
+            "name": "5-C Star Coin 1",
+            "region": "World 5 (2)",
+            "category": [
+                "World 5"
+            ],
+            "requires": []
+        },
+        {
+            "name": "5-C Star Coin 2",
+            "region": "World 5 (2)",
+            "category": [
+                "World 5"
+            ],
+            "requires": []
+        },
+        {
+            "name": "5-C Star Coin 3",
+            "region": "World 5 (2)",
+            "category": [
+                "World 5"
+            ],
+            "requires": []
+        },
+        {
+            "name": "5-C Normal Exit",
+            "region": "World 5 (2)",
+            "category": [
+                "World 5"
+            ],
+            "requires": []
+        },
+        {
+            "name": "5-4 Star Coin 1",
+            "region": "World 5 (2)",
+            "category": [
+                "World 5"
+            ],
+            "requires": []
+        },
+        {
+            "name": "5-4 Star Coin 2",
+            "region": "World 5 (2)",
+            "category": [
+                "World 5"
+            ],
+            "requires": []
+        },
+        {
+            "name": "5-4 Star Coin 3",
+            "region": "World 5 (2)",
+            "category": [
+                "World 5"
+            ],
+            "requires": []
+        },
+        {
+            "name": "5-4 Normal Exit",
+            "region": "World 5 (2)",
+            "category": [
+                "World 5"
+            ],
+            "requires": []
+        },
+        {
+            "name": "5-Castle Star Coin 1",
+            "region": "World 5 (2)",
+            "category": [
+                "World 5"
+            ],
+            "requires": "{OptOne(|World 5 Castle Key|)}"
+        },
+        {
+            "name": "5-Castle Star Coin 2",
+            "region": "World 5 (2)",
+            "category": [
+                "World 5"
+            ],
+            "requires": "{OptOne(|World 5 Castle Key|)}"
+        },
+        {
+            "name": "5-Castle Star Coin 3",
+            "region": "World 5 (2)",
+            "category": [
+                "World 5"
+            ],
+            "requires": "{OptOne(|World 5 Castle Key|)}"
+        },
+        {
+            "name": "5-Castle Normal Exit",
+            "region": "World 5 (2)",
+            "category": [
+                "World 5"
+            ],
+            "requires": "{OptOne(|World 5 Castle Key|)}"
+        },
+        {
+            "name": "5-Castle Secret Exit",
+            "region": "World 5 (2)",
+            "category": [
+                "World 5"
+            ],
+            "requires": "{miniMushroom()} and {OptOne(|World 5 Castle Key|)}"
+        },
+        {
+            "name": "5-Castle Boss Token",
+            "region": "World 5 (2)",
+            "category": [
+                "World 5"
+            ],
+            "requires": "{OptOne(|World 5 Castle Key|)}",
+            "place_item": ["Boss Token"]
+        },
+        {
+            "name": "6-1 Star Coin 1",
+            "region": "World 6 (1)",
+            "category": [
+                "World 6"
+            ],
+            "requires": []
+        },
+        {
+            "name": "6-1 Star Coin 2",
+            "region": "World 6 (1)",
+            "category": [
+                "World 6"
+            ],
+            "requires": []
+        },
+        {
+            "name": "6-1 Star Coin 3",
+            "region": "World 6 (1)",
+            "category": [
+                "World 6"
+            ],
+            "requires": []
+        },
+        {
+            "name": "6-1 Normal Exit",
+            "region": "World 6 (1)",
+            "category": [
+                "World 6"
+            ],
+            "requires": []
+        },
+        {
+            "name": "6-A Star Coin 1",
+            "region": "World 6 (1)",
+            "category": [
+                "World 6"
+            ],
+            "requires": "|Star Coin:25|"
+        },
+        {
+            "name": "6-A Star Coin 2",
+            "region": "World 6 (1)",
+            "category": [
+                "World 6"
+            ],
+            "requires": "|Star Coin:25|"
+        },
+        {
+            "name": "6-A Star Coin 3",
+            "region": "World 6 (1)",
+            "category": [
+                "World 6"
+            ],
+            "requires": "|Star Coin:25|"
+        },
+        {
+            "name": "6-A Normal Exit",
+            "region": "World 6 (1)",
+            "category": [
+                "World 6"
+            ],
+            "requires": "|Star Coin:25|"
+        },
+        {
+            "name": "6-2 Star Coin 1",
+            "region": "World 6 (1)",
+            "category": [
+                "World 6"
+            ],
+            "requires": []
+        },
+        {
+            "name": "6-2 Star Coin 2",
+            "region": "World 6 (1)",
+            "category": [
+                "World 6"
+            ],
+            "requires": []
+        },
+        {
+            "name": "6-2 Star Coin 3",
+            "region": "World 6 (1)",
+            "category": [
+                "World 6"
+            ],
+            "requires": []
+        },
+        {
+            "name": "6-2 Normal Exit",
+            "region": "World 6 (1)",
+            "category": [
+                "World 6"
+            ],
+            "requires": []
+        },
+        {
+            "name": "6-Tower 1 Star Coin 1",
+            "region": "World 6 (2)",
+            "category": [
+                "World 6"
+            ],
+            "requires": []
+        },
+        {
+            "name": "6-Tower 1 Star Coin 2",
+            "region": "World 6 (2)",
+            "category": [
+                "World 6"
+            ],
+            "requires": []
+        },
+        {
+            "name": "6-Tower 1 Star Coin 3",
+            "region": "World 6 (2)",
+            "category": [
+                "World 6"
+            ],
+            "requires": []
+        },
+        {
+            "name": "6-Tower 1 Normal Exit",
+            "region": "World 6 (2)",
+            "category": [
+                "World 6"
+            ],
+            "requires": []
+        },
+        {
+            "name": "6-3 Star Coin 1",
+            "region": "World 6 (2)",
+            "category": [
+                "World 6"
+            ],
+            "requires": []
+        },
+        {
+            "name": "6-3 Star Coin 2",
+            "region": "World 6 (2)",
+            "category": [
+                "World 6"
+            ],
+            "requires": []
+        },
+        {
+            "name": "6-3 Star Coin 3",
+            "region": "World 6 (2)",
+            "category": [
+                "World 6"
+            ],
+            "requires": []
+        },
+        {
+            "name": "6-3 Normal Exit",
+            "region": "World 6 (2)",
+            "category": [
+                "World 6"
+            ],
+            "requires": []
+        },
+        {
+            "name": "6-4 Star Coin 1",
+            "region": "World 6 (2)",
+            "category": [
+                "World 6"
+            ],
+            "requires": []
+        },
+        {
+            "name": "6-4 Star Coin 2",
+            "region": "World 6 (2)",
+            "category": [
+                "World 6"
+            ],
+            "requires": []
+        },
+        {
+            "name": "6-4 Star Coin 3",
+            "region": "World 6 (2)",
+            "category": [
+                "World 6"
+            ],
+            "requires": []
+        },
+        {
+            "name": "6-4 Star Normal Exit",
+            "region": "World 6 (2)",
+            "category": [
+                "World 6"
+            ],
+            "requires": []
+        },
+        {
+            "name": "6-Tower 2 Star Coin 1",
+            "region": "World 6 (3)",
+            "category": [
+                "World 6"
+            ],
+            "requires": []
+        },
+        {
+            "name": "6-Tower 2 Star Coin 2",
+            "region": "World 6 (3)",
+            "category": [
+                "World 6"
+            ],
+            "requires": "|Progressive Powerup:1|"
+        },
+        {
+            "name": "6-Tower 2 Star Coin 3",
+            "region": "World 6 (3)",
+            "category": [
+                "World 6"
+            ],
+            "requires": []
+        },
+        {
+            "name": "6-Tower 2 Normal Exit",
+            "region": "World 6 (3)",
+            "category": [
+                "World 6"
+            ],
+            "requires": []
+        },
+        {
+            "name": "6-5 Star Coin 1",
+            "region": "World 6 (3)",
+            "category": [
+                "World 6"
+            ],
+            "requires": []
+        },
+        {
+            "name": "6-5 Star Coin 2",
+            "region": "World 6 (3)",
+            "category": [
+                "World 6"
+            ],
+            "requires": []
+        },
+        {
+            "name": "6-5 Star Coin 3",
+            "region": "World 6 (3)",
+            "category": [
+                "World 6"
+            ],
+            "requires": []
+        },
+        {
+            "name": "6-5 Normal Exit",
+            "region": "World 6 (3)",
+            "category": [
+                "World 6"
+            ],
+            "requires": []
+        },
+        {
+            "name": "6-B Star Coin 1",
+            "region": "World 6 (3)",
+            "category": [
+                "World 6"
+            ],
+            "requires": "|Star Coin:30|"
+        },
+        {
+            "name": "6-B Star Coin 2",
+            "region": "World 6 (3)",
+            "category": [
+                "World 6"
+            ],
+            "requires": "|Star Coin:30|"
+        },
+        {
+            "name": "6-B Star Coin 3",
+            "region": "World 6 (3)",
+            "category": [
+                "World 6"
+            ],
+            "requires": "|Star Coin:30|"
+        },
+        {
+            "name": "6-B Normal Exit",
+            "region": "World 6 (3)",
+            "category": [
+                "World 6"
+            ],
+            "requires": "|Star Coin:30|"
+        },
+        {
+            "name": "6-6 Star Coin 1",
+            "region": "World 6 (3)",
+            "category": [
+                "World 6"
+            ],
+            "requires": []
+        },
+        {
+            "name": "6-6 Star Coin 2",
+            "region": "World 6 (3)",
+            "category": [
+                "World 6"
+            ],
+            "requires": []
+        },
+        {
+            "name": "6-6 Star Coin 3",
+            "region": "World 6 (3)",
+            "category": [
+                "World 6"
+            ],
+            "requires": "|Progressive Powerup:1|"
+        },
+        {
+            "name": "6-6 Normal Exit",
+            "region": "World 6 (3)",
+            "category": [
+                "World 6"
+            ],
+            "requires": []
+        },
+        {
+            "name": "6-Castle Star Coin 1",
+            "region": "World 6 (3)",
+            "category": [
+                "World 6"
+            ],
+            "requires": "{OptOne(|World 6 Castle Key|)}"
+        },
+        {
+            "name": "6-Castle Star Coin 2",
+            "region": "World 6 (3)",
+            "category": [
+                "World 6"
+            ],
+            "requires": "{OptOne(|World 6 Castle Key|)}"
+        },
+        {
+            "name": "6-Castle Star Coin 3",
+            "region": "World 6 (3)",
+            "category": [
+                "World 6"
+            ],
+            "requires": "{OptOne(|World 6 Castle Key|)}"
+        },
+        {
+            "name": "6-Castle Normal Exit",
+            "region": "World 6 (3)",
+            "category": [
+                "World 6"
+            ],
+            "requires": "{OptOne(|World 6 Castle Key|)}"
+        },
+        {
+            "name": "6-Castle Boss Token",
+            "region": "World 6 (3)",
+            "category": [
+                "World 6"
+            ],
+            "requires": "{OptOne(|World 6 Castle Key|)}",
+            "place_item": ["Boss Token"]
+        },
+        {
+            "name": "7-1 Star Coin 1",
+            "region": "World 7 (1)",
+            "category": [
+                "World 7"
+            ],
+            "requires": []
+        },
+        {
+            "name": "7-1 Star Coin 2",
+            "region": "World 7 (1)",
+            "category": [
+                "World 7"
+            ],
+            "requires": []
+        },
+        {
+            "name": "7-1 Star Coin 3",
+            "region": "World 7 (1)",
+            "category": [
+                "World 7"
+            ],
+            "requires": []
+        },
+        {
+            "name": "7-1 Normal Exit",
+            "region": "World 7 (1)",
+            "category": [
+                "World 7"
+            ],
+            "requires": []
+        },
+        {
+            "name": "7-Ghost House Star Coin 1",
+            "region": "World 7 (1)",
+            "category": [
+                "World 7"
+            ],
+            "requires": []
+        },
+        {
+            "name": "7-Ghost House Star Coin 2",
+            "region": "World 7 (1)",
+            "category": [
+                "World 7"
+            ],
+            "requires": []
+        },
+        {
+            "name": "7-Ghost House Star Coin 3",
+            "region": "World 7 (1)",
+            "category": [
+                "World 7"
+            ],
+            "requires": []
+        },
+        {
+            "name": "7-Ghost House Normal Exit",
+            "region": "World 7 (1)",
+            "category": [
+                "World 7"
+            ],
+            "requires": []
+        },
+        {
+            "name": "7-Ghost House Secret Exit",
+            "region": "World 7 (1)",
+            "category": [
+                "World 7"
+            ],
+            "requires": []
+        },
+        {
+            "name": "7-2 Star Coin 1",
+            "region": "World 7 (1)",
+            "category": [
+                "World 7"
+            ],
+            "requires": []
+        },
+        {
+            "name": "7-2 Star Coin 2",
+            "region": "World 7 (1)",
+            "category": [
+                "World 7"
+            ],
+            "requires": []
+        },
+        {
+            "name": "7-2 Star Coin 3",
+            "region": "World 7 (1)",
+            "category": [
+                "World 7"
+            ],
+            "requires": []
+        },
+        {
+            "name": "7-2 Normal Exit",
+            "region": "World 7 (1)",
+            "category": [
+                "World 7"
+            ],
+            "requires": []
+        },
+        {
+            "name": "7-3 Star Coin 1",
+            "region": "World 7 (1)",
+            "category": [
+                "World 7"
+            ],
+            "requires": []
+        },
+        {
+            "name": "7-3 Star Coin 2",
+            "region": "World 7 (1)",
+            "category": [
+                "World 7"
+            ],
+            "requires": []
+        },
+        {
+            "name": "7-3 Star Coin 3",
+            "region": "World 7 (1)",
+            "category": [
+                "World 7"
+            ],
+            "requires": []
+        },
+        {
+            "name": "7-3 Normal Exit",
+            "region": "World 7 (1)",
+            "category": [
+                "World 7"
+            ],
+            "requires": []
+        },
+        {
+            "name": "7-Tower Star Coin 1",
+            "region": "World 7 (2)",
+            "category": [
+                "World 7"
+            ],
+            "requires": []
+        },
+        {
+            "name": "7-Tower Star Coin 2",
+            "region": "World 7 (2)",
+            "category": [
+                "World 7"
+            ],
+            "requires": []
+        },
+        {
+            "name": "7-Tower Star Coin 3",
+            "region": "World 7 (2)",
+            "category": [
+                "World 7"
+            ],
+            "requires": []
+        },
+        {
+            "name": "7-Tower Normal Exit",
+            "region": "World 7 (2)",
+            "category": [
+                "World 7"
+            ],
+            "requires": []
+        },
+        {
+            "name": "7-4 Star Coin 1",
+            "region": "World 7 (2)",
+            "category": [
+                "World 7"
+            ],
+            "requires": []
+        },
+        {
+            "name": "7-4 Star Coin 2",
+            "region": "World 7 (2)",
+            "category": [
+                "World 7"
+            ],
+            "requires": []
+        },
+        {
+            "name": "7-4 Star Coin 3",
+            "region": "World 7 (2)",
+            "category": [
+                "World 7"
+            ],
+            "requires": []
+        },
+        {
+            "name": "7-4 Normal Exit",
+            "region": "World 7 (2)",
+            "category": [
+                "World 7"
+            ],
+            "requires": []
+        },
+        {
+            "name": "7-4 Secret Exit",
+            "region": "World 7 (2)",
+            "category": [
+                "World 7"
+            ],
+            "requires": "{miniMushroom()}"
+        },
+        {
+            "name": "7-5 Star Coin 1",
+            "region": "World 7 (2)",
+            "category": [
+                "World 7"
+            ],
+            "requires": []
+        },
+        {
+            "name": "7-5 Star Coin 2",
+            "region": "World 7 (2)",
+            "category": [
+                "World 7"
+            ],
+            "requires": "{miniMushroom()}"
+        },
+        {
+            "name": "7-5 Star Coin 3",
+            "region": "World 7 (2)",
+            "category": [
+                "World 7"
+            ],
+            "requires": []
+        },
+        {
+            "name": "7-5 Normal Exit",
+            "region": "World 7 (2)",
+            "category": [
+                "World 7"
+            ],
+            "requires": []
+        },
+        {
+            "name": "7-5 Secret Exit",
+            "region": "World 7 (2)",
+            "category": [
+                "World 7"
+            ],
+            "requires": []
+        },
+        {
+            "name": "7-6 Star Coin 1",
+            "region": "World 7 (2)",
+            "category": [
+                "World 7"
+            ],
+            "requires": []
+        },
+        {
+            "name": "7-6 Star Coin 2",
+            "region": "World 7 (2)",
+            "category": [
+                "World 7"
+            ],
+            "requires": []
+        },
+        {
+            "name": "7-6 Star Coin 3",
+            "region": "World 7 (2)",
+            "category": [
+                "World 7"
+            ],
+            "requires": []
+        },
+        {
+            "name": "7-6 Normal Exit",
+            "region": "World 7 (2)",
+            "category": [
+                "World 7"
+            ],
+            "requires": []
+        },
+        {
+            "name": "7-6 Secret Exit",
+            "region": "World 7 (2)",
+            "category": [
+                "World 7"
+            ],
+            "requires": "|Progressive Powerup:1|"
+        },
+        {
+            "name": "7-7 Star Coin 1",
+            "region": "World 7 (2)",
+            "category": [
+                "World 7"
+            ],
+            "requires": []
+        },
+        {
+            "name": "7-7 Star Coin 2",
+            "region": "World 7 (2)",
+            "category": [
+                "World 7"
+            ],
+            "requires": []
+        },
+        {
+            "name": "7-7 Star Coin 3",
+            "region": "World 7 (2)",
+            "category": [
+                "World 7"
+            ],
+            "requires": []
+        },
+        {
+            "name": "7-7 Normal Exit",
+            "region": "World 7 (2)",
+            "category": [
+                "World 7"
+            ],
+            "requires": []
+        },
+        {
+            "name": "7-A Star Coin 1",
+            "region": "World 7 (2)",
+            "category": [
+                "World 7"
+            ],
+            "requires": []
+        },
+        {
+            "name": "7-A Star Coin 2",
+            "region": "World 7 (2)",
+            "category": [
+                "World 7"
+            ],
+            "requires": []
+        },
+        {
+            "name": "7-A Star Coin 3",
+            "region": "World 7 (2)",
+            "category": [
+                "World 7"
+            ],
+            "requires": "{miniMushroom()}"
+        },
+        {
+            "name": "7-A Normal Exit",
+            "region": "World 7 (2)",
+            "category": [
+                "World 7"
+            ],
+            "requires": []
+        },
+        {
+            "name": "7-Castle Star Coin 1",
+            "region": "World 7 (2)",
+            "category": [
+                "World 7"
+            ],
+            "requires": "{OptOne(|World 7 Castle Key|)}"
+        },
+        {
+            "name": "7-Castle Star Coin 2",
+            "region": "World 7 (2)",
+            "category": [
+                "World 7"
+            ],
+            "requires": "{OptOne(|World 7 Castle Key|)}"
+        },
+        {
+            "name": "7-Castle Star Coin 3",
+            "region": "World 7 (2)",
+            "category": [
+                "World 7"
+            ],
+            "requires": "{OptOne(|World 7 Castle Key|)}"
+        },
+        {
+            "name": "7-Castle Normal Exit",
+            "region": "World 7 (2)",
+            "category": [
+                "World 7"
+            ],
+            "requires": "{OptOne(|World 7 Castle Key|)}"
+        },
+        {
+            "name": "7-Castle Boss Token",
+            "region": "World 7 (2)",
+            "category": [
+                "World 7"
+            ],
+            "requires": "{OptOne(|World 7 Castle Key|)}",
+            "place_item": ["Boss Token"]
+        },
+        {
+            "name": "8-1 Star Coin 1",
+            "region": "World 8 (1)",
+            "category": [
+                "World 8"
+            ],
+            "requires": []
+        },
+        {
+            "name": "8-1 Star Coin 2",
+            "region": "World 8 (1)",
+            "category": [
+                "World 8"
+            ],
+            "requires": []
+        },
+        {
+            "name": "8-1 Star Coin 3",
+            "region": "World 8 (1)",
+            "category": [
+                "World 8"
+            ],
+            "requires": []
+        },
+        {
+            "name": "8-1 Normal Exit",
+            "region": "World 8 (1)",
+            "category": [
+                "World 8"
+            ],
+            "requires": []
+        },
+        {
+            "name": "8-2 Star Coin 1",
+            "region": "World 8 (1)",
+            "category": [
+                "World 8"
+            ],
+            "requires": "|Progressive Powerup:1|"
+        },
+        {
+            "name": "8-2 Star Coin 2",
+            "region": "World 8 (1)",
+            "category": [
+                "World 8"
+            ],
+            "requires": []
+        },
+        {
+            "name": "8-2 Star Coin 3",
+            "region": "World 8 (1)",
+            "category": [
+                "World 8"
+            ],
+            "requires": []
+        },
+        {
+            "name": "8-2 Normal Exit",
+            "region": "World 8 (1)",
+            "category": [
+                "World 8"
+            ],
+            "requires": []
+        },
+        {
+            "name": "8-Tower 1 Star Coin 1",
+            "region": "World 8 (2)",
+            "category": [
+                "World 8"
+            ],
+            "requires": []
+        },
+        {
+            "name": "8-Tower 1 Star Coin 2",
+            "region": "World 8 (2)",
+            "category": [
+                "World 8"
+            ],
+            "requires": []
+        },
+        {
+            "name": "8-Tower 1 Star Coin 3",
+            "region": "World 8 (2)",
+            "category": [
+                "World 8"
+            ],
+            "requires": []
+        },
+        {
+            "name": "8-Tower 1 Normal Exit",
+            "region": "World 8 (2)",
+            "category": [
+                "World 8"
+            ],
+            "requires": []
+        },
+        {
+            "name": "8-3 Star Coin 1",
+            "region": "World 8 (2)",
+            "category": [
+                "World 8"
+            ],
+            "requires": []
+        },
+        {
+            "name": "8-3 Star Coin 2",
+            "region": "World 8 (2)",
+            "category": [
+                "World 8"
+            ],
+            "requires": "|Progressive Powerup:1|"
+        },
+        {
+            "name": "8-3 Star Coin 3",
+            "region": "World 8 (2)",
+            "category": [
+                "World 8"
+            ],
+            "requires": []
+        },
+        {
+            "name": "8-3 Normal Exit",
+            "region": "World 8 (2)",
+            "category": [
+                "World 8"
+            ],
+            "requires": []
+        },
+        {
+            "name": "8-4 Star Coin 1",
+            "region": "World 8 (2)",
+            "category": [
+                "World 8"
+            ],
+            "requires": []
+        },
+        {
+            "name": "8-4 Star Coin 2",
+            "region": "World 8 (2)",
+            "category": [
+                "World 8"
+            ],
+            "requires": []
+        },
+        {
+            "name": "8-4 Star Coin 3",
+            "region": "World 8 (2)",
+            "category": [
+                "World 8"
+            ],
+            "requires": "{miniMushroom()}"
+        },
+        {
+            "name": "8-4 Normal Exit",
+            "region": "World 8 (2)",
+            "category": [
+                "World 8"
+            ],
+            "requires": []
+        },
+        {
+            "name": "8-Castle Star Coin 1",
+            "region": "World 8 (3)",
+            "category": [
+                "World 8"
+            ],
+            "requires": []
+        },
+        {
+            "name": "8-Castle Star Coin 2",
+            "region": "World 8 (3)",
+            "category": [
+                "World 8"
+            ],
+            "requires": []
+        },
+        {
+            "name": "8-Castle Star Coin 3",
+            "region": "World 8 (3)",
+            "category": [
+                "World 8"
+            ],
+            "requires": []
+        },
+        {
+            "name": "8-Castle Normal Exit",
+            "region": "World 8 (3)",
+            "category": [
+                "World 8"
+            ],
+            "requires": []
+        },
+        {
+            "name": "8-Castle Boss Token",
+            "region": "World 8 (3)",
+            "category": [
+                "World 8"
+            ],
+            "requires": [],
+            "place_item": ["Boss Token"]
+        },
+        {
+            "name": "8-5 Star Coin 1",
+            "region": "World 8 (3)",
+            "category": [
+                "World 8"
+            ],
+            "requires": []
+        },
+        {
+            "name": "8-5 Star Coin 2",
+            "region": "World 8 (3)",
+            "category": [
+                "World 8"
+            ],
+            "requires": []
+        },
+        {
+            "name": "8-5 Star Coin 3",
+            "region": "World 8 (3)",
+            "category": [
+                "World 8"
+            ],
+            "requires": []
+        },
+        {
+            "name": "8-5 Normal Exit",
+            "region": "World 8 (3)",
+            "category": [
+                "World 8"
+            ],
+            "requires": []
+        },
+        {
+            "name": "8-6 Star Coin 1",
+            "region": "World 8 (3)",
+            "category": [
+                "World 8"
+            ],
+            "requires": []
+        },
+        {
+            "name": "8-6 Star Coin 2",
+            "region": "World 8 (3)",
+            "category": [
+                "World 8"
+            ],
+            "requires": []
+        },
+        {
+            "name": "8-6 Star Coin 3",
+            "region": "World 8 (3)",
+            "category": [
+                "World 8"
+            ],
+            "requires": []
+        },
+        {
+            "name": "8-6 Normal Exit",
+            "region": "World 8 (3)",
+            "category": [
+                "World 8"
+            ],
+            "requires": []
+        },
+        {
+            "name": "8-7 Star Coin 1",
+            "region": "World 8 (3)",
+            "category": [
+                "World 8"
+            ],
+            "requires": []
+        },
+        {
+            "name": "8-7 Star Coin 2",
+            "region": "World 8 (3)",
+            "category": [
+                "World 8"
+            ],
+            "requires": []
+        },
+        {
+            "name": "8-7 Star Coin 3",
+            "region": "World 8 (3)",
+            "category": [
+                "World 8"
+            ],
+            "requires": []
+        },
+        {
+            "name": "8-7 Normal Exit",
+            "region": "World 8 (3)",
+            "category": [
+                "World 8"
+            ],
+            "requires": []
+        },
+        {
+            "name": "8-8 Star Coin 1",
+            "region": "World 8 (3)",
+            "category": [
+                "World 8"
+            ],
+            "requires": []
+        },
+        {
+            "name": "8-8 Star Coin 2",
+            "region": "World 8 (3)",
+            "category": [
+                "World 8"
+            ],
+            "requires": "{miniMushroom()}"
+        },
+        {
+            "name": "8-8 Star Coin 3",
+            "region": "World 8 (3)",
+            "category": [
+                "World 8"
+            ],
+            "requires": []
+        },
+        {
+            "name": "8-8 Normal Exit",
+            "region": "World 8 (3)",
+            "category": [
+                "World 8"
+            ],
+            "requires": []
+        },
+        {
+            "name": "8-Tower 2 Star Coin 1",
+            "region": "World 8 (4)",
+            "category": [
+                "World 8"
+            ],
+            "requires": []
+        },
+        {
+            "name": "8-Tower 2 Star Coin 2",
+            "region": "World 8 (4)",
+            "category": [
+                "World 8"
+            ],
+            "requires": []
+        },
+        {
+            "name": "8-Tower 2 Star Coin 3",
+            "region": "World 8 (4)",
+            "category": [
+                "World 8"
+            ],
+            "requires": []
+        },
+        {
+            "name": "8-Tower 2 Normal Exit",
+            "region": "World 8 (4)",
+            "category": [
+                "World 8"
+            ],
+            "requires": []
+        },
+        {
+            "name": "8-Bowser's Castle Star Coin 1",
+            "region": "World 8 (4)",
+            "category": [
+                "World 8"
+            ],
+            "requires": []
+        },
+        {
+            "name": "8-Bowser's Castle Star Coin 2",
+            "region": "World 8 (4)",
+            "category": [
+                "World 8"
+            ],
+            "requires": []
+        },
+        {
+            "name": "8-Bowser's Castle Star Coin 3",
+            "region": "World 8 (4)",
+            "category": [
+                "World 8"
+            ],
+            "requires": []
+        },
+        {
+            "name": "8-Bowser's Castle Normal Exit",
+            "region": "World 8 (4)",
+            "category": [
+                "World 8"
+            ],
+            "requires": [],
+            "victory": true
+        }
+    ]
+}
+
