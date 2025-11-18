@@ -5,7 +5,7 @@ from .World import initialize_config, GameConfig
 from BaseClasses import MultiWorld, CollectionState
 
 def miniMushroom(world: World, multiworld: MultiWorld, state: CollectionState, player: int):
-    cfg = initialize_config(world, multiworld, player)
+    cfg: GameConfig = initialize_config(world, multiworld, player)
     return (state.has("Progressive Powerup", player, 5) or state.has("Mini Mushroom", player)) and (
         (
             # mini mushrooms
