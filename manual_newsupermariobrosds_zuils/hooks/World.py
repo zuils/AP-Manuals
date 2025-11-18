@@ -158,7 +158,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
         itemNamesToRemove.append("Progressive Powerup")
         
     if not cfg.item_storage:
-        itemNamesToRemove.append("Reserve Slot")
+        itemNamesToRemove.append("Item Storage")
     
     if not cfg.tower_keys:
         itemNamesToRemove.extend(f"World {i} Tower Key" for i in range(1, 9))

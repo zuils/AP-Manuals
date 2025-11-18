@@ -68,7 +68,7 @@ class ItemStorage(Toggle):
     """
     Set to true if the item storage should be in the item pool
     """
-    display_anme = "Reserve Slot"
+    display_name = "Item Storage"
 
 class TowerKeys(Toggle):
     """
