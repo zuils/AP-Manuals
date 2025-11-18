@@ -63,7 +63,13 @@ class MiniMushroom(Choice):
     option_progressive_powerup = 0
     option_seperate_item = 1
     default = 0
-    
+
+class ItemStorage(Toggle):
+    """
+    Set to true if the item storage should be in the item pool
+    """
+    display_anme = "Reserve Slot"
+
 class TowerKeys(Toggle):
     """
     Put Tower Keys in the world to unlock the next section of the same world
@@ -116,6 +122,7 @@ def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, T
     options["world_unlocks"] = WorldUnlocks
     options["starting_world"] = StartingWorld
     options["mini_mushroom"] = MiniMushroom
+    options["item_storage"] = ItemStorage
     options["tower_keys"] = TowerKeys
     options["Goal"] = Goal
     options["boss_tokens_req"] = BossTokensReq

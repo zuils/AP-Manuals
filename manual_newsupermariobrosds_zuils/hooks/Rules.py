@@ -5,16 +5,29 @@ from .World import initialize_config, GameConfig
 from BaseClasses import MultiWorld, CollectionState
 
 def miniMushroom(world: World, multiworld: MultiWorld, state: CollectionState, player: int):
+    cfg = initialize_config(world, multiworld, player)
     return (state.has("Progressive Powerup", player, 5) or state.has("Mini Mushroom", player)) and (
-        state.can_reach_location("1-2 Secret Exit", player) or
-        state.can_reach_location("2-4 Normal Exit", player) or
-        state.can_reach_location("3-A Normal Exit", player) or
-        (state.can_reach_location("4-2 Normal Exit", player) and state.has("Star Coin", player, 5)) or
-        (state.can_reach_location("5-Tower Normal Exit", player) and state.has("Star Coin", player, 5)) or
-        state.can_reach_location("6-A Normal Exit", player) or
-        (state.can_reach_location("7-2 Normal Exit", player) and state.has("Star Coin", player, 5)) or
-        state.can_reach_location("7-A Normal Exit", player) or
-        (state.can_reach_location("8-3 Normal Exit", player) and state.has("Star Coin", player, 5))
+        (
+            # mini mushrooms
+            state.can_reach_location("1-4 Normal Exit", player) or
+            # check if we can reach 2-castle secret exit causes a runtime error
+            state.can_reach_location("2-Castle Star Coin 3", player) or
+            state.can_reach_location("3-A Normal Exit", player) or
+            state.can_reach_location("7-A Normal Exit", player) or
+            # roulette blocks
+            state.can_reach_location("3-1 Normal Exit", player) or
+            state.can_reach_location("4-4 Normal Exit", player) or
+            state.can_reach_location("6-2 Normal Exit", player)
+        ) or (
+            # mushroom houses
+            ((not cfg.item_storage or state.has("Item Storage", player)) and state.has("Star Coin", player, 5) and (
+                state.can_reach_location("2-2 Normal Exit", player) or
+                state.can_reach_location("4-2 Normal Exit", player) or
+                state.can_reach_location("5-Tower Normal Exit", player) or
+                state.can_reach_location("7-2 Normal Exit", player)
+                )
+            )
+        )
     )
 
 def worldReq(world: World, multiworld: MultiWorld, state: CollectionState, player: int, wrld: str):

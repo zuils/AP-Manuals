@@ -2117,7 +2117,7 @@
             "category": [
                 "World 7"
             ],
-            "requires": []
+            "requires": "|Progressive Powerup:1|"
         },
         {
             "name": "7-3 Normal Exit",

@@ -37,6 +37,7 @@ class GameConfig:
     world_unlocks: int
     starting_world: int
     mini_mushroom: int
+    item_storage: bool
     tower_keys: bool
     goal: int
     boss_tokens_req: int
@@ -51,6 +52,7 @@ def initialize_config(world: World, multiworld: MultiWorld, player: int) -> Game
     world_unlocks = get_option_value(multiworld, player, "world_unlocks")
     starting_world = get_option_value(multiworld, player, "starting_world")
     mini_mushroom = get_option_value(multiworld, player, "mini_mushroom")
+    item_storage = is_option_enabled(multiworld, player, "item_storage")
     tower_keys = is_option_enabled(multiworld, player, "tower_keys")
     goal = get_option_value(multiworld, player, "Goal")
     boss_tokens_req = get_option_value(multiworld, player, "boss_tokens_req")
@@ -66,6 +68,7 @@ def initialize_config(world: World, multiworld: MultiWorld, player: int) -> Game
         world_unlocks=world_unlocks,
         starting_world=starting_world,
         mini_mushroom=mini_mushroom,
+        item_storage=item_storage,
         tower_keys=tower_keys,
         goal=goal,
         boss_tokens_req=boss_tokens_req,
@@ -153,6 +156,9 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
         itemNamesToRemove.append("Mini Mushroom")
     else:
         itemNamesToRemove.append("Progressive Powerup")
+        
+    if not cfg.item_storage:
+        itemNamesToRemove.append("Reserve Slot")
     
     if not cfg.tower_keys:
         itemNamesToRemove.extend(f"World {i} Tower Key" for i in range(1, 9))
