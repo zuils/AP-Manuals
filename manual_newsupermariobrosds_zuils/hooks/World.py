@@ -195,12 +195,6 @@ def before_set_rules(world: World, multiworld: MultiWorld, player: int):
 def after_set_rules(world: World, multiworld: MultiWorld, player: int):
     cfg = initialize_config(world, multiworld, player)
     # Use this hook to modify the access rules for a given location
-
-    def Example_Rule(state: CollectionState) -> bool:
-        # Calculated rules take a CollectionState object and return a boolean
-        # True if the player can access the location
-        # CollectionState is defined in BaseClasses
-        return True
     
     def bowser(state: CollectionState):
         if cfg.goal == 0:

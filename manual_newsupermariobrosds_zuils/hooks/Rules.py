@@ -10,8 +10,11 @@ def miniMushroom(world: World, multiworld: MultiWorld, state: CollectionState, p
         (
             # mini mushrooms
             state.can_reach_location("1-4 Normal Exit", player) or
-            # check if we can reach 2-castle secret exit causes a runtime error
-            state.can_reach_location("2-Castle Star Coin 3", player) or
+            # checking 2-castle location causes runtime error so we manually check
+            (
+                state.can_reach_location("2-6 Normal Exit", player) and
+                (cfg.world_unlocks == 0 or state.has("World 2 Castle Key", player))
+            ) or
             state.can_reach_location("3-A Normal Exit", player) or
             state.can_reach_location("7-A Normal Exit", player) or
             # roulette blocks
