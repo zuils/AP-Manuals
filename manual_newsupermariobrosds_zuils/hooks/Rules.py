@@ -34,7 +34,7 @@ def miniMushroom(world: World, multiworld: MultiWorld, state: CollectionState, p
     )
 
 def worldReq(world: World, multiworld: MultiWorld, state: CollectionState, player: int, wrld: str):
-    cfg = initialize_config(world, multiworld, player)
+    cfg: GameConfig = initialize_config(world, multiworld, player)
     is_unlock_mode = cfg.world_unlocks != 0
 
     requirements = {

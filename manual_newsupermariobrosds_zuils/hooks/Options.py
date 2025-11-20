@@ -28,7 +28,7 @@ from typing import Type, Any
 
 class EnableWorldCannons(DefaultOnToggle):
     """
-    Should world cannons be in the pool
+    When enabled, world cannons will be in the item pool
     """
     display_name = "Enable World Cannons"
     
@@ -79,12 +79,12 @@ class TowerKeys(Toggle):
 
 class Goal(Choice):
     """
-    normal: Get world 1-8 keys, or obtain the Bowser's Castle Key
+    bowser: Get world 1-8 keys, or obtain the Bowser's Castle Key
     boss_tokens: Boss Tokens are placed at each boss, obtain x amount of boss tokens and access world 8 to beat bowser
     star_coins: Get access to world 8 and obtain x amount of star coins to beat bowser
     """
     display_name = "Goal"
-    option_normal = 0
+    option_bowser = 0
     option_boss_tokens = 1
     option_star_coins = 2
     default = 0

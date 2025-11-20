@@ -93,7 +93,7 @@ def before_create_regions(world: World, multiworld: MultiWorld, player: int):
 
 # Called after regions and locations are created, in case you want to see or modify that information. Victory location is included.
 def after_create_regions(world: World, multiworld: MultiWorld, player: int):
-    cfg = initialize_config(world, multiworld, player)
+    cfg: GameConfig = initialize_config(world, multiworld, player)
     # Use this hook to remove locations from the world
     locationNamesToRemove: list[str] = [] # List of location names
 
@@ -116,14 +116,14 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
 #       will create 5 items that are the "useful trap" class
 # {"Item Name": {ItemClassification.useful: 5}} <- You can also use the classification directly
 def before_create_items_all(item_config: dict[str, int|dict], world: World, multiworld: MultiWorld, player: int) -> dict[str, int|dict]:
-    cfg = initialize_config(world, multiworld, player)
+    cfg: GameConfig = initialize_config(world, multiworld, player)
     item_config["Star Coin"] = {ItemClassification.progression_deprioritized_skip_balancing: cfg.star_coins_amount}
     
     return item_config
 
 # The item pool before starting items are processed, in case you want to see the raw item pool at that stage
 def before_create_items_starting(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
-    cfg = initialize_config(world, multiworld, player)
+    cfg: GameConfig = initialize_config(world, multiworld, player)
     if cfg.world_unlocks == 0:
         start = next(i for i in item_pool if i.name == f"World {cfg.starting_world} Key")
         multiworld.push_precollected(start)
@@ -133,7 +133,7 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
 
 # The item pool after starting items are processed but before filler is added, in case you want to see the raw item pool at that stage
 def before_create_items_filler(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
-    cfg = initialize_config(world, multiworld, player)
+    cfg: GameConfig = initialize_config(world, multiworld, player)
     
     # Use this hook to remove items from the item pool
     itemNamesToRemove: list[str] = [] # List of item names
@@ -193,7 +193,7 @@ def before_set_rules(world: World, multiworld: MultiWorld, player: int):
 
 # Called after rules for accessing regions and locations are created, in case you want to see or modify that information.
 def after_set_rules(world: World, multiworld: MultiWorld, player: int):
-    cfg = initialize_config(world, multiworld, player)
+    cfg: GameConfig = initialize_config(world, multiworld, player)
     # Use this hook to modify the access rules for a given location
     
     def bowser(state: CollectionState):
