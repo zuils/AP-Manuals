@@ -1,0 +1,71 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.regions.schema.json",
+    "World 1 (1)": {
+        "connects_to": [],
+        "requires": "{worldReq(1)}"
+    },
+    "World 1 (2)": {
+        "connects_to": [],
+        "requires": "{worldReq(1)} and {OptOne(|World 1 Tower Key|)}"
+    },
+    "World 2 (1)": {
+        "connects_to": [],
+        "requires": "{worldReq(2)}"
+    },
+    "World 2 (2)": {
+        "connects_to": [],
+        "requires": "{worldReq(2)} and {OptOne(|World 2 Tower Key|)}"
+    },
+    "World 3 (1)": {
+        "connects_to": [],
+        "requires": "{worldReq(3)}"
+    },
+    "World 3 (2)": {
+        "connects_to": [],
+        "requires": "{worldReq(3)} and {OptOne(|World 3 Tower Key|)}"
+    },
+    "World 4 (1)": {
+        "connects_to": [],
+        "requires": "{worldReq(4)}"
+    },
+    "World 4 (2)": {
+        "connects_to": [],
+        "requires": "{worldReq(4)} and {OptOne(|World 4 Tower Key|)}"
+    },
+    "World 5 (1)": {
+        "connects_to": [],
+        "requires": "{worldReq(5)}"
+    },
+    "World 5 (2)": {
+        "connects_to": [],
+        "requires": "{worldReq(5)} and {OptOne(|World 5 Tower Key|)}"
+    },
+    "World 6 (1)": {
+        "connects_to": [],
+        "requires": "{worldReq(6)}"
+    },
+    "World 6 (2)": {
+        "connects_to": [],
+        "requires": "{worldReq(6)} and {OptOne(|World 6 Tower Key|)}"
+    },
+    "World 7 (1)": {
+        "connects_to": [],
+        "requires": "{worldReq(7)}"
+    },
+    "World 7 (2)": {
+        "connects_to": [],
+        "requires": "{worldReq(7)} and {OptOne(|World 7 Tower Key|)}"
+    },
+    "World 8 (1)": {
+        "connects_to": [],
+        "requires": "{worldReq(8)}"
+    },
+    "World 8 (2)": {
+        "connects_to": [],
+        "requires": "{worldReq(8)} and {OptOne(|World 8 Tower Key|)}"
+    },
+    "World 9": {
+        "connects_to": [],
+        "requires": "{worldReq(9)}"
+    }
+}
