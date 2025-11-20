@@ -28,7 +28,7 @@ from typing import Type, Any
 
 class EnableWorldCannons(DefaultOnToggle):
     """
-    When enabled, world cannons will be enabled
+    When enabled, world cannons will be in the item pool
     """
     display_name = "Enable World Cannons"
     
