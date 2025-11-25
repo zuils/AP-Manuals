@@ -119,7 +119,7 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
 # {"Item Name": {ItemClassification.useful: 5}} <- You can also use the classification directly
 def before_create_items_all(item_config: dict[str, int|dict], world: World, multiworld: MultiWorld, player: int) -> dict[str, int|dict]:
     cfg: GameConfig = initialize_config(world, multiworld, player)
-    item_config["Star Coin"] = {ItemClassification.progression_deprioritized_skip_balancing if cfg.goal in any(1, 3) else "filler": cfg.star_coins_amount}
+    item_config["Star Coin"] = {ItemClassification.progression_deprioritized_skip_balancing if cfg.goal in (1, 3) else "filler": cfg.star_coins_amount}
     
     return item_config
 
@@ -211,7 +211,7 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
             return state.has("Victory", player)
         
         
-    location = world.get_location("Victory", player)
+    location = multiworld.get_location("Victory", player)
     location.access_rule = goal
 
     ## Common functions:
