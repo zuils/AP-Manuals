@@ -75,7 +75,7 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
         and not is_option_enabled(multiworld, player, "fumosanity"))
 
     if no_options:
-        for _ in range(4):
+        for _ in range(5):
             available_cats = []
 
             for cat in ["Characters", "Vehicles", "Tracks"]:
