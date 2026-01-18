@@ -1,0 +1,3357 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
+    "data": [
+        {
+            "name": "Perfect Chaos",
+            "category": [
+                "Victory"
+            ],
+            "victory": true,
+            "requires": "|Chaos Emerald:7|"
+        },
+        {
+            "name": "Reimu - Race Complete",
+            "category": [
+                "Reimu",
+                "Race Complete"
+            ],
+            "region": "Reimu"
+        },
+        {
+            "name": "Marisa - Race Complete",
+            "category": [
+                "Marisa",
+                "Race Complete"
+            ],
+            "region": "Marisa"
+        },
+        {
+            "name": "Rumia - Race Complete",
+            "category": [
+                "Rumia",
+                "Race Complete"
+            ],
+            "region": "Rumia"
+        },
+        {
+            "name": "Cirno - Race Complete",
+            "category": [
+                "Cirno",
+                "Race Complete"
+            ],
+            "region": "Cirno"
+        },
+        {
+            "name": "Meiling - Race Complete",
+            "category": [
+                "Meiling",
+                "Race Complete"
+            ],
+            "region": "Meiling"
+        },
+        {
+            "name": "Sakuya - Race Complete",
+            "category": [
+                "Sakuya",
+                "Race Complete"
+            ],
+            "region": "Sakuya"
+        },
+        {
+            "name": "Remilia - Race Complete",
+            "category": [
+                "Remilia",
+                "Race Complete"
+            ],
+            "region": "Remilia"
+        },
+        {
+            "name": "Alice - Race Complete",
+            "category": [
+                "Alice",
+                "Race Complete"
+            ],
+            "region": "Alice"
+        },
+        {
+            "name": "Youmu - Race Complete",
+            "category": [
+                "Youmu",
+                "Race Complete"
+            ],
+            "region": "Youmu"
+        },
+        {
+            "name": "Yuyuko - Race Complete",
+            "category": [
+                "Yuyuko",
+                "Race Complete"
+            ],
+            "region": "Yuyuko"
+        },
+        {
+            "name": "Suika - Race Complete",
+            "category": [
+                "Suika",
+                "Race Complete"
+            ],
+            "region": "Suika"
+        },
+        {
+            "name": "Tewi - Race Complete",
+            "category": [
+                "Tewi",
+                "Race Complete"
+            ],
+            "region": "Tewi"
+        },
+        {
+            "name": "Reisen - Race Complete",
+            "category": [
+                "Reisen",
+                "Race Complete"
+            ],
+            "region": "Reisen"
+        },
+        {
+            "name": "Yuuka - Race Complete",
+            "category": [
+                "Yuuka",
+                "Race Complete"
+            ],
+            "region": "Yuuka"
+        },
+        {
+            "name": "Momiji - Race Complete",
+            "category": [
+                "Momiji",
+                "Race Complete"
+            ],
+            "region": "Momiji"
+        },
+        {
+            "name": "Sanae - Race Complete",
+            "category": [
+                "Sanae",
+                "Race Complete"
+            ],
+            "region": "Sanae"
+        },
+        {
+            "name": "Satori - Race Complete",
+            "category": [
+                "Satori",
+                "Race Complete"
+            ],
+            "region": "Satori"
+        },
+        {
+            "name": "Nazrin - Race Complete",
+            "category": [
+                "Nazrin",
+                "Race Complete"
+            ],
+            "region": "Nazrin"
+        },
+        {
+            "name": "Byakuren - Race Complete",
+            "category": [
+                "Byakuren",
+                "Race Complete"
+            ],
+            "region": "Byakuren"
+        },
+        {
+            "name": "Yoshika - Race Complete",
+            "category": [
+                "Yoshika",
+                "Race Complete"
+            ],
+            "region": "Yoshika"
+        },
+        {
+            "name": "Miko - Race Complete",
+            "category": [
+                "Miko",
+                "Race Complete"
+            ],
+            "region": "Miko"
+        },
+        {
+            "name": "Son Biten - Race Complete",
+            "category": [
+                "Son Biten",
+                "Race Complete"
+            ],
+            "region": "Son Biten"
+        },
+        {
+            "name": "Kart - Race Complete",
+            "category": [
+                "Kart",
+                "Race Complete"
+            ],
+            "region": "Kart"
+        },
+        {
+            "name": "Bike - Race Complete",
+            "category": [
+                "Bike",
+                "Race Complete"
+            ],
+            "region": "Bike"
+        },
+        {
+            "name": "Skate - Race Complete",
+            "category": [
+                "Skate",
+                "Race Complete"
+            ],
+            "region": "Skate"
+        },
+        {
+            "name": "Cleaner Bot - Race Complete",
+            "category": [
+                "Cleaner Bot",
+                "Race Complete"
+            ],
+            "region": "Cleaner Bot"
+        },
+        {
+            "name": "Shopping Cart - Race Complete",
+            "category": [
+                "Shopping Cart",
+                "Race Complete"
+            ],
+            "region": "Shopping Cart"
+        },
+        {
+            "name": "Broom - Race Complete",
+            "category": [
+                "Broom",
+                "Race Complete"
+            ],
+            "region": "Broom"
+        },
+        {
+            "name": "Genji - Race Complete",
+            "category": [
+                "Genji",
+                "Race Complete"
+            ],
+            "region": "Genji"
+        },
+        {
+            "name": "Forest of Magic - Race Complete",
+            "category": [
+                "Forest of Magic",
+                "Race Complete"
+            ],
+            "region": "Forest of Magic"
+        },
+        {
+            "name": "Youkai Mountain - Race Complete",
+            "category": [
+                "Youkai Mountain",
+                "Race Complete"
+            ],
+            "region": "Youkai Mountain"
+        },
+        {
+            "name": "Purplefield - Race Complete",
+            "category": [
+                "Purplefield",
+                "Race Complete"
+            ],
+            "region": "Purplefield"
+        },
+        {
+            "name": "Winter Misty Lake - Race Complete",
+            "category": [
+                "Winter Misty Lake",
+                "Race Complete"
+            ],
+            "region": "Winter Misty Lake"
+        },
+        {
+            "name": "Reimu - Top 3",
+            "category": [
+                "Reimu",
+                "Character Top 3"
+            ],
+            "region": "Reimu"
+        },
+        {
+            "name": "Marisa - Top 3",
+            "category": [
+                "Marisa",
+                "Character Top 3"
+            ],
+            "region": "Marisa"
+        },
+        {
+            "name": "Rumia - Top 3",
+            "category": [
+                "Rumia",
+                "Character Top 3"
+            ],
+            "region": "Rumia"
+        },
+        {
+            "name": "Cirno - Top 3",
+            "category": [
+                "Cirno",
+                "Character Top 3"
+            ],
+            "region": "Cirno"
+        },
+        {
+            "name": "Meiling - Top 3",
+            "category": [
+                "Meiling",
+                "Character Top 3"
+            ],
+            "region": "Meiling"
+        },
+        {
+            "name": "Sakuya - Top 3",
+            "category": [
+                "Sakuya",
+                "Character Top 3"
+            ],
+            "region": "Sakuya"
+        },
+        {
+            "name": "Remilia - Top 3",
+            "category": [
+                "Remilia",
+                "Character Top 3"
+            ],
+            "region": "Remilia"
+        },
+        {
+            "name": "Alice - Top 3",
+            "category": [
+                "Alice",
+                "Character Top 3"
+            ],
+            "region": "Alice"
+        },
+        {
+            "name": "Youmu - Top 3",
+            "category": [
+                "Youmu",
+                "Character Top 3"
+            ],
+            "region": "Youmu"
+        },
+        {
+            "name": "Yuyuko - Top 3",
+            "category": [
+                "Yuyuko",
+                "Character Top 3"
+            ],
+            "region": "Yuyuko"
+        },
+        {
+            "name": "Suika - Top 3",
+            "category": [
+                "Suika",
+                "Character Top 3"
+            ],
+            "region": "Suika"
+        },
+        {
+            "name": "Tewi - Top 3",
+            "category": [
+                "Tewi",
+                "Character Top 3"
+            ],
+            "region": "Tewi"
+        },
+        {
+            "name": "Reisen - Top 3",
+            "category": [
+                "Reisen",
+                "Character Top 3"
+            ],
+            "region": "Reisen"
+        },
+        {
+            "name": "Yuuka - Top 3",
+            "category": [
+                "Yuuka",
+                "Character Top 3"
+            ],
+            "region": "Yuuka"
+        },
+        {
+            "name": "Momiji - Top 3",
+            "category": [
+                "Momiji",
+                "Character Top 3"
+            ],
+            "region": "Momiji"
+        },
+        {
+            "name": "Sanae - Top 3",
+            "category": [
+                "Sanae",
+                "Character Top 3"
+            ],
+            "region": "Sanae"
+        },
+        {
+            "name": "Satori - Top 3",
+            "category": [
+                "Satori",
+                "Character Top 3"
+            ],
+            "region": "Satori"
+        },
+        {
+            "name": "Nazrin - Top 3",
+            "category": [
+                "Nazrin",
+                "Character Top 3"
+            ],
+            "region": "Nazrin"
+        },
+        {
+            "name": "Byakuren - Top 3",
+            "category": [
+                "Byakuren",
+                "Character Top 3"
+            ],
+            "region": "Byakuren"
+        },
+        {
+            "name": "Yoshika - Top 3",
+            "category": [
+                "Yoshika",
+                "Character Top 3"
+            ],
+            "region": "Yoshika"
+        },
+        {
+            "name": "Miko - Top 3",
+            "category": [
+                "Miko",
+                "Character Top 3"
+            ],
+            "region": "Miko"
+        },
+        {
+            "name": "Son Biten - Top 3",
+            "category": [
+                "Son Biten",
+                "Character Top 3"
+            ],
+            "region": "Son Biten"
+        },
+        {
+            "name": "Kart - Top 3",
+            "category": [
+                "Kart",
+                "Vehicle Top 3"
+            ],
+            "region": "Kart"
+        },
+        {
+            "name": "Bike - Top 3",
+            "category": [
+                "Bike",
+                "Vehicle Top 3"
+            ],
+            "region": "Bike"
+        },
+        {
+            "name": "Skate - Top 3",
+            "category": [
+                "Skate",
+                "Vehicle Top 3"
+            ],
+            "region": "Skate"
+        },
+        {
+            "name": "Cleaner Bot - Top 3",
+            "category": [
+                "Cleaner Bot",
+                "Vehicle Top 3"
+            ],
+            "region": "Cleaner Bot"
+        },
+        {
+            "name": "Shopping Cart - Top 3",
+            "category": [
+                "Shopping Cart",
+                "Vehicle Top 3"
+            ],
+            "region": "Shopping Cart"
+        },
+        {
+            "name": "Broom - Top 3",
+            "category": [
+                "Broom",
+                "Vehicle Top 3"
+            ],
+            "region": "Broom"
+        },
+        {
+            "name": "Genji - Top 3",
+            "category": [
+                "Genji",
+                "Vehicle Top 3"
+            ],
+            "region": "Genji"
+        },
+        {
+            "name": "Forest of Magic - Top 3",
+            "category": [
+                "Forest of Magic",
+                "Track Top 3"
+            ],
+            "region": "Forest of Magic"
+        },
+        {
+            "name": "Youkai Mountain - Top 3",
+            "category": [
+                "Youkai Mountain",
+                "Track Top 3"
+            ],
+            "region": "Youkai Mountain"
+        },
+        {
+            "name": "Purplefield - Top 3",
+            "category": [
+                "Purplefield",
+                "Track Top 3"
+            ],
+            "region": "Purplefield"
+        },
+        {
+            "name": "Winter Misty Lake - Top 3",
+            "category": [
+                "Winter Misty Lake",
+                "Track Top 3"
+            ],
+            "region": "Winter Misty Lake"
+        },
+        {
+            "name": "Reimu - First",
+            "category": [
+                "Reimu",
+                "Character First"
+            ],
+            "region": "Reimu"
+        },
+        {
+            "name": "Marisa - First",
+            "category": [
+                "Marisa",
+                "Character First"
+            ],
+            "region": "Marisa"
+        },
+        {
+            "name": "Rumia - First",
+            "category": [
+                "Rumia",
+                "Character First"
+            ],
+            "region": "Rumia"
+        },
+        {
+            "name": "Cirno - First",
+            "category": [
+                "Cirno",
+                "Character First"
+            ],
+            "region": "Cirno"
+        },
+        {
+            "name": "Meiling - First",
+            "category": [
+                "Meiling",
+                "Character First"
+            ],
+            "region": "Meiling"
+        },
+        {
+            "name": "Sakuya - First",
+            "category": [
+                "Sakuya",
+                "Character First"
+            ],
+            "region": "Sakuya"
+        },
+        {
+            "name": "Remilia - First",
+            "category": [
+                "Remilia",
+                "Character First"
+            ],
+            "region": "Remilia"
+        },
+        {
+            "name": "Alice - First",
+            "category": [
+                "Alice",
+                "Character First"
+            ],
+            "region": "Alice"
+        },
+        {
+            "name": "Youmu - First",
+            "category": [
+                "Youmu",
+                "Character First"
+            ],
+            "region": "Youmu"
+        },
+        {
+            "name": "Yuyuko - First",
+            "category": [
+                "Yuyuko",
+                "Character First"
+            ],
+            "region": "Yuyuko"
+        },
+        {
+            "name": "Suika - First",
+            "category": [
+                "Suika",
+                "Character First"
+            ],
+            "region": "Suika"
+        },
+        {
+            "name": "Tewi - First",
+            "category": [
+                "Tewi",
+                "Character First"
+            ],
+            "region": "Tewi"
+        },
+        {
+            "name": "Reisen - First",
+            "category": [
+                "Reisen",
+                "Character First"
+            ],
+            "region": "Reisen"
+        },
+        {
+            "name": "Yuuka - First",
+            "category": [
+                "Yuuka",
+                "Character First"
+            ],
+            "region": "Yuuka"
+        },
+        {
+            "name": "Momiji - First",
+            "category": [
+                "Momiji",
+                "Character First"
+            ],
+            "region": "Momiji"
+        },
+        {
+            "name": "Sanae - First",
+            "category": [
+                "Sanae",
+                "Character First"
+            ],
+            "region": "Sanae"
+        },
+        {
+            "name": "Satori - First",
+            "category": [
+                "Satori",
+                "Character First"
+            ],
+            "region": "Satori"
+        },
+        {
+            "name": "Nazrin - First",
+            "category": [
+                "Nazrin",
+                "Character First"
+            ],
+            "region": "Nazrin"
+        },
+        {
+            "name": "Byakuren - First",
+            "category": [
+                "Byakuren",
+                "Character First"
+            ],
+            "region": "Byakuren"
+        },
+        {
+            "name": "Yoshika - First",
+            "category": [
+                "Yoshika",
+                "Character First"
+            ],
+            "region": "Yoshika"
+        },
+        {
+            "name": "Miko - First",
+            "category": [
+                "Miko",
+                "Character First"
+            ],
+            "region": "Miko"
+        },
+        {
+            "name": "Son Biten - First",
+            "category": [
+                "Son Biten",
+                "Character First"
+            ],
+            "region": "Son Biten"
+        },
+        {
+            "name": "Kart - First",
+            "category": [
+                "Kart",
+                "Vehicle First"
+            ],
+            "region": "Kart"
+        },
+        {
+            "name": "Bike - First",
+            "category": [
+                "Bike",
+                "Vehicle First"
+            ],
+            "region": "Bike"
+        },
+        {
+            "name": "Skate - First",
+            "category": [
+                "Skate",
+                "Vehicle First"
+            ],
+            "region": "Skate"
+        },
+        {
+            "name": "Cleaner Bot - First",
+            "category": [
+                "Cleaner Bot",
+                "Vehicle First"
+            ],
+            "region": "Cleaner Bot"
+        },
+        {
+            "name": "Shopping Cart - First",
+            "category": [
+                "Shopping Cart",
+                "Vehicle First"
+            ],
+            "region": "Shopping Cart"
+        },
+        {
+            "name": "Broom - First",
+            "category": [
+                "Broom",
+                "Vehicle First"
+            ],
+            "region": "Broom"
+        },
+        {
+            "name": "Genji - First",
+            "category": [
+                "Genji",
+                "Vehicle First"
+            ],
+            "region": "Genji"
+        },
+        {
+            "name": "Forest of Magic - First",
+            "category": [
+                "Forest of Magic",
+                "Track First"
+            ],
+            "region": "Forest of Magic"
+        },
+        {
+            "name": "Youkai Mountain - First",
+            "category": [
+                "Youkai Mountain",
+                "Track First"
+            ],
+            "region": "Youkai Mountain"
+        },
+        {
+            "name": "Purplefield - First",
+            "category": [
+                "Purplefield",
+                "Track First"
+            ],
+            "region": "Purplefield"
+        },
+        {
+            "name": "Winter Misty Lake - First",
+            "category": [
+                "Winter Misty Lake",
+                "Track First"
+            ],
+            "region": "Winter Misty Lake"
+        },
+        {
+            "name": "Reimu - Forest of Magic (Race Complete)",
+            "category": [
+                "Reimu",
+                "Forest of Magic",
+                "Fumosanity"
+            ],
+            "requires": "|Reimu| and |Forest of Magic|"
+        },
+        {
+            "name": "Reimu - Youkai Mountain (Race Complete)",
+            "category": [
+                "Reimu",
+                "Youkai Mountain",
+                "Fumosanity"
+            ],
+            "requires": "|Reimu| and |Youkai Mountain|"
+        },
+        {
+            "name": "Reimu - Purplefield (Race Complete)",
+            "category": [
+                "Reimu",
+                "Purplefield",
+                "Fumosanity"
+            ],
+            "requires": "|Reimu| and |Purplefield|"
+        },
+        {
+            "name": "Reimu - Winter Misty Lake (Race Complete)",
+            "category": [
+                "Reimu",
+                "Winter Misty Lake",
+                "Fumosanity"
+            ],
+            "requires": "|Reimu| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Marisa - Forest of Magic (Race Complete)",
+            "category": [
+                "Marisa",
+                "Forest of Magic",
+                "Fumosanity"
+            ],
+            "requires": "|Marisa| and |Forest of Magic|"
+        },
+        {
+            "name": "Marisa - Youkai Mountain (Race Complete)",
+            "category": [
+                "Marisa",
+                "Youkai Mountain",
+                "Fumosanity"
+            ],
+            "requires": "|Marisa| and |Youkai Mountain|"
+        },
+        {
+            "name": "Marisa - Purplefield (Race Complete)",
+            "category": [
+                "Marisa",
+                "Purplefield",
+                "Fumosanity"
+            ],
+            "requires": "|Marisa| and |Purplefield|"
+        },
+        {
+            "name": "Marisa - Winter Misty Lake (Race Complete)",
+            "category": [
+                "Marisa",
+                "Winter Misty Lake",
+                "Fumosanity"
+            ],
+            "requires": "|Marisa| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Rumia - Forest of Magic (Race Complete)",
+            "category": [
+                "Rumia",
+                "Forest of Magic",
+                "Fumosanity"
+            ],
+            "requires": "|Rumia| and |Forest of Magic|"
+        },
+        {
+            "name": "Rumia - Youkai Mountain (Race Complete)",
+            "category": [
+                "Rumia",
+                "Youkai Mountain",
+                "Fumosanity"
+            ],
+            "requires": "|Rumia| and |Youkai Mountain|"
+        },
+        {
+            "name": "Rumia - Purplefield (Race Complete)",
+            "category": [
+                "Rumia",
+                "Purplefield",
+                "Fumosanity"
+            ],
+            "requires": "|Rumia| and |Purplefield|"
+        },
+        {
+            "name": "Rumia - Winter Misty Lake (Race Complete)",
+            "category": [
+                "Rumia",
+                "Winter Misty Lake",
+                "Fumosanity"
+            ],
+            "requires": "|Rumia| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Cirno - Forest of Magic (Race Complete)",
+            "category": [
+                "Cirno",
+                "Forest of Magic",
+                "Fumosanity"
+            ],
+            "requires": "|Cirno| and |Forest of Magic|"
+        },
+        {
+            "name": "Cirno - Youkai Mountain (Race Complete)",
+            "category": [
+                "Cirno",
+                "Youkai Mountain",
+                "Fumosanity"
+            ],
+            "requires": "|Cirno| and |Youkai Mountain|"
+        },
+        {
+            "name": "Cirno - Purplefield (Race Complete)",
+            "category": [
+                "Cirno",
+                "Purplefield",
+                "Fumosanity"
+            ],
+            "requires": "|Cirno| and |Purplefield|"
+        },
+        {
+            "name": "Cirno - Winter Misty Lake (Race Complete)",
+            "category": [
+                "Cirno",
+                "Winter Misty Lake",
+                "Fumosanity"
+            ],
+            "requires": "|Cirno| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Meiling - Forest of Magic (Race Complete)",
+            "category": [
+                "Meiling",
+                "Forest of Magic",
+                "Fumosanity"
+            ],
+            "requires": "|Meiling| and |Forest of Magic|"
+        },
+        {
+            "name": "Meiling - Youkai Mountain (Race Complete)",
+            "category": [
+                "Meiling",
+                "Youkai Mountain",
+                "Fumosanity"
+            ],
+            "requires": "|Meiling| and |Youkai Mountain|"
+        },
+        {
+            "name": "Meiling - Purplefield (Race Complete)",
+            "category": [
+                "Meiling",
+                "Purplefield",
+                "Fumosanity"
+            ],
+            "requires": "|Meiling| and |Purplefield|"
+        },
+        {
+            "name": "Meiling - Winter Misty Lake (Race Complete)",
+            "category": [
+                "Meiling",
+                "Winter Misty Lake",
+                "Fumosanity"
+            ],
+            "requires": "|Meiling| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Sakuya - Forest of Magic (Race Complete)",
+            "category": [
+                "Sakuya",
+                "Forest of Magic",
+                "Fumosanity"
+            ],
+            "requires": "|Sakuya| and |Forest of Magic|"
+        },
+        {
+            "name": "Sakuya - Youkai Mountain (Race Complete)",
+            "category": [
+                "Sakuya",
+                "Youkai Mountain",
+                "Fumosanity"
+            ],
+            "requires": "|Sakuya| and |Youkai Mountain|"
+        },
+        {
+            "name": "Sakuya - Purplefield (Race Complete)",
+            "category": [
+                "Sakuya",
+                "Purplefield",
+                "Fumosanity"
+            ],
+            "requires": "|Sakuya| and |Purplefield|"
+        },
+        {
+            "name": "Sakuya - Winter Misty Lake (Race Complete)",
+            "category": [
+                "Sakuya",
+                "Winter Misty Lake",
+                "Fumosanity"
+            ],
+            "requires": "|Sakuya| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Remilia - Forest of Magic (Race Complete)",
+            "category": [
+                "Remilia",
+                "Forest of Magic",
+                "Fumosanity"
+            ],
+            "requires": "|Remilia| and |Forest of Magic|"
+        },
+        {
+            "name": "Remilia - Youkai Mountain (Race Complete)",
+            "category": [
+                "Remilia",
+                "Youkai Mountain",
+                "Fumosanity"
+            ],
+            "requires": "|Remilia| and |Youkai Mountain|"
+        },
+        {
+            "name": "Remilia - Purplefield (Race Complete)",
+            "category": [
+                "Remilia",
+                "Purplefield",
+                "Fumosanity"
+            ],
+            "requires": "|Remilia| and |Purplefield|"
+        },
+        {
+            "name": "Remilia - Winter Misty Lake (Race Complete)",
+            "category": [
+                "Remilia",
+                "Winter Misty Lake",
+                "Fumosanity"
+            ],
+            "requires": "|Remilia| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Alice - Forest of Magic (Race Complete)",
+            "category": [
+                "Alice",
+                "Forest of Magic",
+                "Fumosanity"
+            ],
+            "requires": "|Alice| and |Forest of Magic|"
+        },
+        {
+            "name": "Alice - Youkai Mountain (Race Complete)",
+            "category": [
+                "Alice",
+                "Youkai Mountain",
+                "Fumosanity"
+            ],
+            "requires": "|Alice| and |Youkai Mountain|"
+        },
+        {
+            "name": "Alice - Purplefield (Race Complete)",
+            "category": [
+                "Alice",
+                "Purplefield",
+                "Fumosanity"
+            ],
+            "requires": "|Alice| and |Purplefield|"
+        },
+        {
+            "name": "Alice - Winter Misty Lake (Race Complete)",
+            "category": [
+                "Alice",
+                "Winter Misty Lake",
+                "Fumosanity"
+            ],
+            "requires": "|Alice| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Youmu - Forest of Magic (Race Complete)",
+            "category": [
+                "Youmu",
+                "Forest of Magic",
+                "Fumosanity"
+            ],
+            "requires": "|Youmu| and |Forest of Magic|"
+        },
+        {
+            "name": "Youmu - Youkai Mountain (Race Complete)",
+            "category": [
+                "Youmu",
+                "Youkai Mountain",
+                "Fumosanity"
+            ],
+            "requires": "|Youmu| and |Youkai Mountain|"
+        },
+        {
+            "name": "Youmu - Purplefield (Race Complete)",
+            "category": [
+                "Youmu",
+                "Purplefield",
+                "Fumosanity"
+            ],
+            "requires": "|Youmu| and |Purplefield|"
+        },
+        {
+            "name": "Youmu - Winter Misty Lake (Race Complete)",
+            "category": [
+                "Youmu",
+                "Winter Misty Lake",
+                "Fumosanity"
+            ],
+            "requires": "|Youmu| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Yuyuko - Forest of Magic (Race Complete)",
+            "category": [
+                "Yuyuko",
+                "Forest of Magic",
+                "Fumosanity"
+            ],
+            "requires": "|Yuyuko| and |Forest of Magic|"
+        },
+        {
+            "name": "Yuyuko - Youkai Mountain (Race Complete)",
+            "category": [
+                "Yuyuko",
+                "Youkai Mountain",
+                "Fumosanity"
+            ],
+            "requires": "|Yuyuko| and |Youkai Mountain|"
+        },
+        {
+            "name": "Yuyuko - Purplefield (Race Complete)",
+            "category": [
+                "Yuyuko",
+                "Purplefield",
+                "Fumosanity"
+            ],
+            "requires": "|Yuyuko| and |Purplefield|"
+        },
+        {
+            "name": "Yuyuko - Winter Misty Lake (Race Complete)",
+            "category": [
+                "Yuyuko",
+                "Winter Misty Lake",
+                "Fumosanity"
+            ],
+            "requires": "|Yuyuko| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Suika - Forest of Magic (Race Complete)",
+            "category": [
+                "Suika",
+                "Forest of Magic",
+                "Fumosanity"
+            ],
+            "requires": "|Suika| and |Forest of Magic|"
+        },
+        {
+            "name": "Suika - Youkai Mountain (Race Complete)",
+            "category": [
+                "Suika",
+                "Youkai Mountain",
+                "Fumosanity"
+            ],
+            "requires": "|Suika| and |Youkai Mountain|"
+        },
+        {
+            "name": "Suika - Purplefield (Race Complete)",
+            "category": [
+                "Suika",
+                "Purplefield",
+                "Fumosanity"
+            ],
+            "requires": "|Suika| and |Purplefield|"
+        },
+        {
+            "name": "Suika - Winter Misty Lake (Race Complete)",
+            "category": [
+                "Suika",
+                "Winter Misty Lake",
+                "Fumosanity"
+            ],
+            "requires": "|Suika| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Tewi - Forest of Magic (Race Complete)",
+            "category": [
+                "Tewi",
+                "Forest of Magic",
+                "Fumosanity"
+            ],
+            "requires": "|Tewi| and |Forest of Magic|"
+        },
+        {
+            "name": "Tewi - Youkai Mountain (Race Complete)",
+            "category": [
+                "Tewi",
+                "Youkai Mountain",
+                "Fumosanity"
+            ],
+            "requires": "|Tewi| and |Youkai Mountain|"
+        },
+        {
+            "name": "Tewi - Purplefield (Race Complete)",
+            "category": [
+                "Tewi",
+                "Purplefield",
+                "Fumosanity"
+            ],
+            "requires": "|Tewi| and |Purplefield|"
+        },
+        {
+            "name": "Tewi - Winter Misty Lake (Race Complete)",
+            "category": [
+                "Tewi",
+                "Winter Misty Lake",
+                "Fumosanity"
+            ],
+            "requires": "|Tewi| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Reisen - Forest of Magic (Race Complete)",
+            "category": [
+                "Reisen",
+                "Forest of Magic",
+                "Fumosanity"
+            ],
+            "requires": "|Reisen| and |Forest of Magic|"
+        },
+        {
+            "name": "Reisen - Youkai Mountain (Race Complete)",
+            "category": [
+                "Reisen",
+                "Youkai Mountain",
+                "Fumosanity"
+            ],
+            "requires": "|Reisen| and |Youkai Mountain|"
+        },
+        {
+            "name": "Reisen - Purplefield (Race Complete)",
+            "category": [
+                "Reisen",
+                "Purplefield",
+                "Fumosanity"
+            ],
+            "requires": "|Reisen| and |Purplefield|"
+        },
+        {
+            "name": "Reisen - Winter Misty Lake (Race Complete)",
+            "category": [
+                "Reisen",
+                "Winter Misty Lake",
+                "Fumosanity"
+            ],
+            "requires": "|Reisen| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Yuuka - Forest of Magic (Race Complete)",
+            "category": [
+                "Yuuka",
+                "Forest of Magic",
+                "Fumosanity"
+            ],
+            "requires": "|Yuuka| and |Forest of Magic|"
+        },
+        {
+            "name": "Yuuka - Youkai Mountain (Race Complete)",
+            "category": [
+                "Yuuka",
+                "Youkai Mountain",
+                "Fumosanity"
+            ],
+            "requires": "|Yuuka| and |Youkai Mountain|"
+        },
+        {
+            "name": "Yuuka - Purplefield (Race Complete)",
+            "category": [
+                "Yuuka",
+                "Purplefield",
+                "Fumosanity"
+            ],
+            "requires": "|Yuuka| and |Purplefield|"
+        },
+        {
+            "name": "Yuuka - Winter Misty Lake (Race Complete)",
+            "category": [
+                "Yuuka",
+                "Winter Misty Lake",
+                "Fumosanity"
+            ],
+            "requires": "|Yuuka| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Momiji - Forest of Magic (Race Complete)",
+            "category": [
+                "Momiji",
+                "Forest of Magic",
+                "Fumosanity"
+            ],
+            "requires": "|Momiji| and |Forest of Magic|"
+        },
+        {
+            "name": "Momiji - Youkai Mountain (Race Complete)",
+            "category": [
+                "Momiji",
+                "Youkai Mountain",
+                "Fumosanity"
+            ],
+            "requires": "|Momiji| and |Youkai Mountain|"
+        },
+        {
+            "name": "Momiji - Purplefield (Race Complete)",
+            "category": [
+                "Momiji",
+                "Purplefield",
+                "Fumosanity"
+            ],
+            "requires": "|Momiji| and |Purplefield|"
+        },
+        {
+            "name": "Momiji - Winter Misty Lake (Race Complete)",
+            "category": [
+                "Momiji",
+                "Winter Misty Lake",
+                "Fumosanity"
+            ],
+            "requires": "|Momiji| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Sanae - Forest of Magic (Race Complete)",
+            "category": [
+                "Sanae",
+                "Forest of Magic",
+                "Fumosanity"
+            ],
+            "requires": "|Sanae| and |Forest of Magic|"
+        },
+        {
+            "name": "Sanae - Youkai Mountain (Race Complete)",
+            "category": [
+                "Sanae",
+                "Youkai Mountain",
+                "Fumosanity"
+            ],
+            "requires": "|Sanae| and |Youkai Mountain|"
+        },
+        {
+            "name": "Sanae - Purplefield (Race Complete)",
+            "category": [
+                "Sanae",
+                "Purplefield",
+                "Fumosanity"
+            ],
+            "requires": "|Sanae| and |Purplefield|"
+        },
+        {
+            "name": "Sanae - Winter Misty Lake (Race Complete)",
+            "category": [
+                "Sanae",
+                "Winter Misty Lake",
+                "Fumosanity"
+            ],
+            "requires": "|Sanae| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Satori - Forest of Magic (Race Complete)",
+            "category": [
+                "Satori",
+                "Forest of Magic",
+                "Fumosanity"
+            ],
+            "requires": "|Satori| and |Forest of Magic|"
+        },
+        {
+            "name": "Satori - Youkai Mountain (Race Complete)",
+            "category": [
+                "Satori",
+                "Youkai Mountain",
+                "Fumosanity"
+            ],
+            "requires": "|Satori| and |Youkai Mountain|"
+        },
+        {
+            "name": "Satori - Purplefield (Race Complete)",
+            "category": [
+                "Satori",
+                "Purplefield",
+                "Fumosanity"
+            ],
+            "requires": "|Satori| and |Purplefield|"
+        },
+        {
+            "name": "Satori - Winter Misty Lake (Race Complete)",
+            "category": [
+                "Satori",
+                "Winter Misty Lake",
+                "Fumosanity"
+            ],
+            "requires": "|Satori| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Nazrin - Forest of Magic (Race Complete)",
+            "category": [
+                "Nazrin",
+                "Forest of Magic",
+                "Fumosanity"
+            ],
+            "requires": "|Nazrin| and |Forest of Magic|"
+        },
+        {
+            "name": "Nazrin - Youkai Mountain (Race Complete)",
+            "category": [
+                "Nazrin",
+                "Youkai Mountain",
+                "Fumosanity"
+            ],
+            "requires": "|Nazrin| and |Youkai Mountain|"
+        },
+        {
+            "name": "Nazrin - Purplefield (Race Complete)",
+            "category": [
+                "Nazrin",
+                "Purplefield",
+                "Fumosanity"
+            ],
+            "requires": "|Nazrin| and |Purplefield|"
+        },
+        {
+            "name": "Nazrin - Winter Misty Lake (Race Complete)",
+            "category": [
+                "Nazrin",
+                "Winter Misty Lake",
+                "Fumosanity"
+            ],
+            "requires": "|Nazrin| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Byakuren - Forest of Magic (Race Complete)",
+            "category": [
+                "Byakuren",
+                "Forest of Magic",
+                "Fumosanity"
+            ],
+            "requires": "|Byakuren| and |Forest of Magic|"
+        },
+        {
+            "name": "Byakuren - Youkai Mountain (Race Complete)",
+            "category": [
+                "Byakuren",
+                "Youkai Mountain",
+                "Fumosanity"
+            ],
+            "requires": "|Byakuren| and |Youkai Mountain|"
+        },
+        {
+            "name": "Byakuren - Purplefield (Race Complete)",
+            "category": [
+                "Byakuren",
+                "Purplefield",
+                "Fumosanity"
+            ],
+            "requires": "|Byakuren| and |Purplefield|"
+        },
+        {
+            "name": "Byakuren - Winter Misty Lake (Race Complete)",
+            "category": [
+                "Byakuren",
+                "Winter Misty Lake",
+                "Fumosanity"
+            ],
+            "requires": "|Byakuren| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Yoshika - Forest of Magic (Race Complete)",
+            "category": [
+                "Yoshika",
+                "Forest of Magic",
+                "Fumosanity"
+            ],
+            "requires": "|Yoshika| and |Forest of Magic|"
+        },
+        {
+            "name": "Yoshika - Youkai Mountain (Race Complete)",
+            "category": [
+                "Yoshika",
+                "Youkai Mountain",
+                "Fumosanity"
+            ],
+            "requires": "|Yoshika| and |Youkai Mountain|"
+        },
+        {
+            "name": "Yoshika - Purplefield (Race Complete)",
+            "category": [
+                "Yoshika",
+                "Purplefield",
+                "Fumosanity"
+            ],
+            "requires": "|Yoshika| and |Purplefield|"
+        },
+        {
+            "name": "Yoshika - Winter Misty Lake (Race Complete)",
+            "category": [
+                "Yoshika",
+                "Winter Misty Lake",
+                "Fumosanity"
+            ],
+            "requires": "|Yoshika| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Miko - Forest of Magic (Race Complete)",
+            "category": [
+                "Miko",
+                "Forest of Magic",
+                "Fumosanity"
+            ],
+            "requires": "|Miko| and |Forest of Magic|"
+        },
+        {
+            "name": "Miko - Youkai Mountain (Race Complete)",
+            "category": [
+                "Miko",
+                "Youkai Mountain",
+                "Fumosanity"
+            ],
+            "requires": "|Miko| and |Youkai Mountain|"
+        },
+        {
+            "name": "Miko - Purplefield (Race Complete)",
+            "category": [
+                "Miko",
+                "Purplefield",
+                "Fumosanity"
+            ],
+            "requires": "|Miko| and |Purplefield|"
+        },
+        {
+            "name": "Miko - Winter Misty Lake (Race Complete)",
+            "category": [
+                "Miko",
+                "Winter Misty Lake",
+                "Fumosanity"
+            ],
+            "requires": "|Miko| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Son Biten - Forest of Magic (Race Complete)",
+            "category": [
+                "Son Biten",
+                "Forest of Magic",
+                "Fumosanity"
+            ],
+            "requires": "|Son Biten| and |Forest of Magic|"
+        },
+        {
+            "name": "Son Biten - Youkai Mountain (Race Complete)",
+            "category": [
+                "Son Biten",
+                "Youkai Mountain",
+                "Fumosanity"
+            ],
+            "requires": "|Son Biten| and |Youkai Mountain|"
+        },
+        {
+            "name": "Son Biten - Purplefield (Race Complete)",
+            "category": [
+                "Son Biten",
+                "Purplefield",
+                "Fumosanity"
+            ],
+            "requires": "|Son Biten| and |Purplefield|"
+        },
+        {
+            "name": "Son Biten - Winter Misty Lake (Race Complete)",
+            "category": [
+                "Son Biten",
+                "Winter Misty Lake",
+                "Fumosanity"
+            ],
+            "requires": "|Son Biten| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Reimu - Forest of Magic (Top 3)",
+            "category": [
+                "Reimu",
+                "Forest of Magic",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Reimu| and |Forest of Magic|"
+        },
+        {
+            "name": "Reimu - Youkai Mountain (Top 3)",
+            "category": [
+                "Reimu",
+                "Youkai Mountain",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Reimu| and |Youkai Mountain|"
+        },
+        {
+            "name": "Reimu - Purplefield (Top 3)",
+            "category": [
+                "Reimu",
+                "Purplefield",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Reimu| and |Purplefield|"
+        },
+        {
+            "name": "Reimu - Winter Misty Lake (Top 3)",
+            "category": [
+                "Reimu",
+                "Winter Misty Lake",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Reimu| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Marisa - Forest of Magic (Top 3)",
+            "category": [
+                "Marisa",
+                "Forest of Magic",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Marisa| and |Forest of Magic|"
+        },
+        {
+            "name": "Marisa - Youkai Mountain (Top 3)",
+            "category": [
+                "Marisa",
+                "Youkai Mountain",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Marisa| and |Youkai Mountain|"
+        },
+        {
+            "name": "Marisa - Purplefield (Top 3)",
+            "category": [
+                "Marisa",
+                "Purplefield",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Marisa| and |Purplefield|"
+        },
+        {
+            "name": "Marisa - Winter Misty Lake (Top 3)",
+            "category": [
+                "Marisa",
+                "Winter Misty Lake",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Marisa| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Rumia - Forest of Magic (Top 3)",
+            "category": [
+                "Rumia",
+                "Forest of Magic",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Rumia| and |Forest of Magic|"
+        },
+        {
+            "name": "Rumia - Youkai Mountain (Top 3)",
+            "category": [
+                "Rumia",
+                "Youkai Mountain",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Rumia| and |Youkai Mountain|"
+        },
+        {
+            "name": "Rumia - Purplefield (Top 3)",
+            "category": [
+                "Rumia",
+                "Purplefield",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Rumia| and |Purplefield|"
+        },
+        {
+            "name": "Rumia - Winter Misty Lake (Top 3)",
+            "category": [
+                "Rumia",
+                "Winter Misty Lake",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Rumia| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Cirno - Forest of Magic (Top 3)",
+            "category": [
+                "Cirno",
+                "Forest of Magic",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Cirno| and |Forest of Magic|"
+        },
+        {
+            "name": "Cirno - Youkai Mountain (Top 3)",
+            "category": [
+                "Cirno",
+                "Youkai Mountain",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Cirno| and |Youkai Mountain|"
+        },
+        {
+            "name": "Cirno - Purplefield (Top 3)",
+            "category": [
+                "Cirno",
+                "Purplefield",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Cirno| and |Purplefield|"
+        },
+        {
+            "name": "Cirno - Winter Misty Lake (Top 3)",
+            "category": [
+                "Cirno",
+                "Winter Misty Lake",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Cirno| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Meiling - Forest of Magic (Top 3)",
+            "category": [
+                "Meiling",
+                "Forest of Magic",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Meiling| and |Forest of Magic|"
+        },
+        {
+            "name": "Meiling - Youkai Mountain (Top 3)",
+            "category": [
+                "Meiling",
+                "Youkai Mountain",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Meiling| and |Youkai Mountain|"
+        },
+        {
+            "name": "Meiling - Purplefield (Top 3)",
+            "category": [
+                "Meiling",
+                "Purplefield",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Meiling| and |Purplefield|"
+        },
+        {
+            "name": "Meiling - Winter Misty Lake (Top 3)",
+            "category": [
+                "Meiling",
+                "Winter Misty Lake",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Meiling| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Sakuya - Forest of Magic (Top 3)",
+            "category": [
+                "Sakuya",
+                "Forest of Magic",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Sakuya| and |Forest of Magic|"
+        },
+        {
+            "name": "Sakuya - Youkai Mountain (Top 3)",
+            "category": [
+                "Sakuya",
+                "Youkai Mountain",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Sakuya| and |Youkai Mountain|"
+        },
+        {
+            "name": "Sakuya - Purplefield (Top 3)",
+            "category": [
+                "Sakuya",
+                "Purplefield",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Sakuya| and |Purplefield|"
+        },
+        {
+            "name": "Sakuya - Winter Misty Lake (Top 3)",
+            "category": [
+                "Sakuya",
+                "Winter Misty Lake",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Sakuya| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Remilia - Forest of Magic (Top 3)",
+            "category": [
+                "Remilia",
+                "Forest of Magic",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Remilia| and |Forest of Magic|"
+        },
+        {
+            "name": "Remilia - Youkai Mountain (Top 3)",
+            "category": [
+                "Remilia",
+                "Youkai Mountain",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Remilia| and |Youkai Mountain|"
+        },
+        {
+            "name": "Remilia - Purplefield (Top 3)",
+            "category": [
+                "Remilia",
+                "Purplefield",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Remilia| and |Purplefield|"
+        },
+        {
+            "name": "Remilia - Winter Misty Lake (Top 3)",
+            "category": [
+                "Remilia",
+                "Winter Misty Lake",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Remilia| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Alice - Forest of Magic (Top 3)",
+            "category": [
+                "Alice",
+                "Forest of Magic",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Alice| and |Forest of Magic|"
+        },
+        {
+            "name": "Alice - Youkai Mountain (Top 3)",
+            "category": [
+                "Alice",
+                "Youkai Mountain",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Alice| and |Youkai Mountain|"
+        },
+        {
+            "name": "Alice - Purplefield (Top 3)",
+            "category": [
+                "Alice",
+                "Purplefield",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Alice| and |Purplefield|"
+        },
+        {
+            "name": "Alice - Winter Misty Lake (Top 3)",
+            "category": [
+                "Alice",
+                "Winter Misty Lake",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Alice| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Youmu - Forest of Magic (Top 3)",
+            "category": [
+                "Youmu",
+                "Forest of Magic",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Youmu| and |Forest of Magic|"
+        },
+        {
+            "name": "Youmu - Youkai Mountain (Top 3)",
+            "category": [
+                "Youmu",
+                "Youkai Mountain",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Youmu| and |Youkai Mountain|"
+        },
+        {
+            "name": "Youmu - Purplefield (Top 3)",
+            "category": [
+                "Youmu",
+                "Purplefield",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Youmu| and |Purplefield|"
+        },
+        {
+            "name": "Youmu - Winter Misty Lake (Top 3)",
+            "category": [
+                "Youmu",
+                "Winter Misty Lake",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Youmu| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Yuyuko - Forest of Magic (Top 3)",
+            "category": [
+                "Yuyuko",
+                "Forest of Magic",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Yuyuko| and |Forest of Magic|"
+        },
+        {
+            "name": "Yuyuko - Youkai Mountain (Top 3)",
+            "category": [
+                "Yuyuko",
+                "Youkai Mountain",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Yuyuko| and |Youkai Mountain|"
+        },
+        {
+            "name": "Yuyuko - Purplefield (Top 3)",
+            "category": [
+                "Yuyuko",
+                "Purplefield",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Yuyuko| and |Purplefield|"
+        },
+        {
+            "name": "Yuyuko - Winter Misty Lake (Top 3)",
+            "category": [
+                "Yuyuko",
+                "Winter Misty Lake",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Yuyuko| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Suika - Forest of Magic (Top 3)",
+            "category": [
+                "Suika",
+                "Forest of Magic",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Suika| and |Forest of Magic|"
+        },
+        {
+            "name": "Suika - Youkai Mountain (Top 3)",
+            "category": [
+                "Suika",
+                "Youkai Mountain",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Suika| and |Youkai Mountain|"
+        },
+        {
+            "name": "Suika - Purplefield (Top 3)",
+            "category": [
+                "Suika",
+                "Purplefield",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Suika| and |Purplefield|"
+        },
+        {
+            "name": "Suika - Winter Misty Lake (Top 3)",
+            "category": [
+                "Suika",
+                "Winter Misty Lake",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Suika| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Tewi - Forest of Magic (Top 3)",
+            "category": [
+                "Tewi",
+                "Forest of Magic",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Tewi| and |Forest of Magic|"
+        },
+        {
+            "name": "Tewi - Youkai Mountain (Top 3)",
+            "category": [
+                "Tewi",
+                "Youkai Mountain",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Tewi| and |Youkai Mountain|"
+        },
+        {
+            "name": "Tewi - Purplefield (Top 3)",
+            "category": [
+                "Tewi",
+                "Purplefield",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Tewi| and |Purplefield|"
+        },
+        {
+            "name": "Tewi - Winter Misty Lake (Top 3)",
+            "category": [
+                "Tewi",
+                "Winter Misty Lake",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Tewi| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Reisen - Forest of Magic (Top 3)",
+            "category": [
+                "Reisen",
+                "Forest of Magic",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Reisen| and |Forest of Magic|"
+        },
+        {
+            "name": "Reisen - Youkai Mountain (Top 3)",
+            "category": [
+                "Reisen",
+                "Youkai Mountain",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Reisen| and |Youkai Mountain|"
+        },
+        {
+            "name": "Reisen - Purplefield (Top 3)",
+            "category": [
+                "Reisen",
+                "Purplefield",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Reisen| and |Purplefield|"
+        },
+        {
+            "name": "Reisen - Winter Misty Lake (Top 3)",
+            "category": [
+                "Reisen",
+                "Winter Misty Lake",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Reisen| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Yuuka - Forest of Magic (Top 3)",
+            "category": [
+                "Yuuka",
+                "Forest of Magic",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Yuuka| and |Forest of Magic|"
+        },
+        {
+            "name": "Yuuka - Youkai Mountain (Top 3)",
+            "category": [
+                "Yuuka",
+                "Youkai Mountain",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Yuuka| and |Youkai Mountain|"
+        },
+        {
+            "name": "Yuuka - Purplefield (Top 3)",
+            "category": [
+                "Yuuka",
+                "Purplefield",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Yuuka| and |Purplefield|"
+        },
+        {
+            "name": "Yuuka - Winter Misty Lake (Top 3)",
+            "category": [
+                "Yuuka",
+                "Winter Misty Lake",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Yuuka| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Momiji - Forest of Magic (Top 3)",
+            "category": [
+                "Momiji",
+                "Forest of Magic",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Momiji| and |Forest of Magic|"
+        },
+        {
+            "name": "Momiji - Youkai Mountain (Top 3)",
+            "category": [
+                "Momiji",
+                "Youkai Mountain",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Momiji| and |Youkai Mountain|"
+        },
+        {
+            "name": "Momiji - Purplefield (Top 3)",
+            "category": [
+                "Momiji",
+                "Purplefield",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Momiji| and |Purplefield|"
+        },
+        {
+            "name": "Momiji - Winter Misty Lake (Top 3)",
+            "category": [
+                "Momiji",
+                "Winter Misty Lake",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Momiji| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Sanae - Forest of Magic (Top 3)",
+            "category": [
+                "Sanae",
+                "Forest of Magic",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Sanae| and |Forest of Magic|"
+        },
+        {
+            "name": "Sanae - Youkai Mountain (Top 3)",
+            "category": [
+                "Sanae",
+                "Youkai Mountain",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Sanae| and |Youkai Mountain|"
+        },
+        {
+            "name": "Sanae - Purplefield (Top 3)",
+            "category": [
+                "Sanae",
+                "Purplefield",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Sanae| and |Purplefield|"
+        },
+        {
+            "name": "Sanae - Winter Misty Lake (Top 3)",
+            "category": [
+                "Sanae",
+                "Winter Misty Lake",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Sanae| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Satori - Forest of Magic (Top 3)",
+            "category": [
+                "Satori",
+                "Forest of Magic",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Satori| and |Forest of Magic|"
+        },
+        {
+            "name": "Satori - Youkai Mountain (Top 3)",
+            "category": [
+                "Satori",
+                "Youkai Mountain",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Satori| and |Youkai Mountain|"
+        },
+        {
+            "name": "Satori - Purplefield (Top 3)",
+            "category": [
+                "Satori",
+                "Purplefield",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Satori| and |Purplefield|"
+        },
+        {
+            "name": "Satori - Winter Misty Lake (Top 3)",
+            "category": [
+                "Satori",
+                "Winter Misty Lake",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Satori| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Nazrin - Forest of Magic (Top 3)",
+            "category": [
+                "Nazrin",
+                "Forest of Magic",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Nazrin| and |Forest of Magic|"
+        },
+        {
+            "name": "Nazrin - Youkai Mountain (Top 3)",
+            "category": [
+                "Nazrin",
+                "Youkai Mountain",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Nazrin| and |Youkai Mountain|"
+        },
+        {
+            "name": "Nazrin - Purplefield (Top 3)",
+            "category": [
+                "Nazrin",
+                "Purplefield",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Nazrin| and |Purplefield|"
+        },
+        {
+            "name": "Nazrin - Winter Misty Lake (Top 3)",
+            "category": [
+                "Nazrin",
+                "Winter Misty Lake",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Nazrin| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Byakuren - Forest of Magic (Top 3)",
+            "category": [
+                "Byakuren",
+                "Forest of Magic",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Byakuren| and |Forest of Magic|"
+        },
+        {
+            "name": "Byakuren - Youkai Mountain (Top 3)",
+            "category": [
+                "Byakuren",
+                "Youkai Mountain",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Byakuren| and |Youkai Mountain|"
+        },
+        {
+            "name": "Byakuren - Purplefield (Top 3)",
+            "category": [
+                "Byakuren",
+                "Purplefield",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Byakuren| and |Purplefield|"
+        },
+        {
+            "name": "Byakuren - Winter Misty Lake (Top 3)",
+            "category": [
+                "Byakuren",
+                "Winter Misty Lake",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Byakuren| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Yoshika - Forest of Magic (Top 3)",
+            "category": [
+                "Yoshika",
+                "Forest of Magic",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Yoshika| and |Forest of Magic|"
+        },
+        {
+            "name": "Yoshika - Youkai Mountain (Top 3)",
+            "category": [
+                "Yoshika",
+                "Youkai Mountain",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Yoshika| and |Youkai Mountain|"
+        },
+        {
+            "name": "Yoshika - Purplefield (Top 3)",
+            "category": [
+                "Yoshika",
+                "Purplefield",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Yoshika| and |Purplefield|"
+        },
+        {
+            "name": "Yoshika - Winter Misty Lake (Top 3)",
+            "category": [
+                "Yoshika",
+                "Winter Misty Lake",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Yoshika| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Miko - Forest of Magic (Top 3)",
+            "category": [
+                "Miko",
+                "Forest of Magic",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Miko| and |Forest of Magic|"
+        },
+        {
+            "name": "Miko - Youkai Mountain (Top 3)",
+            "category": [
+                "Miko",
+                "Youkai Mountain",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Miko| and |Youkai Mountain|"
+        },
+        {
+            "name": "Miko - Purplefield (Top 3)",
+            "category": [
+                "Miko",
+                "Purplefield",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Miko| and |Purplefield|"
+        },
+        {
+            "name": "Miko - Winter Misty Lake (Top 3)",
+            "category": [
+                "Miko",
+                "Winter Misty Lake",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Miko| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Son Biten - Forest of Magic (Top 3)",
+            "category": [
+                "Son Biten",
+                "Forest of Magic",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Son Biten| and |Forest of Magic|"
+        },
+        {
+            "name": "Son Biten - Youkai Mountain (Top 3)",
+            "category": [
+                "Son Biten",
+                "Youkai Mountain",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Son Biten| and |Youkai Mountain|"
+        },
+        {
+            "name": "Son Biten - Purplefield (Top 3)",
+            "category": [
+                "Son Biten",
+                "Purplefield",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Son Biten| and |Purplefield|"
+        },
+        {
+            "name": "Son Biten - Winter Misty Lake (Top 3)",
+            "category": [
+                "Son Biten",
+                "Winter Misty Lake",
+                "Track Top 3",
+                "Fumosanity"
+            ],
+            "requires": "|Son Biten| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Reimu - Forest of Magic (First)",
+            "category": [
+                "Reimu",
+                "Forest of Magic",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Reimu| and |Forest of Magic|"
+        },
+        {
+            "name": "Reimu - Youkai Mountain (First)",
+            "category": [
+                "Reimu",
+                "Youkai Mountain",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Reimu| and |Youkai Mountain|"
+        },
+        {
+            "name": "Reimu - Purplefield (First)",
+            "category": [
+                "Reimu",
+                "Purplefield",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Reimu| and |Purplefield|"
+        },
+        {
+            "name": "Reimu - Winter Misty Lake (First)",
+            "category": [
+                "Reimu",
+                "Winter Misty Lake",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Reimu| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Marisa - Forest of Magic (First)",
+            "category": [
+                "Marisa",
+                "Forest of Magic",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Marisa| and |Forest of Magic|"
+        },
+        {
+            "name": "Marisa - Youkai Mountain (First)",
+            "category": [
+                "Marisa",
+                "Youkai Mountain",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Marisa| and |Youkai Mountain|"
+        },
+        {
+            "name": "Marisa - Purplefield (First)",
+            "category": [
+                "Marisa",
+                "Purplefield",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Marisa| and |Purplefield|"
+        },
+        {
+            "name": "Marisa - Winter Misty Lake (First)",
+            "category": [
+                "Marisa",
+                "Winter Misty Lake",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Marisa| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Rumia - Forest of Magic (First)",
+            "category": [
+                "Rumia",
+                "Forest of Magic",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Rumia| and |Forest of Magic|"
+        },
+        {
+            "name": "Rumia - Youkai Mountain (First)",
+            "category": [
+                "Rumia",
+                "Youkai Mountain",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Rumia| and |Youkai Mountain|"
+        },
+        {
+            "name": "Rumia - Purplefield (First)",
+            "category": [
+                "Rumia",
+                "Purplefield",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Rumia| and |Purplefield|"
+        },
+        {
+            "name": "Rumia - Winter Misty Lake (First)",
+            "category": [
+                "Rumia",
+                "Winter Misty Lake",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Rumia| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Cirno - Forest of Magic (First)",
+            "category": [
+                "Cirno",
+                "Forest of Magic",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Cirno| and |Forest of Magic|"
+        },
+        {
+            "name": "Cirno - Youkai Mountain (First)",
+            "category": [
+                "Cirno",
+                "Youkai Mountain",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Cirno| and |Youkai Mountain|"
+        },
+        {
+            "name": "Cirno - Purplefield (First)",
+            "category": [
+                "Cirno",
+                "Purplefield",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Cirno| and |Purplefield|"
+        },
+        {
+            "name": "Cirno - Winter Misty Lake (First)",
+            "category": [
+                "Cirno",
+                "Winter Misty Lake",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Cirno| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Meiling - Forest of Magic (First)",
+            "category": [
+                "Meiling",
+                "Forest of Magic",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Meiling| and |Forest of Magic|"
+        },
+        {
+            "name": "Meiling - Youkai Mountain (First)",
+            "category": [
+                "Meiling",
+                "Youkai Mountain",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Meiling| and |Youkai Mountain|"
+        },
+        {
+            "name": "Meiling - Purplefield (First)",
+            "category": [
+                "Meiling",
+                "Purplefield",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Meiling| and |Purplefield|"
+        },
+        {
+            "name": "Meiling - Winter Misty Lake (First)",
+            "category": [
+                "Meiling",
+                "Winter Misty Lake",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Meiling| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Sakuya - Forest of Magic (First)",
+            "category": [
+                "Sakuya",
+                "Forest of Magic",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Sakuya| and |Forest of Magic|"
+        },
+        {
+            "name": "Sakuya - Youkai Mountain (First)",
+            "category": [
+                "Sakuya",
+                "Youkai Mountain",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Sakuya| and |Youkai Mountain|"
+        },
+        {
+            "name": "Sakuya - Purplefield (First)",
+            "category": [
+                "Sakuya",
+                "Purplefield",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Sakuya| and |Purplefield|"
+        },
+        {
+            "name": "Sakuya - Winter Misty Lake (First)",
+            "category": [
+                "Sakuya",
+                "Winter Misty Lake",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Sakuya| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Remilia - Forest of Magic (First)",
+            "category": [
+                "Remilia",
+                "Forest of Magic",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Remilia| and |Forest of Magic|"
+        },
+        {
+            "name": "Remilia - Youkai Mountain (First)",
+            "category": [
+                "Remilia",
+                "Youkai Mountain",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Remilia| and |Youkai Mountain|"
+        },
+        {
+            "name": "Remilia - Purplefield (First)",
+            "category": [
+                "Remilia",
+                "Purplefield",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Remilia| and |Purplefield|"
+        },
+        {
+            "name": "Remilia - Winter Misty Lake (First)",
+            "category": [
+                "Remilia",
+                "Winter Misty Lake",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Remilia| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Alice - Forest of Magic (First)",
+            "category": [
+                "Alice",
+                "Forest of Magic",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Alice| and |Forest of Magic|"
+        },
+        {
+            "name": "Alice - Youkai Mountain (First)",
+            "category": [
+                "Alice",
+                "Youkai Mountain",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Alice| and |Youkai Mountain|"
+        },
+        {
+            "name": "Alice - Purplefield (First)",
+            "category": [
+                "Alice",
+                "Purplefield",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Alice| and |Purplefield|"
+        },
+        {
+            "name": "Alice - Winter Misty Lake (First)",
+            "category": [
+                "Alice",
+                "Winter Misty Lake",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Alice| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Youmu - Forest of Magic (First)",
+            "category": [
+                "Youmu",
+                "Forest of Magic",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Youmu| and |Forest of Magic|"
+        },
+        {
+            "name": "Youmu - Youkai Mountain (First)",
+            "category": [
+                "Youmu",
+                "Youkai Mountain",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Youmu| and |Youkai Mountain|"
+        },
+        {
+            "name": "Youmu - Purplefield (First)",
+            "category": [
+                "Youmu",
+                "Purplefield",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Youmu| and |Purplefield|"
+        },
+        {
+            "name": "Youmu - Winter Misty Lake (First)",
+            "category": [
+                "Youmu",
+                "Winter Misty Lake",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Youmu| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Yuyuko - Forest of Magic (First)",
+            "category": [
+                "Yuyuko",
+                "Forest of Magic",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Yuyuko| and |Forest of Magic|"
+        },
+        {
+            "name": "Yuyuko - Youkai Mountain (First)",
+            "category": [
+                "Yuyuko",
+                "Youkai Mountain",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Yuyuko| and |Youkai Mountain|"
+        },
+        {
+            "name": "Yuyuko - Purplefield (First)",
+            "category": [
+                "Yuyuko",
+                "Purplefield",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Yuyuko| and |Purplefield|"
+        },
+        {
+            "name": "Yuyuko - Winter Misty Lake (First)",
+            "category": [
+                "Yuyuko",
+                "Winter Misty Lake",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Yuyuko| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Suika - Forest of Magic (First)",
+            "category": [
+                "Suika",
+                "Forest of Magic",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Suika| and |Forest of Magic|"
+        },
+        {
+            "name": "Suika - Youkai Mountain (First)",
+            "category": [
+                "Suika",
+                "Youkai Mountain",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Suika| and |Youkai Mountain|"
+        },
+        {
+            "name": "Suika - Purplefield (First)",
+            "category": [
+                "Suika",
+                "Purplefield",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Suika| and |Purplefield|"
+        },
+        {
+            "name": "Suika - Winter Misty Lake (First)",
+            "category": [
+                "Suika",
+                "Winter Misty Lake",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Suika| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Tewi - Forest of Magic (First)",
+            "category": [
+                "Tewi",
+                "Forest of Magic",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Tewi| and |Forest of Magic|"
+        },
+        {
+            "name": "Tewi - Youkai Mountain (First)",
+            "category": [
+                "Tewi",
+                "Youkai Mountain",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Tewi| and |Youkai Mountain|"
+        },
+        {
+            "name": "Tewi - Purplefield (First)",
+            "category": [
+                "Tewi",
+                "Purplefield",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Tewi| and |Purplefield|"
+        },
+        {
+            "name": "Tewi - Winter Misty Lake (First)",
+            "category": [
+                "Tewi",
+                "Winter Misty Lake",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Tewi| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Reisen - Forest of Magic (First)",
+            "category": [
+                "Reisen",
+                "Forest of Magic",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Reisen| and |Forest of Magic|"
+        },
+        {
+            "name": "Reisen - Youkai Mountain (First)",
+            "category": [
+                "Reisen",
+                "Youkai Mountain",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Reisen| and |Youkai Mountain|"
+        },
+        {
+            "name": "Reisen - Purplefield (First)",
+            "category": [
+                "Reisen",
+                "Purplefield",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Reisen| and |Purplefield|"
+        },
+        {
+            "name": "Reisen - Winter Misty Lake (First)",
+            "category": [
+                "Reisen",
+                "Winter Misty Lake",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Reisen| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Yuuka - Forest of Magic (First)",
+            "category": [
+                "Yuuka",
+                "Forest of Magic",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Yuuka| and |Forest of Magic|"
+        },
+        {
+            "name": "Yuuka - Youkai Mountain (First)",
+            "category": [
+                "Yuuka",
+                "Youkai Mountain",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Yuuka| and |Youkai Mountain|"
+        },
+        {
+            "name": "Yuuka - Purplefield (First)",
+            "category": [
+                "Yuuka",
+                "Purplefield",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Yuuka| and |Purplefield|"
+        },
+        {
+            "name": "Yuuka - Winter Misty Lake (First)",
+            "category": [
+                "Yuuka",
+                "Winter Misty Lake",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Yuuka| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Momiji - Forest of Magic (First)",
+            "category": [
+                "Momiji",
+                "Forest of Magic",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Momiji| and |Forest of Magic|"
+        },
+        {
+            "name": "Momiji - Youkai Mountain (First)",
+            "category": [
+                "Momiji",
+                "Youkai Mountain",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Momiji| and |Youkai Mountain|"
+        },
+        {
+            "name": "Momiji - Purplefield (First)",
+            "category": [
+                "Momiji",
+                "Purplefield",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Momiji| and |Purplefield|"
+        },
+        {
+            "name": "Momiji - Winter Misty Lake (First)",
+            "category": [
+                "Momiji",
+                "Winter Misty Lake",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Momiji| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Sanae - Forest of Magic (First)",
+            "category": [
+                "Sanae",
+                "Forest of Magic",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Sanae| and |Forest of Magic|"
+        },
+        {
+            "name": "Sanae - Youkai Mountain (First)",
+            "category": [
+                "Sanae",
+                "Youkai Mountain",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Sanae| and |Youkai Mountain|"
+        },
+        {
+            "name": "Sanae - Purplefield (First)",
+            "category": [
+                "Sanae",
+                "Purplefield",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Sanae| and |Purplefield|"
+        },
+        {
+            "name": "Sanae - Winter Misty Lake (First)",
+            "category": [
+                "Sanae",
+                "Winter Misty Lake",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Sanae| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Satori - Forest of Magic (First)",
+            "category": [
+                "Satori",
+                "Forest of Magic",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Satori| and |Forest of Magic|"
+        },
+        {
+            "name": "Satori - Youkai Mountain (First)",
+            "category": [
+                "Satori",
+                "Youkai Mountain",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Satori| and |Youkai Mountain|"
+        },
+        {
+            "name": "Satori - Purplefield (First)",
+            "category": [
+                "Satori",
+                "Purplefield",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Satori| and |Purplefield|"
+        },
+        {
+            "name": "Satori - Winter Misty Lake (First)",
+            "category": [
+                "Satori",
+                "Winter Misty Lake",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Satori| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Nazrin - Forest of Magic (First)",
+            "category": [
+                "Nazrin",
+                "Forest of Magic",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Nazrin| and |Forest of Magic|"
+        },
+        {
+            "name": "Nazrin - Youkai Mountain (First)",
+            "category": [
+                "Nazrin",
+                "Youkai Mountain",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Nazrin| and |Youkai Mountain|"
+        },
+        {
+            "name": "Nazrin - Purplefield (First)",
+            "category": [
+                "Nazrin",
+                "Purplefield",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Nazrin| and |Purplefield|"
+        },
+        {
+            "name": "Nazrin - Winter Misty Lake (First)",
+            "category": [
+                "Nazrin",
+                "Winter Misty Lake",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Nazrin| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Byakuren - Forest of Magic (First)",
+            "category": [
+                "Byakuren",
+                "Forest of Magic",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Byakuren| and |Forest of Magic|"
+        },
+        {
+            "name": "Byakuren - Youkai Mountain (First)",
+            "category": [
+                "Byakuren",
+                "Youkai Mountain",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Byakuren| and |Youkai Mountain|"
+        },
+        {
+            "name": "Byakuren - Purplefield (First)",
+            "category": [
+                "Byakuren",
+                "Purplefield",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Byakuren| and |Purplefield|"
+        },
+        {
+            "name": "Byakuren - Winter Misty Lake (First)",
+            "category": [
+                "Byakuren",
+                "Winter Misty Lake",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Byakuren| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Yoshika - Forest of Magic (First)",
+            "category": [
+                "Yoshika",
+                "Forest of Magic",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Yoshika| and |Forest of Magic|"
+        },
+        {
+            "name": "Yoshika - Youkai Mountain (First)",
+            "category": [
+                "Yoshika",
+                "Youkai Mountain",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Yoshika| and |Youkai Mountain|"
+        },
+        {
+            "name": "Yoshika - Purplefield (First)",
+            "category": [
+                "Yoshika",
+                "Purplefield",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Yoshika| and |Purplefield|"
+        },
+        {
+            "name": "Yoshika - Winter Misty Lake (First)",
+            "category": [
+                "Yoshika",
+                "Winter Misty Lake",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Yoshika| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Miko - Forest of Magic (First)",
+            "category": [
+                "Miko",
+                "Forest of Magic",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Miko| and |Forest of Magic|"
+        },
+        {
+            "name": "Miko - Youkai Mountain (First)",
+            "category": [
+                "Miko",
+                "Youkai Mountain",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Miko| and |Youkai Mountain|"
+        },
+        {
+            "name": "Miko - Purplefield (First)",
+            "category": [
+                "Miko",
+                "Purplefield",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Miko| and |Purplefield|"
+        },
+        {
+            "name": "Miko - Winter Misty Lake (First)",
+            "category": [
+                "Miko",
+                "Winter Misty Lake",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Miko| and |Winter Misty Lake|"
+        },
+        {
+            "name": "Son Biten - Forest of Magic (First)",
+            "category": [
+                "Son Biten",
+                "Forest of Magic",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Son Biten| and |Forest of Magic|"
+        },
+        {
+            "name": "Son Biten - Youkai Mountain (First)",
+            "category": [
+                "Son Biten",
+                "Youkai Mountain",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Son Biten| and |Youkai Mountain|"
+        },
+        {
+            "name": "Son Biten - Purplefield (First)",
+            "category": [
+                "Son Biten",
+                "Purplefield",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Son Biten| and |Purplefield|"
+        },
+        {
+            "name": "Son Biten - Winter Misty Lake (First)",
+            "category": [
+                "Son Biten",
+                "Winter Misty Lake",
+                "Track First",
+                "Fumosanity"
+            ],
+            "requires": "|Son Biten| and |Winter Misty Lake|"
+        }
+    ]
+}

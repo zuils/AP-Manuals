@@ -1,0 +1,42 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.items.schema.json",
+    "data": [
+        {"name": "Chaos Emerald", "category": ["Victory"], "progression": true, "count": 7},
+
+        {"name": "Reimu", "category": ["Characters"], "progression": true},
+        {"name": "Marisa", "category": ["Characters"], "progression": true},
+        {"name": "Rumia", "category": ["Characters"], "progression": true},
+        {"name": "Cirno", "category": ["Characters"], "progression": true},
+        {"name": "Meiling", "category": ["Characters"], "progression": true},
+        {"name": "Sakuya", "category": ["Characters"], "progression": true},
+        {"name": "Remilia", "category": ["Characters"], "progression": true},
+        {"name": "Alice", "category": ["Characters"], "progression": true},
+        {"name": "Youmu", "category": ["Characters"], "progression": true},
+        {"name": "Yuyuko", "category": ["Characters"], "progression": true},
+        {"name": "Suika", "category": ["Characters"], "progression": true},
+        {"name": "Tewi", "category": ["Characters"], "progression": true},
+        {"name": "Reisen", "category": ["Characters"], "progression": true},
+        {"name": "Yuuka", "category": ["Characters"], "progression": true},
+        {"name": "Momiji", "category": ["Characters"], "progression": true},
+        {"name": "Sanae", "category": ["Characters"], "progression": true},
+        {"name": "Satori", "category": ["Characters"], "progression": true},
+        {"name": "Nazrin", "category": ["Characters"], "progression": true},
+        {"name": "Byakuren", "category": ["Characters"], "progression": true},
+        {"name": "Yoshika", "category": ["Characters"], "progression": true},
+        {"name": "Miko", "category": ["Characters"], "progression": true},
+        {"name": "Son Biten", "category": ["Characters"], "progression": true},
+
+        {"name": "Kart", "category": ["Vehicles"], "progression": true},
+        {"name": "Bike", "category": ["Vehicles"], "progression": true},
+        {"name": "Skate", "category": ["Vehicles"], "progression": true},
+        {"name": "Cleaner Bot", "category": ["Vehicles", "Roomba"], "progression": true},
+        {"name": "Shopping Cart", "category": ["Vehicles", "Coconut Mall"], "progression": true},
+        {"name": "Broom", "category": ["Vehicles"], "progression": true},
+        {"name": "Genji", "category": ["Vehicles"], "progression": true},
+
+        {"name": "Forest of Magic", "category": ["Tracks"], "progression": true},
+        {"name": "Youkai Mountain", "category": ["Tracks"], "progression": true},
+        {"name": "Purplefield", "category": ["Tracks"], "progression": true},
+        {"name": "Winter Misty Lake", "category": ["Tracks"], "progression": true}
+    ]
+}

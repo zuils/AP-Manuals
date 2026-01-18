@@ -1,0 +1,30 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.categories.schema.json",
+    "Character Top 3": {
+        "yaml_option": ["char_top_3"]
+    },
+    "Character First": {
+        "yaml_option": ["char_first"]
+    },
+    "Vehicle Top 3": {
+        "yaml_option": ["vehicle_top_3"]
+    },
+    "Vehicle First": {
+        "yaml_option": ["vehicle_first"]
+    },
+    "Track Top 3": {
+        "yaml_option": ["track_top_3"]
+    },
+    "Track First": {
+        "yaml_option": ["track_first"]
+    },
+    "Fumosanity": {
+        "yaml_option": ["fumosanity"]
+    },
+    "Roomba": {
+        "hidden": true
+    },
+    "Coconut Mall": {
+        "hidden": true
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.game.schema.json",
+  "game": "Touhou Fumo Racing",
+  "creator": "AwesomeZuils",
+  "filler_item_name": "A Fumo",
+  "starting_items": [
+    {
+      "item_categories": ["Characters"],
+      "random": 1
+    },
+    {
+      "item_categories": ["Vehicles"],
+      "random": 1
+    },
+    {
+      "item_categories": ["Tracks"],
+      "random": 1
+    }
+  ]
+}
