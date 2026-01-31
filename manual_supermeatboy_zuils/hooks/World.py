@@ -248,7 +248,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
         itemNamesToRemove.extend("Bandage" for _ in range(100))
 
     if cfg.goal != 3:
-        itemNamesToRemove.extend("Chapter 7 DW Key" for _ in range(20))
+        itemNamesToRemove.extend("Chapter 7 DW Level Key" for _ in range(20))
 
     if cfg.goal == 0:
         location = next(l for l in multiworld.get_unfilled_locations(player) if l.name == "6-Boss LW Dr. Fetus")
@@ -325,6 +325,78 @@ def after_create_items(item_pool: list, world: World, multiworld: MultiWorld, pl
 def before_set_rules(world: World, multiworld: MultiWorld, player: int):
     pass
 
+# Function I need to import in another file
+def bandages_amount(req: int, state: CollectionState, cfg: GameConfig, player: int) -> bool:
+    counter = 0
+    if state.can_reach_location("1-1 Hello World", player):
+        counter += 11
+        if cfg.dark_world:
+            counter += (
+                state.has("1-3 A+ Rank", player)
+                + state.has("1-5 A+ Rank", player)
+                + state.has("1-10 A+ Rank", player)
+                + (state.has("1-13 A+ Rank", player) * 2)
+                + state.has("1-14 A+ Rank", player)
+                + state.has("1-15 A+ Rank", player)
+                + state.has("1-17 A+ Rank", player)
+                + state.has("1-19 A+ Rank", player)
+            )
+    if state.can_reach_location("1-Boss Lil' Slugger", player):
+        counter += 11
+        if cfg.dark_world:
+            counter += (
+                state.has("2-4 A+ Rank", player)
+                + (state.has("2-5 A+ Rank", player) * 2)
+                + state.has("2-6 A+ Rank", player)
+                + state.has("2-7 A+ Rank", player)
+                + state.has("2-10 A+ Rank", player)
+                + state.has("2-12 A+ Rank", player)
+                + state.has("2-15 A+ Rank", player)
+                + state.has("2-16 A+ Rank", player)
+            )
+    if state.can_reach_location("2-Boss C.H.A.D", player):
+        counter += 8
+        if cfg.dark_world:
+            counter += (
+                (state.can_reach_location("3-7WZ Tunnel Vision", player) * 2)
+                + state.can_reach_location("3-4 Bandage", player)
+                + state.has("3-3 A+ Rank", player)
+                + state.has("3-5 A+ Rank", player)
+                + state.has("3-6 A+ Rank", player)
+                + state.has("3-7 A+ Rank", player)
+                + (state.has("3-8 A+ Rank", player) * 2)
+                + state.can_reach_location("3-14X Bandage", player)
+                + state.has("3-16 A+ Rank", player)
+                + state.has("3-19 A+ Rank", player)
+            )
+    if state.can_reach_location("3-Boss Brownie", player):
+        counter += 11
+        if cfg.dark_world:
+            counter += (
+                state.has("4-3 A+ Rank", player)
+                + state.has("4-4 A+ Rank", player)
+                + (state.can_reach_location("4-7XWZ MMMMMM", player) * 2)
+                + state.has("4-8 A+ Rank", player)
+                + state.has("4-10 A+ Rank", player)
+                + state.has("4-14 A+ Rank", player)
+                + state.has("4-18 A+ Rank", player)
+                + state.has("4-19 A+ Rank", player)
+            )
+    if state.can_reach_location("4-Boss Little Horn", player):
+        counter += 11
+        if cfg.dark_world:
+            counter += (
+                state.has("5-4 A+ Rank", player)
+                + state.has("5-5 A+ Rank", player)
+                + state.has("5-8 A+ Rank", player)
+                + state.has("5-10 A+ Rank", player)
+                + state.has("5-11 A+ Rank", player)
+                + state.has("5-17 A+ Rank", player)
+                + state.has("5-18 A+ Rank", player)
+                + (state.has("5-20 A+ Rank", player) * 2)
+            )
+    return counter >= req
+
 # Called after rules for accessing regions and locations are created, in case you want to see or modify that information.
 def after_set_rules(world: World, multiworld: MultiWorld, player: int):
     cfg: GameConfig = initalize_globals(world, multiworld, player)
@@ -388,77 +460,6 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
 
         return counter >= req
 
-    def bandagesAmount(req: int, state: CollectionState) -> bool:
-        counter = 0
-        if state.can_reach_location("1-1 Hello World", player):
-            counter += 11
-            if cfg.dark_world:
-                counter += (
-                    state.has("1-3 A+ Rank", player)
-                    + state.has("1-5 A+ Rank", player)
-                    + state.has("1-10 A+ Rank", player)
-                    + (state.has("1-13 A+ Rank", player) * 2)
-                    + state.has("1-14 A+ Rank", player)
-                    + state.has("1-15 A+ Rank", player)
-                    + state.has("1-17 A+ Rank", player)
-                    + state.has("1-19 A+ Rank", player)
-                )
-        if state.can_reach_location("1-Boss Lil' Slugger", player):
-            counter += 11
-            if cfg.dark_world:
-                counter += (
-                    state.has("2-4 A+ Rank", player)
-                    + (state.has("2-5 A+ Rank", player) * 2)
-                    + state.has("2-6 A+ Rank", player)
-                    + state.has("2-7 A+ Rank", player)
-                    + state.has("2-10 A+ Rank", player)
-                    + state.has("2-12 A+ Rank", player)
-                    + state.has("2-15 A+ Rank", player)
-                    + state.has("2-16 A+ Rank", player)
-                )
-        if state.can_reach_location("2-Boss C.H.A.D", player):
-            counter += 8
-            if cfg.dark_world:
-                counter += (
-                    (state.can_reach_location("3-7WZ Tunnel Vision", player) * 2)
-                    + state.can_reach_location("3-4 Bandage", player)
-                    + state.has("3-3 A+ Rank", player)
-                    + state.has("3-5 A+ Rank", player)
-                    + state.has("3-6 A+ Rank", player)
-                    + state.has("3-7 A+ Rank", player)
-                    + (state.has("3-8 A+ Rank", player) * 2)
-                    + state.can_reach_location("3-14X Bandage", player)
-                    + state.has("3-16 A+ Rank", player)
-                    + state.has("3-19 A+ Rank", player)
-                )
-        if state.can_reach_location("3-Boss Brownie", player):
-            counter += 11
-            if cfg.dark_world:
-                counter += (
-                    state.has("4-3 A+ Rank", player)
-                    + state.has("4-4 A+ Rank", player)
-                    + (state.can_reach_location("4-7XWZ MMMMMM", player) * 2)
-                    + state.has("4-8 A+ Rank", player)
-                    + state.has("4-10 A+ Rank", player)
-                    + state.has("4-14 A+ Rank", player)
-                    + state.has("4-18 A+ Rank", player)
-                    + state.has("4-19 A+ Rank", player)
-                )
-        if state.can_reach_location("4-Boss Little Horn", player):
-            counter += 11
-            if cfg.dark_world:
-                counter += (
-                    state.has("5-4 A+ Rank", player)
-                    + state.has("5-5 A+ Rank", player)
-                    + state.has("5-8 A+ Rank", player)
-                    + state.has("5-10 A+ Rank", player)
-                    + state.has("5-11 A+ Rank", player)
-                    + state.has("5-17 A+ Rank", player)
-                    + state.has("5-18 A+ Rank", player)
-                    + (state.has("5-20 A+ Rank", player) * 2)
-                )
-        return counter >= req
-
     def darkZoneAccess(req: int, state: CollectionState) -> bool:
         counter = 0
         if state.can_reach_location("1-1 Hello World", player):
@@ -508,18 +509,18 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
             location.access_rule = lambda state: state.can_reach_location("6-Boss DW Dr. Fetus", player)
         if cfg.bandages:
             location = world.get_location("I Have Crabs! (Collect 10 Bandages)")
-            location.access_rule = lambda state: bandagesAmount(10, state)
+            location.access_rule = lambda state: bandages_amount(10, state)
             location = world.get_location("Metalhead (Collect 30 Bandages)")
-            location.access_rule = lambda state: bandagesAmount(30, state)
+            location.access_rule = lambda state: bandages_amount(30, state)
             location = world.get_location("I Smell something Fishy... (Collect 50 Bandages)")
-            location.access_rule = lambda state: bandagesAmount(50, state)
+            location.access_rule = lambda state: bandages_amount(50, state)
             if cfg.dark_world:
                 location = world.get_location("MS PAINT RULZ! (Collect 70 Bandages)")
-                location.access_rule = lambda state: bandagesAmount(70, state)
+                location.access_rule = lambda state: bandages_amount(70, state)
                 location = world.get_location("Vx6 (Collect 90 Bandages)")
-                location.access_rule = lambda state: bandagesAmount(90, state)
+                location.access_rule = lambda state: bandages_amount(90, state)
                 location = world.get_location("Accidental Arsonist (Collect 100 Bandages)")
-                location.access_rule = lambda state: bandagesAmount(100, state)
+                location.access_rule = lambda state: bandages_amount(100, state)
 
 # The item name to create is provided before the item is created, in case you want to make changes to it
 def before_create_item(item_name: str, world: World, multiworld: MultiWorld, player: int) -> str:

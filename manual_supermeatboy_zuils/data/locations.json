@@ -1843,7 +1843,7 @@
         {
             "name": "2-10X Bandage",
             "category": [
-                "LW Chapter 2"
+                "DW Chapter 2"
             ],
             "region": "Chapter 2",
             "requires": "|2-10 A+ Rank|"
@@ -3518,7 +3518,7 @@
                 "DW Chapter 4"
             ],
             "region": "Chapter 4",
-            "requires": "|4-1 A+ Rank| and {progCharacter()}"
+            "requires": "|4-10 A+ Rank| and {progCharacter()}"
         },
         {
             "name": "4-10X Gallow",

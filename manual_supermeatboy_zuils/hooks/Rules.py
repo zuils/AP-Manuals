@@ -1,7 +1,7 @@
 from typing import Optional
 from worlds.AutoWorld import World
 from ..Helpers import is_option_enabled, get_option_value, clamp, get_items_with_value
-from .World import initalize_globals, GameConfig
+from .World import initalize_globals, GameConfig, bandages_amount
 from BaseClasses import MultiWorld, CollectionState
 
 import re
@@ -9,8 +9,8 @@ import re
 def progCharacter(world: World, multiworld: MultiWorld, state: CollectionState, player: int):
     if is_option_enabled(multiworld, player, "bandages"):
         return (
-            (state.has("Naija", player) and state.can_reach_location("2-Boss C.H.A.D", player) and state.has("Bandage", player, 50)) or
-            (state.has("Steve", player) and state.can_reach_location("4-Boss Little Horn", player) and state.has("Bandage", player, 100)) or
+            (state.has("Naija", player) and state.can_reach_location("2-Boss C.H.A.D", player) and state.has("Bandage", player, 50) and bandages_amount(50, state)) or
+            (state.has("Steve", player) and state.can_reach_location("4-Boss Little Horn", player) and state.has("Bandage", player, 100) and bandages_amount(100, state)) or
             state.has("Commander Video", player) or
             (state.has("Jill", player) and state.can_reach_location("1-Boss Lil' Slugger", player)) or
             (state.has("Ogmo", player) and state.can_reach_location("2-Boss C.H.A.D", player)) or
