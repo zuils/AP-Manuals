@@ -55,7 +55,7 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
 
     # Add your code here to calculate which locations to remove
     if not is_option_enabled(multiworld, player, "bandages"):
-        locationNamesToRemove.extend(l["name"] for l in location_table if "Bandages" in l.get("category", []))
+        locationNamesToRemove.extend(l["name"] for l in location_table if "Bandage" in l.get("category", []))
 
     if not is_option_enabled(multiworld, player, "dark_world"):
         locationNamesToRemove.extend(l["name"] for l in location_table if "DW" in l["name"])
