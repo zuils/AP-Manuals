@@ -227,6 +227,14 @@
             "progression_skip_balancing": true
         },
         {
+            "name": "Boss Token",
+            "category": [
+                "Boss Tokens"
+            ],
+            "count": 4,
+            "progression": true
+        },
+        {
             "name": "1-1 A+ Rank",
             "category": [
                 "A+ Rank",

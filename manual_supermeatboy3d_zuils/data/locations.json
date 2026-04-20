@@ -2685,7 +2685,7 @@
                 "LW World 5"
             ],
             "region": "World 5",
-            "requires": "{OptionCount(World 5 Boss Access Key, dr_fetus_keys)}",
+            "requires": "{OptionCount(World 5 Boss Access Key, dr_fetus_keys)} and {OptionCount(Boss Token, boss_tokens)}",
             "victory": true
         },
         {

@@ -95,6 +95,15 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     # to the list multiple times if you want to remove multiple copies of it.
     if not is_option_enabled(multiworld, player, "dark_world"):
         itemNamesToRemove.extend(i["name"] for i in item_table if "A+ Rank" in i["name"])
+    
+    if get_option_value(multiworld, player, "boss_tokens") == 0:
+        itemNamesToRemove.extend("Boss Token" for _ in range(4))
+    else:
+        for _ in range(4):
+            loc = next(l for l in multiworld.get_unfilled_locations(player) if "Boss" in l.name)
+            item = next(i for i in item_pool if i.name == "Boss Token")
+            loc.place_locked_item(item)
+            remove_specific_item(item_pool, item)
 
     for itemName in itemNamesToRemove:
         item = next(i for i in item_pool if i.name == itemName)

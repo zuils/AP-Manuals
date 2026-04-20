@@ -52,6 +52,17 @@ class DrFetusKeys(Range):
     default = 15
 
 
+class BossTokens(Range):
+    """
+    Boss Tokens will be placed on each boss
+    How many are required to fight Dr. Fetus
+    0 will remove them from the item pool
+    """
+    default_name = "Boss Tokens",
+    range_start = 0
+    range_end = 4
+    default = 4
+
 class Bandage(Toggle):
     """
     Enable bandage checks
@@ -70,6 +81,7 @@ def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, T
     options["starting_world"] = StartingWorld
     options["boss_access_keys"] = BossAccessKeys
     options["dr_fetus_keys"] = DrFetusKeys
+    options["boss_tokens"] = BossTokens
     options["bandages"] = Bandage
     options["dark_world"] = DarkWorld
     return options
