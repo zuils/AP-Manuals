@@ -1,0 +1,2932 @@
+{
+	"$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
+    "data": [
+        {
+            "name": "1-1LW Easy Start",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1"
+        },
+        {
+            "name": "1-1LW Easy Start (A+ Rank)",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1"
+        },
+        {
+            "name": "1-1LW Easy Start (Bandage)",
+            "category": [
+                "LW World 1",
+                "Bandage"
+            ],
+            "region": "World 1"
+        },
+        {
+            "name": "1-Secret Plumber Hills",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1"
+        },
+        {
+            "name": "1-2LW Sawbot Struggle",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1"
+        },
+        {
+            "name": "1-2LW Sawbot Struggle (A+ Rank)",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1"
+        },
+        {
+            "name": "1-2LW Sawbot Struggle (Bandage)",
+            "category": [
+                "LW World 1",
+                "Bandage"
+            ],
+            "region": "World 1"
+        },
+        {
+            "name": "1-3LW The Great Gap",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1"
+        },
+        {
+            "name": "1-3LW The Great Gap (A+ Rank)",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1"
+        },
+        {
+            "name": "1-3LW The Great Gap (Bandage)",
+            "category": [
+                "LW World 1",
+                "Bandage"
+            ],
+            "region": "World 1"
+        },
+        {
+            "name": "1-4LW Cave Dash",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1"
+        },
+        {
+            "name": "1-4LW Cave Dash (A+ Rank)",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1"
+        },
+        {
+            "name": "1-4LW Cave Dash (Bandage)",
+            "category": [
+                "LW World 1",
+                "Bandage"
+            ],
+            "region": "World 1"
+        },
+        {
+            "name": "1-5LW Canyon Crush",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1"
+        },
+        {
+            "name": "1-5LW Canyon Crush (A+ Rank)",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1"
+        },
+        {
+            "name": "1-5LW Canyon Crush (Bandage)",
+            "category": [
+                "LW World 1",
+                "Bandage"
+            ],
+            "region": "World 1"
+        },
+        {
+            "name": "1-6LW Cliff Climb",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1"
+        },
+        {
+            "name": "1-6LW Cliff Climb (A+ Rank)",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1"
+        },
+        {
+            "name": "1-6LW Cliff Climb (Bandage)",
+            "category": [
+                "LW World 1",
+                "Bandage"
+            ],
+            "region": "World 1"
+        },
+        {
+            "name": "1-7LW Squirrel Hole",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1"
+        },
+        {
+            "name": "1-7LW Squirrel Hole (A+ Rank)",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1"
+        },
+        {
+            "name": "1-7LW Squirrel Hole (Bandage)",
+            "category": [
+                "LW World 1",
+                "Bandage"
+            ],
+            "region": "World 1"
+        },
+        {
+            "name": "1-8LW Meat Forest",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1"
+        },
+        {
+            "name": "1-8LW Meat Forest (A+ Rank)",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1"
+        },
+        {
+            "name": "1-8LW Meat Forest (Bandage)",
+            "category": [
+                "LW World 1",
+                "Bandage"
+            ],
+            "region": "World 1"
+        },
+        {
+            "name": "1-9LW Valley of the Flying Sawblades",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1"
+        },
+        {
+            "name": "1-9LW Valley of the Flying Sawblades (A+ Rank)",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1"
+        },
+        {
+            "name": "1-9LW Valley of the Flying Sawblades (Bandage)",
+            "category": [
+                "LW World 1",
+                "Bandage"
+            ],
+            "region": "World 1"
+        },
+        {
+            "name": "1-10LW Suicide Siege",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1"
+        },
+        {
+            "name": "1-10LW Suicide Siege (A+ Rank)",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1"
+        },
+        {
+            "name": "1-10LW Suicide Siege (Bandage)",
+            "category": [
+                "LW World 1",
+                "Bandage"
+            ],
+            "region": "World 1"
+        },
+        {
+            "name": "1-11LW Spelunking",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1"
+        },
+        {
+            "name": "1-11LW Spelunking (A+ Rank)",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1"
+        },
+        {
+            "name": "1-11LW Spelunking (Bandage)",
+            "category": [
+                "LW World 1",
+                "Bandage"
+            ],
+            "region": "World 1"
+        },
+        {
+            "name": "1-12LW Thorn Trial",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1"
+        },
+        {
+            "name": "1-12LW Thorn Trial (A+ Rank)",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1"
+        },
+        {
+            "name": "1-12LW Thorn Trial (Bandage)",
+            "category": [
+                "LW World 1",
+                "Bandage"
+            ],
+            "region": "World 1"
+        },
+        {
+            "name": "1-13LW Burning Valley",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1"
+        },
+        {
+            "name": "1-13LW Burning Valley (A+ Rank)",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1"
+        },
+        {
+            "name": "1-13LW Burning Valley (Bandage)",
+            "category": [
+                "LW World 1",
+                "Bandage"
+            ],
+            "region": "World 1"
+        },
+        {
+            "name": "1-14LW Treetop Trials",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1"
+        },
+        {
+            "name": "1-14LW Treetop Trials (A+ Rank)",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1"
+        },
+        {
+            "name": "1-14LW Treetop Trials (Bandage)",
+            "category": [
+                "LW World 1",
+                "Bandage"
+            ],
+            "region": "World 1"
+        },
+        {
+            "name": "1-15LW Rusty Outlook",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1"
+        },
+        {
+            "name": "1-15LW Rusty Outlook (A+ Rank)",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1"
+        },
+        {
+            "name": "1-15LW Rusty Outlook (Bandage)",
+            "category": [
+                "LW World 1",
+                "Bandage"
+            ],
+            "region": "World 1"
+        },
+        {
+            "name": "1-Boss Sawhalanthropus",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1",
+            "requires": "{OptionCount(World 1 Boss Access Key, boss_access_keys)}"
+        },
+        {
+            "name": "1-1DW Easy Start",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1",
+            "requires": "|1-1 A+ Rank|"
+        },
+        {
+            "name": "1-1DW Easy Start (A+ Rank)",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1",
+            "requires": "|1-1 A+ Rank|"
+        },
+        {
+            "name": "1-2DW Sawbot Struggle",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1",
+            "requires": "|1-2 A+ Rank|"
+        },
+        {
+            "name": "1-2DW Sawbot Struggle (A+ Rank)",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1",
+            "requires": "|1-2 A+ Rank|"
+        },
+        {
+            "name": "1-3DW The Great Gap",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1",
+            "requires": "|1-3 A+ Rank|"
+        },
+        {
+            "name": "1-3DW The Great Gap (A+ Rank)",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1",
+            "requires": "|1-3 A+ Rank|"
+        },
+        {
+            "name": "1-4DW Cave Dash",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1",
+            "requires": "|1-4 A+ Rank|"
+        },
+        {
+            "name": "1-4DW Cave Dash (A+ Rank)",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1",
+            "requires": "|1-4 A+ Rank|"
+        },
+        {
+            "name": "1-5DW Canyon Crush",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1",
+            "requires": "|1-5 A+ Rank|"
+        },
+        {
+            "name": "1-5DW Canyon Crush (A+ Rank)",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1",
+            "requires": "|1-5 A+ Rank|"
+        },
+        {
+            "name": "1-6DW Cliff Climb",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1",
+            "requires": "|1-6 A+ Rank|"
+        },
+        {
+            "name": "1-6DW Cliff Climb (A+ Rank)",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1",
+            "requires": "|1-6 A+ Rank|"
+        },
+        {
+            "name": "1-7DW Squirrel Hole",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1",
+            "requires": "|1-7 A+ Rank|"
+        },
+        {
+            "name": "1-7DW Squirrel Hole (A+ Rank)",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1",
+            "requires": "|1-7 A+ Rank|"
+        },
+        {
+            "name": "1-8DW Meat Forest",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1",
+            "requires": "|1-8 A+ Rank|"
+        },
+        {
+            "name": "1-8DW Meat Forest (A+ Rank)",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1",
+            "requires": "|1-8 A+ Rank|"
+        },
+        {
+            "name": "1-9DW Valley of the Flying Sawblades",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1",
+            "requires": "|1-9 A+ Rank|"
+        },
+        {
+            "name": "1-9DW Valley of the Flying Sawblades (A+ Rank)",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1",
+            "requires": "|1-9 A+ Rank|"
+        },
+        {
+            "name": "1-10DW Suicide Siege",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1",
+            "requires": "|1-10 A+ Rank|"
+        },
+        {
+            "name": "1-10DW Suicide Siege (A+ Rank)",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1",
+            "requires": "|1-10 A+ Rank|"
+        },
+        {
+            "name": "1-11DW Spelunking",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1",
+            "requires": "|1-11 A+ Rank|"
+        },
+        {
+            "name": "1-11DW Spelunking (A+ Rank)",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1",
+            "requires": "|1-11 A+ Rank|"
+        },
+        {
+            "name": "1-12DW Thorn Trial",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1",
+            "requires": "|1-12 A+ Rank|"
+        },
+        {
+            "name": "1-12DW Thorn Trial (A+ Rank)",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1",
+            "requires": "|1-12 A+ Rank|"
+        },
+        {
+            "name": "1-13DW Burning Valley",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1",
+            "requires": "|1-13 A+ Rank|"
+        },
+        {
+            "name": "1-13DW Burning Valley (A+ Rank)",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1",
+            "requires": "|1-13 A+ Rank|"
+        },
+        {
+            "name": "1-14DW Treetop Trials",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1",
+            "requires": "|1-14 A+ Rank|"
+        },
+        {
+            "name": "1-14DW Treetop Trials (A+ Rank)",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1",
+            "requires": "|1-14 A+ Rank|"
+        },
+        {
+            "name": "1-15DW Rusty Outlook",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1",
+            "requires": "|1-15 A+ Rank|"
+        },
+        {
+            "name": "1-15DW Rusty Outlook (A+ Rank)",
+            "category": [
+                "LW World 1"
+            ],
+            "region": "World 1",
+            "requires": "|1-15 A+ Rank|"
+        },
+        {
+            "name": "2-1LW Toxic Trouble",
+            "category": [
+                "LW World 2"
+            ],
+            "region": "World 2"
+        },
+        {
+            "name": "2-1LW Toxic Trouble (A+ Rank)",
+            "category": [
+                "LW World 2"
+            ],
+            "region": "World 2"
+        },
+        {
+            "name": "2-1LW Toxic Trouble (Bandage)",
+            "category": [
+                "LW World 2",
+                "Bandage"
+            ],
+            "region": "World 2"
+        },
+        {
+            "name": "2-2LW Corroding Cubes",
+            "category": [
+                "LW World 2"
+            ],
+            "region": "World 2"
+        },
+        {
+            "name": "2-2LW Corroding Cubes (A+ Rank)",
+            "category": [
+                "LW World 2"
+            ],
+            "region": "World 2"
+        },
+        {
+            "name": "2-2LW Corroding Cubes (Bandage)",
+            "category": [
+                "LW World 2",
+                "Bandage"
+            ],
+            "region": "World 2"
+        },
+        {
+            "name": "2-3LW Poison Pitfall",
+            "category": [
+                "LW World 2"
+            ],
+            "region": "World 2"
+        },
+        {
+            "name": "2-3LW Poison Pitfall (A+ Rank)",
+            "category": [
+                "LW World 2"
+            ],
+            "region": "World 2"
+        },
+        {
+            "name": "2-3LW Poison Pitfall (Bandage)",
+            "category": [
+                "LW World 2",
+                "Bandage"
+            ],
+            "region": "World 2"
+        },
+        {
+            "name": "2-4LW Disintegrate",
+            "category": [
+                "LW World 2"
+            ],
+            "region": "World 2"
+        },
+        {
+            "name": "2-4LW Disintegrate (A+ Rank)",
+            "category": [
+                "LW World 2"
+            ],
+            "region": "World 2"
+        },
+        {
+            "name": "2-4LW Disintegrate (Bandage)",
+            "category": [
+                "LW World 2",
+                "Bandage"
+            ],
+            "region": "World 2"
+        },
+        {
+            "name": "2-5LW Trash Trouble",
+            "category": [
+                "LW World 2"
+            ],
+            "region": "World 2"
+        },
+        {
+            "name": "2-5LW Trash Trouble (A+ Rank)",
+            "category": [
+                "LW World 2"
+            ],
+            "region": "World 2"
+        },
+        {
+            "name": "2-5LW Trash Trouble (Bandage)",
+            "category": [
+                "LW World 2",
+                "Bandage"
+            ],
+            "region": "World 2"
+        },
+        {
+            "name": "2-6LW Upwind",
+            "category": [
+                "LW World 2"
+            ],
+            "region": "World 2"
+        },
+        {
+            "name": "2-6LW Upwind (A+ Rank)",
+            "category": [
+                "LW World 2"
+            ],
+            "region": "World 2"
+        },
+        {
+            "name": "2-6LW Upwind (Bandage)",
+            "category": [
+                "LW World 2",
+                "Bandage"
+            ],
+            "region": "World 2"
+        },
+        {
+            "name": "2-Secret Crash Corps",
+            "category": [
+                "LW World 2"
+            ],
+            "region": "World 2"
+        },
+        {
+            "name": "2-7LW Slime Fan",
+            "category": [
+                "LW World 2"
+            ],
+            "region": "World 2"
+        },
+        {
+            "name": "2-7LW Slime Fan (A+ Rank)",
+            "category": [
+                "LW World 2"
+            ],
+            "region": "World 2"
+        },
+        {
+            "name": "2-7LW Slime Fan (Bandage)",
+            "category": [
+                "LW World 2",
+                "Bandage"
+            ],
+            "region": "World 2"
+        },
+        {
+            "name": "2-8LW Pipe Plunge",
+            "category": [
+                "LW World 2"
+            ],
+            "region": "World 2"
+        },
+        {
+            "name": "2-8LW Pipe Plunge (A+ Rank)",
+            "category": [
+                "LW World 2"
+            ],
+            "region": "World 2"
+        },
+        {
+            "name": "2-8LW Pipe Plunge (Bandage)",
+            "category": [
+                "LW World 2",
+                "Bandage"
+            ],
+            "region": "World 2"
+        },
+        {
+            "name": "2-9LW Terror Tower",
+            "category": [
+                "LW World 2"
+            ],
+            "region": "World 2"
+        },
+        {
+            "name": "2-9LW Terror Tower (A+ Rank)",
+            "category": [
+                "LW World 2"
+            ],
+            "region": "World 2"
+        },
+        {
+            "name": "2-9LW Terror Tower (Bandage)",
+            "category": [
+                "LW World 2",
+                "Bandage"
+            ],
+            "region": "World 2"
+        },
+        {
+            "name": "2-10LW Crushed Meat",
+            "category": [
+                "LW World 2"
+            ],
+            "region": "World 2"
+        },
+        {
+            "name": "2-10LW Crushed Meat (A+ Rank)",
+            "category": [
+                "LW World 2"
+            ],
+            "region": "World 2"
+        },
+        {
+            "name": "2-10LW Crushed Meat (Bandage)",
+            "category": [
+                "LW World 2",
+                "Bandage"
+            ],
+            "region": "World 2"
+        },
+        {
+            "name": "2-11LW Olha's Nightmare",
+            "category": [
+                "LW World 2"
+            ],
+            "region": "World 2"
+        },
+        {
+            "name": "2-11LW Olha's Nightmare (A+ Rank)",
+            "category": [
+                "LW World 2"
+            ],
+            "region": "World 2"
+        },
+        {
+            "name": "2-11LW Olha's Nightmare (Bandage)",
+            "category": [
+                "LW World 2",
+                "Bandage"
+            ],
+            "region": "World 2"
+        },
+        {
+            "name": "2-12LW Conveyor Panic",
+            "category": [
+                "LW World 2"
+            ],
+            "region": "World 2"
+        },
+        {
+            "name": "2-12LW Conveyor Panic (A+ Rank)",
+            "category": [
+                "LW World 2"
+            ],
+            "region": "World 2"
+        },
+        {
+            "name": "2-12LW Conveyor Panic (Bandage)",
+            "category": [
+                "LW World 2",
+                "Bandage"
+            ],
+            "region": "World 2"
+        },
+        {
+            "name": "2-13LW Patorra Tower 4",
+            "category": [
+                "LW World 2"
+            ],
+            "region": "World 2"
+        },
+        {
+            "name": "2-13LW Patorra Tower 4 (A+ Rank)",
+            "category": [
+                "LW World 2"
+            ],
+            "region": "World 2"
+        },
+        {
+            "name": "2-13LW Patorra Tower 4 (Bandage)",
+            "category": [
+                "LW World 2",
+                "Bandage"
+            ],
+            "region": "World 2"
+        },
+        {
+            "name": "2-14LW Trash Metal",
+            "category": [
+                "LW World 2"
+            ],
+            "region": "World 2"
+        },
+        {
+            "name": "2-14LW Trash Metal (A+ Rank)",
+            "category": [
+                "LW World 2"
+            ],
+            "region": "World 2"
+        },
+        {
+            "name": "2-14LW Trash Metal (Bandage)",
+            "category": [
+                "LW World 2",
+                "Bandage"
+            ],
+            "region": "World 2"
+        },
+        {
+            "name": "2-15LW Garbage Panorama",
+            "category": [
+                "LW World 2"
+            ],
+            "region": "World 2"
+        },
+        {
+            "name": "2-15LW Garbage Panorama (A+ Rank)",
+            "category": [
+                "LW World 2"
+            ],
+            "region": "World 2"
+        },
+        {
+            "name": "2-15LW Garbage Panorama (Bandage)",
+            "category": [
+                "LW World 2",
+                "Bandage"
+            ],
+            "region": "World 2"
+        },
+        {
+            "name": "2-Boss Mr. Filthy",
+            "category": [
+                "LW World 2"
+            ],
+            "region": "World 2",
+            "requires": "{OptionCount(World 2 Boss Access Key, boss_access_keys)}"
+        },
+        {
+            "name": "2-1DW Toxic Trouble",
+            "category": [
+                "DW World 2"
+            ],
+            "region": "World 2",
+            "requires": "|2-1 A+ Rank|"
+        },
+        {
+            "name": "2-1DW Toxic Trouble (A+ Rank)",
+            "category": [
+                "DW World 2"
+            ],
+            "region": "World 2",
+            "requires": "|2-1 A+ Rank|"
+        },
+        {
+            "name": "2-2DW Corroding Cubes",
+            "category": [
+                "DW World 2"
+            ],
+            "region": "World 2",
+            "requires": "|2-2 A+ Rank|"
+        },
+        {
+            "name": "2-2DW Corroding Cubes (A+ Rank)",
+            "category": [
+                "DW World 2"
+            ],
+            "region": "World 2",
+            "requires": "|2-2 A+ Rank|"
+        },
+        {
+            "name": "2-3DW Poison Pitfall",
+            "category": [
+                "DW World 2"
+            ],
+            "region": "World 2",
+            "requires": "|2-3 A+ Rank|"
+        },
+        {
+            "name": "2-3DW Poison Pitfall (A+ Rank)",
+            "category": [
+                "DW World 2"
+            ],
+            "region": "World 2",
+            "requires": "|2-3 A+ Rank|"
+        },
+        {
+            "name": "2-4DW Disintegrate",
+            "category": [
+                "DW World 2"
+            ],
+            "region": "World 2",
+            "requires": "|2-4 A+ Rank|"
+        },
+        {
+            "name": "2-4DW Disintegrate (A+ Rank)",
+            "category": [
+                "DW World 2"
+            ],
+            "region": "World 2",
+            "requires": "|2-4 A+ Rank|"
+        },
+        {
+            "name": "2-5DW Trash Trouble",
+            "category": [
+                "DW World 2"
+            ],
+            "region": "World 2",
+            "requires": "|2-5 A+ Rank|"
+        },
+        {
+            "name": "2-5DW Trash Trouble (A+ Rank)",
+            "category": [
+                "DW World 2"
+            ],
+            "region": "World 2",
+            "requires": "|2-5 A+ Rank|"
+        },
+        {
+            "name": "2-6DW Upwind",
+            "category": [
+                "DW World 2"
+            ],
+            "region": "World 2",
+            "requires": "|2-6 A+ Rank|"
+        },
+        {
+            "name": "2-6DW Upwind (A+ Rank)",
+            "category": [
+                "DW World 2"
+            ],
+            "region": "World 2"
+            ,
+            "requires": "|2-6 A+ Rank|"
+        },
+        {
+            "name": "2-7DW Slime Fan",
+            "category": [
+                "DW World 2"
+            ],
+            "region": "World 2",
+            "requires": "|2-7 A+ Rank|"
+        },
+        {
+            "name": "2-7DW Slime Fan (A+ Rank)",
+            "category": [
+                "DW World 2"
+            ],
+            "region": "World 2",
+            "requires": "|2-7 A+ Rank|"
+        },
+        {
+            "name": "2-8DW Pipe Plunge",
+            "category": [
+                "DW World 2"
+            ],
+            "region": "World 2",
+            "requires": "|2-8 A+ Rank|"
+        },
+        {
+            "name": "2-8DW Pipe Plunge (A+ Rank)",
+            "category": [
+                "DW World 2"
+            ],
+            "region": "World 2",
+            "requires": "|2-8 A+ Rank|"
+        },
+        {
+            "name": "2-9DW Terror Tower",
+            "category": [
+                "DW World 2"
+            ],
+            "region": "World 2",
+            "requires": "|2-9 A+ Rank|"
+        },
+        {
+            "name": "2-9DW Terror Tower (A+ Rank)",
+            "category": [
+                "DW World 2"
+            ],
+            "region": "World 2",
+            "requires": "|2-9 A+ Rank|"
+        },
+        {
+            "name": "2-10DW Crushed Meat",
+            "category": [
+                "DW World 2"
+            ],
+            "region": "World 2",
+            "requires": "|2-10 A+ Rank|"
+        },
+        {
+            "name": "2-10DW Crushed Meat (A+ Rank)",
+            "category": [
+                "DW World 2"
+            ],
+            "region": "World 2",
+            "requires": "|2-10 A+ Rank|"
+        },
+        {
+            "name": "2-11DW Olha's Nightmare",
+            "category": [
+                "DW World 2"
+            ],
+            "region": "World 2",
+            "requires": "|2-11 A+ Rank|"
+        },
+        {
+            "name": "2-11DW Olha's Nightmare (A+ Rank)",
+            "category": [
+                "DW World 2"
+            ],
+            "region": "World 2",
+            "requires": "|2-11 A+ Rank|"
+        },
+        {
+            "name": "2-12DW Conveyor Panic",
+            "category": [
+                "DW World 2"
+            ],
+            "region": "World 2",
+            "requires": "|2-12 A+ Rank|"
+        },
+        {
+            "name": "2-12DW Conveyor Panic (A+ Rank)",
+            "category": [
+                "DW World 2"
+            ],
+            "region": "World 2",
+            "requires": "|2-12 A+ Rank|"
+        },
+        {
+            "name": "2-13DW Patorra Tower 4",
+            "category": [
+                "DW World 2"
+            ],
+            "region": "World 2",
+            "requires": "|2-13 A+ Rank|"
+        },
+        {
+            "name": "2-13DW Patorra Tower 4 (A+ Rank)",
+            "category": [
+                "DW World 2"
+            ],
+            "region": "World 2",
+            "requires": "|2-13 A+ Rank|"
+        },
+        {
+            "name": "2-14DW Trash Metal",
+            "category": [
+                "DW World 2"
+            ],
+            "region": "World 2",
+            "requires": "|2-14 A+ Rank|"
+        },
+        {
+            "name": "2-14DW Trash Metal (A+ Rank)",
+            "category": [
+                "DW World 2"
+            ],
+            "region": "World 2",
+            "requires": "|2-14 A+ Rank|"
+        },
+        {
+            "name": "2-15DW Garbage Panorama",
+            "category": [
+                "DW World 2"
+            ],
+            "region": "World 2",
+            "requires": "|2-15 A+ Rank|"
+        },
+        {
+            "name": "2-15DW Garbage Panorama (A+ Rank)",
+            "category": [
+                "DW World 2"
+            ],
+            "region": "World 2",
+            "requires": "|2-15 A+ Rank|"
+        },
+        {
+            "name": "3-1LW Cut Cut Cut",
+            "category": [
+                "LW World 3"
+            ],
+            "region": "World 3"
+        },
+        {
+            "name": "3-1LW Cut Cut Cut (A+ Rank)",
+            "category": [
+                "LW World 3"
+            ],
+            "region": "World 3"
+        },
+        {
+            "name": "3-1LW Cut Cut Cut (Bandage)",
+            "category": [
+                "LW World 3",
+                "Bandage"
+            ],
+            "region": "World 3"
+        },
+        {
+            "name": "3-2LW Chop Chop Chop",
+            "category": [
+                "LW World 3"
+            ],
+            "region": "World 3"
+        },
+        {
+            "name": "3-2LW Chop Chop Chop (A+ Rank)",
+            "category": [
+                "LW World 3"
+            ],
+            "region": "World 3"
+        },
+        {
+            "name": "3-2LW Chop Chop Chop (Bandage)",
+            "category": [
+                "LW World 3",
+                "Bandage"
+            ],
+            "region": "World 3"
+        },
+        {
+            "name": "3-3LW Burn Burn Burn",
+            "category": [
+                "LW World 3"
+            ],
+            "region": "World 3"
+        },
+        {
+            "name": "3-3LW Burn Burn Burn (A+ Rank)",
+            "category": [
+                "LW World 3"
+            ],
+            "region": "World 3"
+        },
+        {
+            "name": "3-3LW Burn Burn Burn (Bandage)",
+            "category": [
+                "LW World 3",
+                "Bandage"
+            ],
+            "region": "World 3"
+        },
+        {
+            "name": "3-4LW Stamina Melt",
+            "category": [
+                "LW World 3"
+            ],
+            "region": "World 3"
+        },
+        {
+            "name": "3-4LW Stamina Melt (A+ Rank)",
+            "category": [
+                "LW World 3"
+            ],
+            "region": "World 3"
+        },
+        {
+            "name": "3-4LW Stamina Melt (Bandage)",
+            "category": [
+                "LW World 3",
+                "Bandage"
+            ],
+            "region": "World 3"
+        },
+        {
+            "name": "3-5LW Hot Blocks",
+            "category": [
+                "LW World 3"
+            ],
+            "region": "World 3"
+        },
+        {
+            "name": "3-5LW Hot Blocks (A+ Rank)",
+            "category": [
+                "LW World 3"
+            ],
+            "region": "World 3"
+        },
+        {
+            "name": "3-5LW Hot Blocks (Bandage)",
+            "category": [
+                "LW World 3",
+                "Bandage"
+            ],
+            "region": "World 3"
+        },
+        {
+            "name": "3-6LW Dilan's Nightmare",
+            "category": [
+                "LW World 3"
+            ],
+            "region": "World 3"
+        },
+        {
+            "name": "3-6LW Dilan's Nightmare (A+ Rank)",
+            "category": [
+                "LW World 3"
+            ],
+            "region": "World 3"
+        },
+        {
+            "name": "3-6LW Dilan's Nightmare (Bandage)",
+            "category": [
+                "LW World 3",
+                "Bandage"
+            ],
+            "region": "World 3"
+        },
+        {
+            "name": "3-7LW Security Showdown",
+            "category": [
+                "LW World 3"
+            ],
+            "region": "World 3"
+        },
+        {
+            "name": "3-7LW Security Showdown (A+ Rank)",
+            "category": [
+                "LW World 3"
+            ],
+            "region": "World 3"
+        },
+        {
+            "name": "3-7LW Security Showdown (Bandage)",
+            "category": [
+                "LW World 3",
+                "Bandage"
+            ],
+            "region": "World 3"
+        },
+        {
+            "name": "3-8LW Questionable Working Conditions",
+            "category": [
+                "LW World 3"
+            ],
+            "region": "World 3"
+        },
+        {
+            "name": "3-8LW Questionable Working Conditions (A+ Rank)",
+            "category": [
+                "LW World 3"
+            ],
+            "region": "World 3"
+        },
+        {
+            "name": "3-8LW Questionable Working Conditions (Bandage)",
+            "category": [
+                "LW World 3",
+                "Bandage"
+            ],
+            "region": "World 3"
+        },
+        {
+            "name": "3-9LW Liquid Metal",
+            "category": [
+                "LW World 3"
+            ],
+            "region": "World 3"
+        },
+        {
+            "name": "3-9LW Liquid Metal (A+ Rank)",
+            "category": [
+                "LW World 3"
+            ],
+            "region": "World 3"
+        },
+        {
+            "name": "3-9LW Liquid Metal (Bandage)",
+            "category": [
+                "LW World 3",
+                "Bandage"
+            ],
+            "region": "World 3"
+        },
+        {
+            "name": "3-10LW Pain Production",
+            "category": [
+                "LW World 3"
+            ],
+            "region": "World 3"
+        },
+        {
+            "name": "3-10LW Pain Production (A+ Rank)",
+            "category": [
+                "LW World 3"
+            ],
+            "region": "World 3"
+        },
+        {
+            "name": "3-10LW Pain Production (Bandage)",
+            "category": [
+                "LW World 3",
+                "Bandage"
+            ],
+            "region": "World 3"
+        },
+        {
+            "name": "3-Secret Beef Gear Tactix",
+            "category": [
+                "LW World 3"
+            ],
+            "region": "World 3"
+        },
+        {
+            "name": "3-11LW Cool Down, Man",
+            "category": [
+                "LW World 3"
+            ],
+            "region": "World 3"
+        },
+        {
+            "name": "3-11LW Cool Down, Man (A+ Rank)",
+            "category": [
+                "LW World 3"
+            ],
+            "region": "World 3"
+        },
+        {
+            "name": "3-11LW Cool Down, Man (Bandage)",
+            "category": [
+                "LW World 3",
+                "Bandage"
+            ],
+            "region": "World 3"
+        },
+        {
+            "name": "3-12LW Test Chamber",
+            "category": [
+                "LW World 3"
+            ],
+            "region": "World 3"
+        },
+        {
+            "name": "3-12LW Test Chamber (A+ Rank)",
+            "category": [
+                "LW World 3"
+            ],
+            "region": "World 3"
+        },
+        {
+            "name": "3-12LW Test Chamber (Bandage)",
+            "category": [
+                "LW World 3",
+                "Bandage"
+            ],
+            "region": "World 3"
+        },
+        {
+            "name": "3-13LW Spike Hall",
+            "category": [
+                "LW World 3"
+            ],
+            "region": "World 3"
+        },
+        {
+            "name": "3-13LW Spike Hall (A+ Rank)",
+            "category": [
+                "LW World 3"
+            ],
+            "region": "World 3"
+        },
+        {
+            "name": "3-13LW Spike Hall (Bandage)",
+            "category": [
+                "LW World 3",
+                "Bandage"
+            ],
+            "region": "World 3"
+        },
+        {
+            "name": "3-14LW Agony Ascend",
+            "category": [
+                "LW World 3"
+            ],
+            "region": "World 3"
+        },
+        {
+            "name": "3-14LW Agony Ascend (A+ Rank)",
+            "category": [
+                "LW World 3"
+            ],
+            "region": "World 3"
+        },
+        {
+            "name": "3-14LW Agony Ascend (Bandage)",
+            "category": [
+                "LW World 3",
+                "Bandage"
+            ],
+            "region": "World 3"
+        },
+        {
+            "name": "3-15LW Who Built This?",
+            "category": [
+                "LW World 3"
+            ],
+            "region": "World 3"
+        },
+        {
+            "name": "3-15LW Who Built This? (A+ Rank)",
+            "category": [
+                "LW World 3"
+            ],
+            "region": "World 3"
+        },
+        {
+            "name": "3-15LW Who Built This? (Bandage)",
+            "category": [
+                "LW World 3",
+                "Bandage"
+            ],
+            "region": "World 3"
+        },
+        {
+            "name": "3-Boss The Forge Master",
+            "category": [
+                "LW World 3"
+            ],
+            "region": "World 3",
+            "requires": "{OptionCount(World 3 Boss Access Key, boss_access_keys)}"
+        },
+        {
+            "name": "3-1DW Cut Cut Cut",
+            "category": [
+                "DW World 3"
+            ],
+            "region": "World 3",
+            "requires": "|3-1 A+ Rank|"
+        },
+        {
+            "name": "3-1DW Cut Cut Cut (A+ Rank)",
+            "category": [
+                "DW World 3"
+            ],
+            "region": "World 3",
+            "requires": "|3-1 A+ Rank|"
+        },
+        {
+            "name": "3-2DW Chop Chop Chop",
+            "category": [
+                "DW World 3"
+            ],
+            "region": "World 3",
+            "requires": "|3-2 A+ Rank|"
+        },
+        {
+            "name": "3-2DW Chop Chop Chop (A+ Rank)",
+            "category": [
+                "DW World 3"
+            ],
+            "region": "World 3",
+            "requires": "|3-2 A+ Rank|"
+        },
+        {
+            "name": "3-3DW Burn Burn Burn",
+            "category": [
+                "DW World 3"
+            ],
+            "region": "World 3",
+            "requires": "|3-3 A+ Rank|"
+        },
+        {
+            "name": "3-3DW Burn Burn Burn (A+ Rank)",
+            "category": [
+                "DW World 3"
+            ],
+            "region": "World 3",
+            "requires": "|3-3 A+ Rank|"
+        },
+        {
+            "name": "3-4DW Stamina Melt",
+            "category": [
+                "DW World 3"
+            ],
+            "region": "World 3",
+            "requires": "|3-4 A+ Rank|"
+        },
+        {
+            "name": "3-4DW Stamina Melt (A+ Rank)",
+            "category": [
+                "DW World 3"
+            ],
+            "region": "World 3",
+            "requires": "|3-4 A+ Rank|"
+        },
+        {
+            "name": "3-5DW Hot Blocks",
+            "category": [
+                "DW World 3"
+            ],
+            "region": "World 3",
+            "requires": "|3-5 A+ Rank|"
+        },
+        {
+            "name": "3-5DW Hot Blocks (A+ Rank)",
+            "category": [
+                "DW World 3"
+            ],
+            "region": "World 3",
+            "requires": "|3-5 A+ Rank|"
+        },
+        {
+            "name": "3-6DW Dilan's Nightmare",
+            "category": [
+                "DW World 3"
+            ],
+            "region": "World 3",
+            "requires": "|3-6 A+ Rank|"
+        },
+        {
+            "name": "3-6DW Dilan's Nightmare (A+ Rank)",
+            "category": [
+                "DW World 3"
+            ],
+            "region": "World 3",
+            "requires": "|3-6 A+ Rank|"
+        },
+        {
+            "name": "3-7DW Security Showdown",
+            "category": [
+                "DW World 3"
+            ],
+            "region": "World 3",
+            "requires": "|3-7 A+ Rank|"
+        },
+        {
+            "name": "3-7DW Security Showdown (A+ Rank)",
+            "category": [
+                "DW World 3"
+            ],
+            "region": "World 3",
+            "requires": "|3-7 A+ Rank|"
+        },
+        {
+            "name": "3-8DW Questionable Working Conditions",
+            "category": [
+                "DW World 3"
+            ],
+            "region": "World 3",
+            "requires": "|3-8 A+ Rank|"
+        },
+        {
+            "name": "3-8DW Questionable Working Conditions (A+ Rank)",
+            "category": [
+                "DW World 3"
+            ],
+            "region": "World 3",
+            "requires": "|3-8 A+ Rank|"
+        },
+        {
+            "name": "3-9DW Liquid Metal",
+            "category": [
+                "DW World 3"
+            ],
+            "region": "World 3",
+            "requires": "|3-9 A+ Rank|"
+        },
+        {
+            "name": "3-9DW Liquid Metal (A+ Rank)",
+            "category": [
+                "DW World 3"
+            ],
+            "region": "World 3",
+            "requires": "|3-9 A+ Rank|"
+        },
+        {
+            "name": "3-10DW Pain Production",
+            "category": [
+                "DW World 3"
+            ],
+            "region": "World 3",
+            "requires": "|3-10 A+ Rank|"
+        },
+        {
+            "name": "3-10DW Pain Production (A+ Rank)",
+            "category": [
+                "DW World 3"
+            ],
+            "region": "World 3",
+            "requires": "|3-10 A+ Rank|"
+        },
+        {
+            "name": "3-11DW Cool Down, Man",
+            "category": [
+                "DW World 3"
+            ],
+            "region": "World 3",
+            "requires": "|3-11 A+ Rank|"
+        },
+        {
+            "name": "3-11DW Cool Down, Man (A+ Rank)",
+            "category": [
+                "DW World 3"
+            ],
+            "region": "World 3",
+            "requires": "|3-11 A+ Rank|"
+        },
+        {
+            "name": "3-12DW Test Chamber",
+            "category": [
+                "DW World 3"
+            ],
+            "region": "World 3",
+            "requires": "|3-12 A+ Rank|"
+        },
+        {
+            "name": "3-12DW Test Chamber (A+ Rank)",
+            "category": [
+                "DW World 3"
+            ],
+            "region": "World 3",
+            "requires": "|3-12 A+ Rank|"
+        },
+        {
+            "name": "3-13DW Spike Hall",
+            "category": [
+                "DW World 3"
+            ],
+            "region": "World 3",
+            "requires": "|3-13 A+ Rank|"
+        },
+        {
+            "name": "3-13DW Spike Hall (A+ Rank)",
+            "category": [
+                "DW World 3"
+            ],
+            "region": "World 3",
+            "requires": "|3-13 A+ Rank|"
+        },
+        {
+            "name": "3-14DW Agony Ascend",
+            "category": [
+                "DW World 3"
+            ],
+            "region": "World 3",
+            "requires": "|3-14 A+ Rank|"
+        },
+        {
+            "name": "3-14DW Agony Ascend (A+ Rank)",
+            "category": [
+                "DW World 3"
+            ],
+            "region": "World 3",
+            "requires": "|3-14 A+ Rank|"
+        },
+        {
+            "name": "3-15DW Who Built This?",
+            "category": [
+                "DW World 3"
+            ],
+            "region": "World 3",
+            "requires": "|3-15 A+ Rank|"
+        },
+        {
+            "name": "3-15DW Who Built This? (A+ Rank)",
+            "category": [
+                "DW World 3"
+            ],
+            "region": "World 3",
+            "requires": "|3-15 A+ Rank|"
+        },
+        {
+            "name": "4-1LW Vermis Veins",
+            "category": [
+                "LW World 4"
+            ],
+            "region": "World 4"
+        },
+        {
+            "name": "4-1LW Vermis Veins (A+ Rank)",
+            "category": [
+                "LW World 4"
+            ],
+            "region": "World 4"
+        },
+        {
+            "name": "4-1LW Vermis Veins (Bandage)",
+            "category": [
+                "LW World 4",
+                "Bandage"
+            ],
+            "region": "World 4"
+        },
+        {
+            "name": "4-2LW Coreborn Cavern",
+            "category": [
+                "LW World 4"
+            ],
+            "region": "World 4"
+        },
+        {
+            "name": "4-2LW Coreborn Cavern (A+ Rank)",
+            "category": [
+                "LW World 4"
+            ],
+            "region": "World 4"
+        },
+        {
+            "name": "4-2LW Coreborn Cavern (Bandage)",
+            "category": [
+                "LW World 4",
+                "Bandage"
+            ],
+            "region": "World 4"
+        },
+        {
+            "name": "4-3LW Ruinous Tunnel",
+            "category": [
+                "LW World 4"
+            ],
+            "region": "World 4"
+        },
+        {
+            "name": "4-3LW Ruinous Tunnel (A+ Rank)",
+            "category": [
+                "LW World 4"
+            ],
+            "region": "World 4"
+        },
+        {
+            "name": "4-3LW Ruinous Tunnel (Bandage)",
+            "category": [
+                "LW World 4",
+                "Bandage"
+            ],
+            "region": "World 4"
+        },
+        {
+            "name": "4-Secret I Really Wanna Be The Dude",
+            "category": [
+                "LW World 4"
+            ],
+            "region": "World 4"
+        },
+        {
+            "name": "4-4LW Runeforge Abyss",
+            "category": [
+                "LW World 4"
+            ],
+            "region": "World 4"
+        },
+        {
+            "name": "4-4LW Runeforge Abyss (A+ Rank)",
+            "category": [
+                "LW World 4"
+            ],
+            "region": "World 4"
+        },
+        {
+            "name": "4-4LW Runeforge Abyss (Bandage)",
+            "category": [
+                "LW World 4",
+                "Bandage"
+            ],
+            "region": "World 4"
+        },
+        {
+            "name": "4-5LW Sinew Spans",
+            "category": [
+                "LW World 4"
+            ],
+            "region": "World 4"
+        },
+        {
+            "name": "4-5LW Sinew Spans (A+ Rank)",
+            "category": [
+                "LW World 4"
+            ],
+            "region": "World 4"
+        },
+        {
+            "name": "4-5LW Sinew Spans (Bandage)",
+            "category": [
+                "LW World 4",
+                "Bandage"
+            ],
+            "region": "World 4"
+        },
+        {
+            "name": "4-6LW Wormscalation",
+            "category": [
+                "LW World 4"
+            ],
+            "region": "World 4"
+        },
+        {
+            "name": "4-6LW Wormscalation (A+ Rank)",
+            "category": [
+                "LW World 4"
+            ],
+            "region": "World 4"
+        },
+        {
+            "name": "4-6LW Wormscalation (Bandage)",
+            "category": [
+                "LW World 4",
+                "Bandage"
+            ],
+            "region": "World 4"
+        },
+        {
+            "name": "4-7LW Magma Wastes",
+            "category": [
+                "LW World 4"
+            ],
+            "region": "World 4"
+        },
+        {
+            "name": "4-7LW Magma Wastes (A+ Rank)",
+            "category": [
+                "LW World 4"
+            ],
+            "region": "World 4"
+        },
+        {
+            "name": "4-7LW Magma Wastes (Bandage)",
+            "category": [
+                "LW World 4",
+                "Bandage"
+            ],
+            "region": "World 4"
+        },
+        {
+            "name": "4-8LW Frogs",
+            "category": [
+                "LW World 4"
+            ],
+            "region": "World 4"
+        },
+        {
+            "name": "4-8LW Frogs (A+ Rank)",
+            "category": [
+                "LW World 4"
+            ],
+            "region": "World 4"
+        },
+        {
+            "name": "4-8LW Frogs (Bandage)",
+            "category": [
+                "LW World 4",
+                "Bandage"
+            ],
+            "region": "World 4"
+        },
+        {
+            "name": "4-9LW Lava Torment",
+            "category": [
+                "LW World 4"
+            ],
+            "region": "World 4"
+        },
+        {
+            "name": "4-9LW Lava Torment (A+ Rank)",
+            "category": [
+                "LW World 4"
+            ],
+            "region": "World 4"
+        },
+        {
+            "name": "4-9LW Lava Torment (Bandage)",
+            "category": [
+                "LW World 4",
+                "Bandage"
+            ],
+            "region": "World 4"
+        },
+        {
+            "name": "4-10LW Glass Shards",
+            "category": [
+                "LW World 4"
+            ],
+            "region": "World 4"
+        },
+        {
+            "name": "4-10LW Glass Shards (A+ Rank)",
+            "category": [
+                "LW World 4"
+            ],
+            "region": "World 4"
+        },
+        {
+            "name": "4-10LW Glass Shards (Bandage)",
+            "category": [
+                "LW World 4",
+                "Bandage"
+            ],
+            "region": "World 4"
+        },
+        {
+            "name": "4-11LW Donut of Destruction",
+            "category": [
+                "LW World 4"
+            ],
+            "region": "World 4"
+        },
+        {
+            "name": "4-11LW Donut of Destruction (A+ Rank)",
+            "category": [
+                "LW World 4"
+            ],
+            "region": "World 4"
+        },
+        {
+            "name": "4-11LW Donut of Destruction (Bandage)",
+            "category": [
+                "LW World 4",
+                "Bandage"
+            ],
+            "region": "World 4"
+        },
+        {
+            "name": "4-12LW Burn Voyage",
+            "category": [
+                "LW World 4"
+            ],
+            "region": "World 4"
+        },
+        {
+            "name": "4-12LW Burn Voyage (A+ Rank)",
+            "category": [
+                "LW World 4"
+            ],
+            "region": "World 4"
+        },
+        {
+            "name": "4-12LW Burn Voyage (Bandage)",
+            "category": [
+                "LW World 4",
+                "Bandage"
+            ],
+            "region": "World 4"
+        },
+        {
+            "name": "4-13LW Snakes on a Portal",
+            "category": [
+                "LW World 4"
+            ],
+            "region": "World 4"
+        },
+        {
+            "name": "4-13LW Snakes on a Portal (A+ Rank)",
+            "category": [
+                "LW World 4"
+            ],
+            "region": "World 4"
+        },
+        {
+            "name": "4-13LW Snakes on a Portal (Bandage)",
+            "category": [
+                "LW World 4",
+                "Bandage"
+            ],
+            "region": "World 4"
+        },
+        {
+            "name": "4-14LW Wormhole Mayhem",
+            "category": [
+                "LW World 4"
+            ],
+            "region": "World 4"
+        },
+        {
+            "name": "4-14LW Wormhole Mayhem (A+ Rank)",
+            "category": [
+                "LW World 4"
+            ],
+            "region": "World 4"
+        },
+        {
+            "name": "4-14LW Wormhole Mayhem (Bandage)",
+            "category": [
+                "LW World 4",
+                "Bandage"
+            ],
+            "region": "World 4"
+        },
+        {
+            "name": "4-15LW Wormageddon",
+            "category": [
+                "LW World 4"
+            ],
+            "region": "World 4"
+        },
+        {
+            "name": "4-15LW Wormageddon (A+ Rank)",
+            "category": [
+                "LW World 4"
+            ],
+            "region": "World 4"
+        },
+        {
+            "name": "4-15LW Wormageddon (Bandage)",
+            "category": [
+                "LW World 4",
+                "Bandage"
+            ],
+            "region": "World 4"
+        },
+        {
+            "name": "4-Boss Maggot Larry",
+            "category": [
+                "LW World 4"
+            ],
+            "region": "World 4",
+            "requires": "{OptionCount(World 4 Boss Access Key, boss_access_keys)}"
+        },
+        {
+            "name": "4-1DW Vermis Veins",
+            "category": [
+                "DW World 4"
+            ],
+            "region": "World 4",
+            "requires": "|4-1 A+ Rank|"
+        },
+        {
+            "name": "4-1DW Vermis Veins (A+ Rank)",
+            "category": [
+                "DW World 4"
+            ],
+            "region": "World 4",
+            "requires": "|4-1 A+ Rank|"
+        },
+        {
+            "name": "4-2DW Coreborn Cavern",
+            "category": [
+                "DW World 4"
+            ],
+            "region": "World 4",
+            "requires": "|4-2 A+ Rank|"
+        },
+        {
+            "name": "4-2DW Coreborn Cavern (A+ Rank)",
+            "category": [
+                "DW World 4"
+            ],
+            "region": "World 4",
+            "requires": "|4-2 A+ Rank|"
+        },
+        {
+            "name": "4-3DW Ruinous Tunnel",
+            "category": [
+                "DW World 4"
+            ],
+            "region": "World 4",
+            "requires": "|4-3 A+ Rank|"
+        },
+        {
+            "name": "4-3DW Ruinous Tunnel (A+ Rank)",
+            "category": [
+                "DW World 4"
+            ],
+            "region": "World 4",
+            "requires": "|4-3 A+ Rank|"
+        },
+        {
+            "name": "4-4DW Runeforge Abyss",
+            "category": [
+                "DW World 4"
+            ],
+            "region": "World 4",
+            "requires": "|4-4 A+ Rank|"
+        },
+        {
+            "name": "4-4DW Runeforge Abyss (A+ Rank)",
+            "category": [
+                "DW World 4"
+            ],
+            "region": "World 4",
+            "requires": "|4-4 A+ Rank|"
+        },
+        {
+            "name": "4-5DW Sinew Spans",
+            "category": [
+                "DW World 4"
+            ],
+            "region": "World 4",
+            "requires": "|4-5 A+ Rank|"
+        },
+        {
+            "name": "4-5DW Sinew Spans (A+ Rank)",
+            "category": [
+                "DW World 4"
+            ],
+            "region": "World 4",
+            "requires": "|4-5 A+ Rank|"
+        },
+        {
+            "name": "4-6DW Wormscalation",
+            "category": [
+                "DW World 4"
+            ],
+            "region": "World 4",
+            "requires": "|4-6 A+ Rank|"
+        },
+        {
+            "name": "4-6DW Wormscalation (A+ Rank)",
+            "category": [
+                "DW World 4"
+            ],
+            "region": "World 4",
+            "requires": "|4-6 A+ Rank|"
+        },
+        {
+            "name": "4-7DW Magma Wastes",
+            "category": [
+                "DW World 4"
+            ],
+            "region": "World 4",
+            "requires": "|4-7 A+ Rank|"
+        },
+        {
+            "name": "4-7DW Magma Wastes (A+ Rank)",
+            "category": [
+                "DW World 4"
+            ],
+            "region": "World 4",
+            "requires": "|4-7 A+ Rank|"
+        },
+        {
+            "name": "4-8DW Frogs",
+            "category": [
+                "DW World 4"
+            ],
+            "region": "World 4",
+            "requires": "|4-8 A+ Rank|"
+        },
+        {
+            "name": "4-8DW Frogs (A+ Rank)",
+            "category": [
+                "DW World 4"
+            ],
+            "region": "World 4",
+            "requires": "|4-8 A+ Rank|"
+        },
+        {
+            "name": "4-9DW Lava Torment",
+            "category": [
+                "DW World 4"
+            ],
+            "region": "World 4",
+            "requires": "|4-9 A+ Rank|"
+        },
+        {
+            "name": "4-9DW Lava Torment (A+ Rank)",
+            "category": [
+                "DW World 4"
+            ],
+            "region": "World 4",
+            "requires": "|4-9 A+ Rank|"
+        },
+        {
+            "name": "4-10DW Glass Shards",
+            "category": [
+                "DW World 4"
+            ],
+            "region": "World 4",
+            "requires": "|4-10 A+ Rank|"
+        },
+        {
+            "name": "4-10DW Glass Shards (A+ Rank)",
+            "category": [
+                "DW World 4"
+            ],
+            "region": "World 4",
+            "requires": "|4-10 A+ Rank|"
+        },
+        {
+            "name": "4-11DW Donut of Destruction",
+            "category": [
+                "DW World 4"
+            ],
+            "region": "World 4",
+            "requires": "|4-11 A+ Rank|"
+        },
+        {
+            "name": "4-11DW Donut of Destruction (A+ Rank)",
+            "category": [
+                "DW World 4"
+            ],
+            "region": "World 4",
+            "requires": "|4-11 A+ Rank|"
+        },
+        {
+            "name": "4-12DW Burn Voyage",
+            "category": [
+                "DW World 4"
+            ],
+            "region": "World 4",
+            "requires": "|4-12 A+ Rank|"
+        },
+        {
+            "name": "4-12DW Burn Voyage (A+ Rank)",
+            "category": [
+                "DW World 4"
+            ],
+            "region": "World 4",
+            "requires": "|4-12 A+ Rank|"
+        },
+        {
+            "name": "4-13DW Snakes on a Portal",
+            "category": [
+                "DW World 4"
+            ],
+            "region": "World 4",
+            "requires": "|4-13 A+ Rank|"
+        },
+        {
+            "name": "4-13DW Snakes on a Portal (A+ Rank)",
+            "category": [
+                "DW World 4"
+            ],
+            "region": "World 4",
+            "requires": "|4-13 A+ Rank|"
+        },
+        {
+            "name": "4-14DW Wormhole Mayhem",
+            "category": [
+                "DW World 4"
+            ],
+            "region": "World 4",
+            "requires": "|4-14 A+ Rank|"
+        },
+        {
+            "name": "4-14DW Wormhole Mayhem (A+ Rank)",
+            "category": [
+                "DW World 4"
+            ],
+            "region": "World 4",
+            "requires": "|4-14 A+ Rank|"
+        },
+        {
+            "name": "4-15DW Wormageddon",
+            "category": [
+                "DW World 4"
+            ],
+            "region": "World 4",
+            "requires": "|4-15 A+ Rank|"
+        },
+        {
+            "name": "4-15DW Wormageddon (A+ Rank)",
+            "category": [
+                "DW World 4"
+            ],
+            "region": "World 4",
+            "requires": "|4-15 A+ Rank|"
+        },
+        {
+            "name": "5-1LW Ashes to Ashes",
+            "category": [
+                "LW World 5"
+            ],
+            "region": "World 5"
+        },
+        {
+            "name": "5-1LW Ashes to Ashes (A+ Rank)",
+            "category": [
+                "LW World 5"
+            ],
+            "region": "World 5"
+        },
+        {
+            "name": "5-1LW Ashes to Ashes (Bandage)",
+            "category": [
+                "LW World 5",
+                "Bandage"
+            ],
+            "region": "World 5"
+        },
+        {
+            "name": "5-2LW The Suspension of Flesh",
+            "category": [
+                "LW World 5"
+            ],
+            "region": "World 5"
+        },
+        {
+            "name": "5-2LW The Suspension of Flesh (A+ Rank)",
+            "category": [
+                "LW World 5"
+            ],
+            "region": "World 5"
+        },
+        {
+            "name": "5-2LW The Suspension of Flesh (Bandage)",
+            "category": [
+                "LW World 5",
+                "Bandage"
+            ],
+            "region": "World 5"
+        },
+        {
+            "name": "5-3LW Clean Energy",
+            "category": [
+                "LW World 5"
+            ],
+            "region": "World 5"
+        },
+        {
+            "name": "5-3LW Clean Energy (A+ Rank)",
+            "category": [
+                "LW World 5"
+            ],
+            "region": "World 5"
+        },
+        {
+            "name": "5-3LW Clean Energy (Bandage)",
+            "category": [
+                "LW World 5",
+                "Bandage"
+            ],
+            "region": "World 5"
+        },
+        {
+            "name": "5-4LW Crumbled Canyon",
+            "category": [
+                "LW World 5"
+            ],
+            "region": "World 5"
+        },
+        {
+            "name": "5-4LW Crumbled Canyon (A+ Rank)",
+            "category": [
+                "LW World 5"
+            ],
+            "region": "World 5"
+        },
+        {
+            "name": "5-4LW Crumbled Canyon (Bandage)",
+            "category": [
+                "LW World 5",
+                "Bandage"
+            ],
+            "region": "World 5"
+        },
+        {
+            "name": "5-5LW Meatspace",
+            "category": [
+                "LW World 5"
+            ],
+            "region": "World 5"
+        },
+        {
+            "name": "5-5LW Meatspace (A+ Rank)",
+            "category": [
+                "LW World 5"
+            ],
+            "region": "World 5"
+        },
+        {
+            "name": "5-5LW Meatspace (Bandage)",
+            "category": [
+                "LW World 5",
+                "Bandage"
+            ],
+            "region": "World 5"
+        },
+        {
+            "name": "5-6LW Aftershock Avenue",
+            "category": [
+                "LW World 5"
+            ],
+            "region": "World 5"
+        },
+        {
+            "name": "5-6LW Aftershock Avenue (A+ Rank)",
+            "category": [
+                "LW World 5"
+            ],
+            "region": "World 5"
+        },
+        {
+            "name": "5-6LW Aftershock Avenue (Bandage)",
+            "category": [
+                "LW World 5",
+                "Bandage"
+            ],
+            "region": "World 5"
+        },
+        {
+            "name": "5-7LW U11",
+            "category": [
+                "LW World 5"
+            ],
+            "region": "World 5"
+        },
+        {
+            "name": "5-7LW U11 (A+ Rank)",
+            "category": [
+                "LW World 5"
+            ],
+            "region": "World 5"
+        },
+        {
+            "name": "5-7LW U11 (Bandage)",
+            "category": [
+                "LW World 5",
+                "Bandage"
+            ],
+            "region": "World 5"
+        },
+        {
+            "name": "5-8LW Anni's Nightmare",
+            "category": [
+                "LW World 5"
+            ],
+            "region": "World 5"
+        },
+        {
+            "name": "5-8LW Anni's Nightmare (A+ Rank)",
+            "category": [
+                "LW World 5"
+            ],
+            "region": "World 5"
+        },
+        {
+            "name": "5-8LW Anni's Nightmare (Bandage)",
+            "category": [
+                "LW World 5",
+                "Bandage"
+            ],
+            "region": "World 5"
+        },
+        {
+            "name": "5-Secret Return of the Barrel Boys",
+            "category": [
+                "LW World 5"
+            ],
+            "region": "World 5"
+        },
+        {
+            "name": "5-9LW Meat Fans",
+            "category": [
+                "LW World 5"
+            ],
+            "region": "World 5"
+        },
+        {
+            "name": "5-9LW Meat Fans (A+ Rank)",
+            "category": [
+                "LW World 5"
+            ],
+            "region": "World 5"
+        },
+        {
+            "name": "5-9LW Meat Fans (Bandage)",
+            "category": [
+                "LW World 5",
+                "Bandage"
+            ],
+            "region": "World 5"
+        },
+        {
+            "name": "5-10LW Interior Fragmentation",
+            "category": [
+                "LW World 5"
+            ],
+            "region": "World 5"
+        },
+        {
+            "name": "5-10LW Interior Fragmentation (A+ Rank)",
+            "category": [
+                "LW World 5"
+            ],
+            "region": "World 5"
+        },
+        {
+            "name": "5-10LW Interior Fragmentation (Bandage)",
+            "category": [
+                "LW World 5",
+                "Bandage"
+            ],
+            "region": "World 5"
+        },
+        {
+            "name": "5-11LW Welcome Jonas",
+            "category": [
+                "LW World 5"
+            ],
+            "region": "World 5"
+        },
+        {
+            "name": "5-11LW Welcome Jonas (A+ Rank)",
+            "category": [
+                "LW World 5"
+            ],
+            "region": "World 5"
+        },
+        {
+            "name": "5-11LW Welcome Jonas (Bandage)",
+            "category": [
+                "LW World 5",
+                "Bandage"
+            ],
+            "region": "World 5"
+        },
+        {
+            "name": "5-12LW Bubbling Blood",
+            "category": [
+                "LW World 5"
+            ],
+            "region": "World 5"
+        },
+        {
+            "name": "5-12LW Bubbling Blood (A+ Rank)",
+            "category": [
+                "LW World 5"
+            ],
+            "region": "World 5"
+        },
+        {
+            "name": "5-12LW Bubbling Blood (Bandage)",
+            "category": [
+                "LW World 5",
+                "Bandage"
+            ],
+            "region": "World 5"
+        },
+        {
+            "name": "5-13LW Meltdown Metropolis",
+            "category": [
+                "LW World 5"
+            ],
+            "region": "World 5"
+        },
+        {
+            "name": "5-13LW Meltdown Metropolis (A+ Rank)",
+            "category": [
+                "LW World 5"
+            ],
+            "region": "World 5"
+        },
+        {
+            "name": "5-13LW Meltdown Metropolis (Bandage)",
+            "category": [
+                "LW World 5",
+                "Bandage"
+            ],
+            "region": "World 5"
+        },
+        {
+            "name": "5-14LW Guts and Glory",
+            "category": [
+                "LW World 5"
+            ],
+            "region": "World 5"
+        },
+        {
+            "name": "5-14LW Guts and Glory (A+ Rank)",
+            "category": [
+                "LW World 5"
+            ],
+            "region": "World 5"
+        },
+        {
+            "name": "5-14LW Guts and Glory (Bandage)",
+            "category": [
+                "LW World 5",
+                "Bandage"
+            ],
+            "region": "World 5"
+        },
+        {
+            "name": "5-15LW Pulse of the Worm",
+            "category": [
+                "LW World 5"
+            ],
+            "region": "World 5"
+        },
+        {
+            "name": "5-15LW Pulse of the Worm (A+ Rank)",
+            "category": [
+                "LW World 5"
+            ],
+            "region": "World 5"
+        },
+        {
+            "name": "5-15LW Pulse of the Worm (Bandage)",
+            "category": [
+                "LW World 5",
+                "Bandage"
+            ],
+            "region": "World 5"
+        },
+        {
+            "name": "5-Boss Dr. Fetus",
+            "category": [
+                "LW World 5"
+            ],
+            "region": "World 5",
+            "requires": "{OptionCount(World 5 Boss Access Key, dr_fetus_keys)}",
+            "victory": true
+        },
+        {
+            "name": "5-1DW Ashes to Ashes",
+            "category": [
+                "DW World 5"
+            ],
+            "region": "World 5",
+            "requires": "|5-1 A+ Rank|"
+        },
+        {
+            "name": "5-1DW Ashes to Ashes (A+ Rank)",
+            "category": [
+                "DW World 5"
+            ],
+            "region": "World 5",
+            "requires": "|5-1 A+ Rank|"
+        },
+        {
+            "name": "5-2DW The Suspension of Flesh",
+            "category": [
+                "DW World 5"
+            ],
+            "region": "World 5",
+            "requires": "|5-2 A+ Rank|"
+        },
+        {
+            "name": "5-2DW The Suspension of Flesh (A+ Rank)",
+            "category": [
+                "DW World 5"
+            ],
+            "region": "World 5",
+            "requires": "|5-2 A+ Rank|"
+        },
+        {
+            "name": "5-3DW Clean Energy",
+            "category": [
+                "DW World 5"
+            ],
+            "region": "World 5",
+            "requires": "|5-3 A+ Rank|"
+        },
+        {
+            "name": "5-3DW Clean Energy (A+ Rank)",
+            "category": [
+                "DW World 5"
+            ],
+            "region": "World 5",
+            "requires": "|5-3 A+ Rank|"
+        },
+        {
+            "name": "5-4DW Crumbled Canyon",
+            "category": [
+                "DW World 5"
+            ],
+            "region": "World 5",
+            "requires": "|5-4 A+ Rank|"
+        },
+        {
+            "name": "5-4DW Crumbled Canyon (A+ Rank)",
+            "category": [
+                "DW World 5"
+            ],
+            "region": "World 5",
+            "requires": "|5-4 A+ Rank|"
+        },
+        {
+            "name": "5-5DW Meatspace",
+            "category": [
+                "DW World 5"
+            ],
+            "region": "World 5",
+            "requires": "|5-5 A+ Rank|"
+        },
+        {
+            "name": "5-5DW Meatspace (A+ Rank)",
+            "category": [
+                "DW World 5"
+            ],
+            "region": "World 5",
+            "requires": "|5-5 A+ Rank|"
+        },
+        {
+            "name": "5-6DW Aftershock Avenue",
+            "category": [
+                "DW World 5"
+            ],
+            "region": "World 5",
+            "requires": "|5-6 A+ Rank|"
+        },
+        {
+            "name": "5-6DW Aftershock Avenue (A+ Rank)",
+            "category": [
+                "DW World 5"
+            ],
+            "region": "World 5",
+            "requires": "|5-6 A+ Rank|"
+        },
+        {
+            "name": "5-7DW U11",
+            "category": [
+                "DW World 5"
+            ],
+            "region": "World 5",
+            "requires": "|5-7 A+ Rank|"
+        },
+        {
+            "name": "5-7DW U11 (A+ Rank)",
+            "category": [
+                "DW World 5"
+            ],
+            "region": "World 5",
+            "requires": "|5-7 A+ Rank|"
+        },
+        {
+            "name": "5-8DW Anni's Nightmare",
+            "category": [
+                "DW World 5"
+            ],
+            "region": "World 5",
+            "requires": "|5-8 A+ Rank|"
+        },
+        {
+            "name": "5-8DW Anni's Nightmare (A+ Rank)",
+            "category": [
+                "DW World 5"
+            ],
+            "region": "World 5",
+            "requires": "|5-8 A+ Rank|"
+        },
+        {
+            "name": "5-9DW Meat Fans",
+            "category": [
+                "DW World 5"
+            ],
+            "region": "World 5",
+            "requires": "|5-9 A+ Rank|"
+        },
+        {
+            "name": "5-9DW Meat Fans (A+ Rank)",
+            "category": [
+                "DW World 5"
+            ],
+            "region": "World 5",
+            "requires": "|5-9 A+ Rank|"
+        },
+        {
+            "name": "5-10DW Interior Fragmentation",
+            "category": [
+                "DW World 5"
+            ],
+            "region": "World 5",
+            "requires": "|5-10 A+ Rank|"
+        },
+        {
+            "name": "5-10DW Interior Fragmentation (A+ Rank)",
+            "category": [
+                "DW World 5"
+            ],
+            "region": "World 5",
+            "requires": "|5-10 A+ Rank|"
+        },
+        {
+            "name": "5-11DW Welcome Jonas",
+            "category": [
+                "DW World 5"
+            ],
+            "region": "World 5",
+            "requires": "|5-11 A+ Rank|"
+        },
+        {
+            "name": "5-11DW Welcome Jonas (A+ Rank)",
+            "category": [
+                "DW World 5"
+            ],
+            "region": "World 5",
+            "requires": "|5-11 A+ Rank|"
+        },
+        {
+            "name": "5-12DW Bubbling Blood",
+            "category": [
+                "DW World 5"
+            ],
+            "region": "World 5",
+            "requires": "|5-12 A+ Rank|"
+        },
+        {
+            "name": "5-12DW Bubbling Blood (A+ Rank)",
+            "category": [
+                "DW World 5"
+            ],
+            "region": "World 5",
+            "requires": "|5-12 A+ Rank|"
+        },
+        {
+            "name": "5-13DW Meltdown Metropolis",
+            "category": [
+                "DW World 5"
+            ],
+            "region": "World 5",
+            "requires": "|5-13 A+ Rank|"
+        },
+        {
+            "name": "5-13DW Meltdown Metropolis (A+ Rank)",
+            "category": [
+                "DW World 5"
+            ],
+            "region": "World 5",
+            "requires": "|5-13 A+ Rank|"
+        },
+        {
+            "name": "5-14DW Guts and Glory",
+            "category": [
+                "DW World 5"
+            ],
+            "region": "World 5",
+            "requires": "|5-14 A+ Rank|"
+        },
+        {
+            "name": "5-14DW Guts and Glory (A+ Rank)",
+            "category": [
+                "DW World 5"
+            ],
+            "region": "World 5",
+            "requires": "|5-14 A+ Rank|"
+        },
+        {
+            "name": "5-15DW Pulse of the Worm",
+            "category": [
+                "DW World 5"
+            ],
+            "region": "World 5",
+            "requires": "|5-15 A+ Rank|"
+        },
+        {
+            "name": "5-15DW Pulse of the Worm (A+ Rank)",
+            "category": [
+                "DW World 5"
+            ],
+            "region": "World 5",
+            "requires": "|5-15 A+ Rank|"
+        }
+    ]
+}

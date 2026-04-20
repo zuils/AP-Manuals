@@ -45,10 +45,12 @@ class GameConfig:
     chapter_seven: bool
     starting_chpt: int
     starting_char: int
+    xmas: bool
     achievements: bool
     deathless: bool
     speedrun: bool
-    xmas: bool
+    deathless_goal: bool
+    speedrun_goal: bool
 
 def initalize_globals(world: World, multiworld: MultiWorld, player: int) -> GameConfig:
     if hasattr(world, "_config_cache") and player in world._config_cache:
@@ -63,10 +65,12 @@ def initalize_globals(world: World, multiworld: MultiWorld, player: int) -> Game
     chapter_seven = is_option_enabled(multiworld, player, "chapter_seven") or goal >= 2
     starting_chpt = get_option_value(multiworld, player, "starting_chapter")
     starting_char = get_option_value(multiworld, player, "starting_character")
+    xmas = is_option_enabled(multiworld, player, "xmas")
     achievements = is_option_enabled(multiworld, player, "achievements")
     deathless = is_option_enabled(multiworld, player, "deathless")
     speedrun = is_option_enabled(multiworld, player, "speedrun")
-    xmas = is_option_enabled(multiworld, player, "xmas")
+    deathless_goal = is_option_enabled(multiworld, player, "deathless_goal")
+    speedrun_goal = is_option_enabled(multiworld, player, "speedrun_goal")
 
     if dark_world and dw_drfetus_amount > 105 and not chapter_seven:
         logging.info("Chapter 7 is not enabled or goal is to beat lw/dw chpt 7. Setting DW Dr. Fetus amount to 105.")
@@ -74,6 +78,13 @@ def initalize_globals(world: World, multiworld: MultiWorld, player: int) -> Game
         world.options.dw_drfetus_amount.value = 105
 
     dw_drfetus_req = min(dw_drfetus_amount, get_option_value(multiworld, player, "dw_drfetus_req"))
+    
+    logging.info(f"achievements: {achievements}")
+    
+    if goal == 4 and not achievements:
+        logging.info("Goal is to complete achievements yet achievements are disabled, turning this on")
+        achievements = True
+        world.options.achievements.value = True
 
     if starting_chpt == 7 and (not chapter_seven or goal in (2, 3)):
         logging.info("Starting Chapter is 7 yet chapter seven levels are off or goal is to beat lw/dw chpt 7, selecting 1-6 at random")
@@ -102,6 +113,16 @@ def initalize_globals(world: World, multiworld: MultiWorld, player: int) -> Game
         else:
             starting_char = multiworld.random.randint(0, 7)
         world.options.starting_character.value = starting_char
+        
+    if deathless_goal and (not deathless or not achievements):
+        logging.info("Deathless goal enabled yet achievements are disabled or deathless achievements are enabled, turning this off.")
+        deathless_goal = False
+        world.options.deathless_goal.value = False
+        
+    if speedrun_goal and (not speedrun or not achievements or not dark_world):
+        logging.info("Speedrun achievements enabled yet achievements are disabled, speedrun achievements are disabled, or dark world levels are off. Turning this off.")
+        speedrun_goal = False
+        world.options.speedrun_goal.value = False
 
     cfg = GameConfig(
         goal=goal,
@@ -114,10 +135,12 @@ def initalize_globals(world: World, multiworld: MultiWorld, player: int) -> Game
         chapter_seven=chapter_seven,
         starting_chpt=starting_chpt,
         starting_char=starting_char,
+        xmas=xmas,
         achievements=achievements,
         deathless=deathless,
         speedrun=speedrun,
-        xmas=xmas
+        deathless_goal=deathless_goal,
+        speedrun_goal=speedrun_goal
     )
     
     if not hasattr(world, "_config_cache"):
@@ -212,12 +235,18 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
         "Ogmo",
         "Flywrench",
         "The Kid",
+        "Josef",
         "Naija",
+        "RunMan",
         "Steve",
+        "Meat Ninja",
         "Bandage Girl"
     ]
 
     char = next(i for i in item_pool if i.name == chars[cfg.starting_char])
+
+    if char.name in ("RunMan", "Meat Ninja"):
+        char.classification = ItemClassification.progression
 
     if not cfg.bandages:            
         chpt = next(i for i in item_pool if i.name == f"Chapter {cfg.starting_chpt} Key")
@@ -325,78 +354,6 @@ def after_create_items(item_pool: list, world: World, multiworld: MultiWorld, pl
 def before_set_rules(world: World, multiworld: MultiWorld, player: int):
     pass
 
-# Function I need to import in another file
-def bandages_amount(req: int, state: CollectionState, cfg: GameConfig, player: int) -> bool:
-    counter = 0
-    if state.can_reach_location("1-1 Hello World", player):
-        counter += 11
-        if cfg.dark_world:
-            counter += (
-                state.has("1-3 A+ Rank", player)
-                + state.has("1-5 A+ Rank", player)
-                + state.has("1-10 A+ Rank", player)
-                + (state.has("1-13 A+ Rank", player) * 2)
-                + state.has("1-14 A+ Rank", player)
-                + state.has("1-15 A+ Rank", player)
-                + state.has("1-17 A+ Rank", player)
-                + state.has("1-19 A+ Rank", player)
-            )
-    if state.can_reach_location("1-Boss Lil' Slugger", player):
-        counter += 11
-        if cfg.dark_world:
-            counter += (
-                state.has("2-4 A+ Rank", player)
-                + (state.has("2-5 A+ Rank", player) * 2)
-                + state.has("2-6 A+ Rank", player)
-                + state.has("2-7 A+ Rank", player)
-                + state.has("2-10 A+ Rank", player)
-                + state.has("2-12 A+ Rank", player)
-                + state.has("2-15 A+ Rank", player)
-                + state.has("2-16 A+ Rank", player)
-            )
-    if state.can_reach_location("2-Boss C.H.A.D", player):
-        counter += 8
-        if cfg.dark_world:
-            counter += (
-                (state.can_reach_location("3-7WZ Tunnel Vision", player) * 2)
-                + state.can_reach_location("3-4 Bandage", player)
-                + state.has("3-3 A+ Rank", player)
-                + state.has("3-5 A+ Rank", player)
-                + state.has("3-6 A+ Rank", player)
-                + state.has("3-7 A+ Rank", player)
-                + (state.has("3-8 A+ Rank", player) * 2)
-                + state.can_reach_location("3-14X Bandage", player)
-                + state.has("3-16 A+ Rank", player)
-                + state.has("3-19 A+ Rank", player)
-            )
-    if state.can_reach_location("3-Boss Brownie", player):
-        counter += 11
-        if cfg.dark_world:
-            counter += (
-                state.has("4-3 A+ Rank", player)
-                + state.has("4-4 A+ Rank", player)
-                + (state.can_reach_location("4-7XWZ MMMMMM", player) * 2)
-                + state.has("4-8 A+ Rank", player)
-                + state.has("4-10 A+ Rank", player)
-                + state.has("4-14 A+ Rank", player)
-                + state.has("4-18 A+ Rank", player)
-                + state.has("4-19 A+ Rank", player)
-            )
-    if state.can_reach_location("4-Boss Little Horn", player):
-        counter += 11
-        if cfg.dark_world:
-            counter += (
-                state.has("5-4 A+ Rank", player)
-                + state.has("5-5 A+ Rank", player)
-                + state.has("5-8 A+ Rank", player)
-                + state.has("5-10 A+ Rank", player)
-                + state.has("5-11 A+ Rank", player)
-                + state.has("5-17 A+ Rank", player)
-                + state.has("5-18 A+ Rank", player)
-                + (state.has("5-20 A+ Rank", player) * 2)
-            )
-    return counter >= req
-
 # Called after rules for accessing regions and locations are created, in case you want to see or modify that information.
 def after_set_rules(world: World, multiworld: MultiWorld, player: int):
     cfg: GameConfig = initalize_globals(world, multiworld, player)
@@ -477,6 +434,77 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
         if state.can_reach_location("6-Boss LW Dr. Fetus", player) and cfg.chapter_seven:
             counter += state.count_from_list([f"7-{i} A+ Rank" for i in range(1, 21)], player)
         return counter >= req
+    
+    def bandages_amount(req: int, state: CollectionState) -> bool:
+        counter = 0
+        if state.can_reach_location("1-1 Hello World", player):
+            counter += 11
+            if cfg.dark_world:
+                counter += (
+                    state.has("1-3 A+ Rank", player)
+                    + state.has("1-5 A+ Rank", player)
+                    + state.has("1-10 A+ Rank", player)
+                    + (state.has("1-13 A+ Rank", player) * 2)
+                    + state.has("1-14 A+ Rank", player)
+                    + state.has("1-15 A+ Rank", player)
+                    + state.has("1-17 A+ Rank", player)
+                    + state.has("1-19 A+ Rank", player)
+                )
+        if state.can_reach_location("1-Boss Lil' Slugger", player):
+            counter += 11
+            if cfg.dark_world:
+                counter += (
+                    state.has("2-4 A+ Rank", player)
+                    + (state.has("2-5 A+ Rank", player) * 2)
+                    + state.has("2-6 A+ Rank", player)
+                    + state.has("2-7 A+ Rank", player)
+                    + state.has("2-10 A+ Rank", player)
+                    + state.has("2-12 A+ Rank", player)
+                    + state.has("2-15 A+ Rank", player)
+                    + state.has("2-16 A+ Rank", player)
+                )
+        if state.can_reach_location("2-Boss C.H.A.D", player):
+            counter += 8
+            if cfg.dark_world:
+                counter += (
+                    (state.can_reach_location("3-7WZ Tunnel Vision", player) * 2)
+                    + state.can_reach_location("3-4 Bandage", player)
+                    + state.has("3-3 A+ Rank", player)
+                    + state.has("3-5 A+ Rank", player)
+                    + state.has("3-6 A+ Rank", player)
+                    + state.has("3-7 A+ Rank", player)
+                    + (state.has("3-8 A+ Rank", player) * 2)
+                    + state.can_reach_location("3-14X Bandage", player)
+                    + state.has("3-16 A+ Rank", player)
+                    + state.has("3-19 A+ Rank", player)
+                )
+        if state.can_reach_location("3-Boss Brownie", player):
+            counter += 11
+            if cfg.dark_world:
+                counter += (
+                    state.has("4-3 A+ Rank", player)
+                    + state.has("4-4 A+ Rank", player)
+                    + (state.can_reach_location("4-7XWZ MMMMMM", player) * 2)
+                    + state.has("4-8 A+ Rank", player)
+                    + state.has("4-10 A+ Rank", player)
+                    + state.has("4-14 A+ Rank", player)
+                    + state.has("4-18 A+ Rank", player)
+                    + state.has("4-19 A+ Rank", player)
+                )
+        if state.can_reach_location("4-Boss Little Horn", player):
+            counter += 11
+            if cfg.dark_world:
+                counter += (
+                    state.has("5-4 A+ Rank", player)
+                    + state.has("5-5 A+ Rank", player)
+                    + state.has("5-8 A+ Rank", player)
+                    + state.has("5-10 A+ Rank", player)
+                    + state.has("5-11 A+ Rank", player)
+                    + state.has("5-17 A+ Rank", player)
+                    + state.has("5-18 A+ Rank", player)
+                    + (state.has("5-20 A+ Rank", player) * 2)
+                )
+        return counter >= req
 
     location = world.get_location("6-Boss LW Dr. Fetus")
     location.access_rule = lwDrFetus
@@ -486,17 +514,75 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
         location.access_rule = dwDrFetus
 
     location = world.get_location("Victory")
+    if cfg.goal < 2:
+        location.access_rule = lambda state: state.has("Victory", player)
     if cfg.goal == 2:
         location.access_rule = lambda state: state.has("Chapter 7 LW Level Key", player, 20)
     elif cfg.goal == 3:
         location.access_rule = lambda state: state.has("Chapter 7 DW Level Key", player, 20)
     else:
-        location.access_rule = lambda state: state.has("Victory", player)
+        location.access_rule = lambda state: cfg.achievements and (
+            state.can_reach_location("The End (Beat Chapter 6 Light World)", player)
+            and state.can_reach_location("Living in the Past (Complete 5 retro warp zones)", player)
+            and ((cfg.dark_world and state.can_reach_location(
+                "Retro Rampage (Complete all retro warp zones)", player
+            )) or not cfg.dark_world)
+            and ((cfg.dark_world and state.can_reach_location(
+                "The Real End (Beat Chapter 6 Dark World)", player
+            )) or not cfg.dark_world)
+            and ((cfg.chapter_seven and state.can_reach_location(
+                "Suffragette (Beat Chapter 7 Light World)", player
+            )) or not cfg.chapter_seven)
+            and ((cfg.chapter_seven and cfg.dark_world and state.can_reach_location(
+                "Seneca Falls (Beat Chapter 7 Dark World)", player
+            )) or not (cfg.chapter_seven and cfg.dark_world))
+            and ((cfg.bandages and state.can_reach_location(
+                "I smell Something Fishy... (Collect 50 Bandages)", player
+            )) or not cfg.bandages)
+            and ((cfg.bandages and cfg.dark_world and state.can_reach_location(
+                "Accidental Arsonist (Collect 100 Bandages)", player
+            )) or not (cfg.bandages and cfg.dark_world))
+            and (
+                not cfg.speedrun_goal or (
+                    state.can_reach_location("Rare (Speedrun The Forest in 265 Seconds)", player)
+                    and state.can_reach_location("Medium Rare (Speedrun The Hospital in 460 seconds)", player)
+                    and state.can_reach_location("Medium (Speedrun The Salt Factory in 515 seconds)", player)
+                    and state.can_reach_location("Medium Well (Speedrun Hell in 500 seconds)", player)
+                    and state.can_reach_location("Well Done (Speedrun The Rapture in 690 seconds)", player)
+                )
+            ) and (
+                not cfg.deathless_goal or (
+                    state.can_reach_location("Wood Boy (The Forest Light World Deathless)", player)
+                    and state.can_reach_location("Needle Boy (The Hospital Light World Deathless)", player)
+                    and state.can_reach_location("Salt Boy (The Salt Factory Light World Deathless)", player)
+                    and state.can_reach_location("Brimstone Boy (Hell Light World Deathless)", player)
+                    and state.can_reach_location("Maggot Boy (The Rapture Light World Deathless)", player)
+                    and state.can_reach_location("Dead Boy (The End Light World Deathless)", player)
+
+                    and ((cfg.chapter_seven and state.can_reach_location(
+                        "Girl Boy (The Cotton Alley Light World Deathless)", player
+                    )) or not cfg.chapter_seven) and (
+                        not cfg.dark_world or (
+                            state.can_reach_location("Squirrel Boy (The Forest Dark World Deathless)", player)
+                            and state.can_reach_location("Blood Clot Boy (The Hospital Dark World Deathless)", player)
+                            and state.can_reach_location("Missile Boy (The Salt Factory Dark World Deathless)", player)
+                            and state.can_reach_location("Demon Boy (Hell Dark World Deathless)", player)
+                            and state.can_reach_location("Zombie Boy (The Rapture Dark World Deathless)", player)
+                            and state.can_reach_location("Dr. Fetus Boy (The End Dark World Deathless)", player)
+
+                            and ((cfg.chapter_seven and state.can_reach_location(
+                                "Impossible Boy (The Cotton Alley Dark World Deathless)", player
+                            )) or not cfg.chapter_seven))
+                        )
+                    )
+                )
+            )
+
 
     if cfg.achievements:
         location = world.get_location("Nostalgia (Unlock a retro warp zone)")
         location.access_rule = lambda state: warpZones(1, state)
-        location = world.get_location("Living In the Past (Complete 5 retro warp zones)")
+        location = world.get_location("Living in the Past (Complete 5 retro warp zones)")
         location.access_rule = lambda state: warpZones(5, state)
         location = world.get_location("The End (Beat Chapter 6 Light World)")
         location.access_rule = lambda state: state.can_reach_location("6-Boss LW Dr. Fetus", player)
@@ -512,7 +598,7 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
             location.access_rule = lambda state: bandages_amount(10, state)
             location = world.get_location("Metalhead (Collect 30 Bandages)")
             location.access_rule = lambda state: bandages_amount(30, state)
-            location = world.get_location("I Smell something Fishy... (Collect 50 Bandages)")
+            location = world.get_location("I smell Something Fishy... (Collect 50 Bandages)")
             location.access_rule = lambda state: bandages_amount(50, state)
             if cfg.dark_world:
                 location = world.get_location("MS PAINT RULZ! (Collect 70 Bandages)")

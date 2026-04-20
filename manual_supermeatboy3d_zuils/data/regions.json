@@ -1,0 +1,18 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.regions.schema.json",
+    "World 1": {
+        "requires": "|World 1 Key|"
+    },
+    "World 2": {
+        "requires": "|World 2 Key|"
+    },
+    "World 3": {
+        "requires": "|World 3 Key|"
+    },
+    "World 4": {
+        "requires": "|World 4 Key|"
+    },
+    "World 5": {
+        "requires": "|World 5 Key|"
+    }
+}

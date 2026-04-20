@@ -31,12 +31,14 @@ class Goal(Choice):
     Dark World: Beat DW Dr. Fetus
     Light World Chapter 7: Beat all of LW Chapter 7
     Dark World Chapter 7: Beat all of DW Chapter 7
+    Achievements: Complete all achievements
     """
     display_name = "Goal"
     option_light_world = 0
     option_dark_world = 1
     option_lightworld_chpt7 = 2
     option_darkworld_chpt7 = 3
+    option_achievements = 4
     default = 0
 
 
@@ -132,9 +134,12 @@ class StartingCharacters(Choice):
     option_ogmo = 3
     option_flywrench = 4
     option_the_kid = 5
-    option_naija = 6
-    option_steve = 7
-    option_bandage_girl = 8
+    option_josef = 6
+    option_naija = 7
+    option_runman = 8
+    option_steve = 9
+    option_meat_ninja = 10
+    option_bandage_girl = 11
     default = 0
 
 
@@ -165,7 +170,20 @@ class SpeedrunAchievements(Toggle):
     This setting will always be off if there are no dark world levels in the pool
     """
     display_name = "Speedrun Achievements"
+    
 
+class DeathlessAchievementsGoal(Toggle):
+    """
+    Make deathless achievements required to goal if your goal is achievements
+    """
+    display_name = "Deathless Achievements Goal"
+
+
+class SpeedrunAchievementsGoal(Toggle):
+    """
+    Make speedrun achievements required to goal if your goal is achievements
+    """
+    display_name = "Speedrun Achievements Goal"
 
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, Type[Option[Any]]]:
@@ -183,6 +201,8 @@ def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, T
     options["achievements"] = Achievements
     options["deathless"] = DeathlessAchievements
     options["speedrun"] = SpeedrunAchievements
+    options["deathless_goal"] = DeathlessAchievementsGoal
+    options["speedrun_goal"] = SpeedrunAchievementsGoal
     return options
 
 # This is called after any manual options are defined, in case you want to see what options are defined or want to modify the defined options

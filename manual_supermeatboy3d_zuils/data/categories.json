@@ -1,18 +1,18 @@
 {
     "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.categories.schema.json",
-    "ProgCharacters": {
+    "World 1": {
         "hidden": true
     },
-    "Speedrun": {
+    "World 2": {
         "hidden": true
     },
-    "Deathless": {
+    "World 3": {
         "hidden": true
     },
-    "xmas": {
+    "World 4": {
         "hidden": true
     },
-    "Meat Boy": {
+    "World 5": {
         "hidden": true
     }
 }
